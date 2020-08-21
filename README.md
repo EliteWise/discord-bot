@@ -1,8 +1,8 @@
 <div align="center">
 
-## Odyssia Bot
+# Odyssia Bot
 
-# PEP 8 - Naming Convetions
+## PEP 8 - Naming Convetions
 
 | directories | packages  | modules  | classes | fonctions | variables | constants |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
