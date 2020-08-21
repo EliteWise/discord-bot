@@ -7,7 +7,6 @@
 | directories | packages  | modules  | classes | fonctions | variables | constants |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 | l | l | l + u | cw | l + u | l + u | c + u |
-| ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 
     Legend:           
     - l = lowercase
