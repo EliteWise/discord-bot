@@ -9,10 +9,10 @@
 | l | l | l + u | cw | l + u | l + u | c + u |
 
 ### Legend:       
-- l = lowercase
-- u = underscores
-- cw = CapWords
-- c = caps
+l = lowercase
+u = underscores
+cw = CapWords
+c = caps
 
 </div>
 
