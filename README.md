@@ -10,10 +10,10 @@
 
 ### Legend:
 
-l = lowercase \n
-u = underscores \n
-cw = CapWords \n
-c = caps \n
+l = lowercase \
+u = underscores \
+cw = CapWords \
+c = caps \
 
 </div>
 
