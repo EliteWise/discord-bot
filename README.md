@@ -4,11 +4,9 @@
 
 ## PEP 8 - Naming Convetions
 
-<center>
 | directories | packages  | modules  | classes | fonctions | variables | constants |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 | l | l | l + u | cw | l + u | l + u | c + u |
-</center>
 
 ### Legend:
 
