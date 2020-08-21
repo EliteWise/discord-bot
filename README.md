@@ -13,7 +13,7 @@
 l = lowercase \
 u = underscores \
 cw = CapWords \
-c = caps \
+c = caps
 
 </div>
 
