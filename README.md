@@ -15,4 +15,18 @@
 l = lowercase \
 u = underscores \
 cw = CapWords \
-c = caps                                   
+c = caps
+
+<div align="center">
+
+## Installation
+
+</div>
+
+Clone the project: git clone https://gitlab.com/odyssia_dev/odyssia-bot
+Create virtual environment:
+mkdir venv
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+(if you want to quit: deactivate)
