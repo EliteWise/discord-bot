@@ -24,9 +24,10 @@ c = caps
 </div>
 
 Clone the project: git clone https://gitlab.com/odyssia_dev/odyssia-bot \
+
 Create virtual environment: \
-mkdir venv \
-python -m venv venv \
-venv\Scripts\activate \
-pip install -r requirements.txt \
-(if you want to quit: deactivate) \
+1. mkdir venv \
+2. python -m venv venv \
+3. venv\Scripts\activate \
+4. pip install -r requirements.txt \
+[Optionnal] deactivate (to quit venv) \
