@@ -23,10 +23,10 @@ c = caps
 
 </div>
 
-Clone the project: git clone https://gitlab.com/odyssia_dev/odyssia-bot \
+Clone the project: ```sh git clone https://gitlab.com/odyssia_dev/odyssia-bot ``` \
 Create virtual environment:
-1. mkdir venv
-2. python -m venv venv
-3. venv\Scripts\activate
-4. pip install -r requirements.txt \
-[Optionnal] deactivate (to quit venv)
+1. ```sh mkdir venv ```
+2. ```sh python -m venv venv ```
+3. ```sh venv\Scripts\activate ```
+4. ```sh pip install -r requirements.txt ``` \
+[Optionnal] ```sh deactivate ``` (to quit venv)
