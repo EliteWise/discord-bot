@@ -26,7 +26,7 @@ c = caps
 Clone the project: ```git clone https://gitlab.com/odyssia_dev/odyssia-bot``` \
 Create virtual environment:
 1. ```mkdir venv```
-2. ```python -m venv venv ```
-3. ```venv\Scripts\activate ```
-4. ```pip install -r requirements.txt ``` \
-[Optionnal] ```deactivate ``` (to quit venv)
+2. ```python -m venv venv```
+3. ```venv\Scripts\activate```
+4. ```pip install -r requirements.txt``` \
+[Optionnal] ```deactivate``` (to quit venv)
