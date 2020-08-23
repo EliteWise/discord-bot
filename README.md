@@ -44,9 +44,9 @@ Create virtual environment and install dependencies:
 
 ### How to name my branch?
 
-> Your branch has to follow this naming convention: <type>/<category>/<name>
+> Your branch has to follow this naming convention: type/category/name \
 > Example: feature/command/stats
 
 ### How to merge my branch?
 
-> To merge your changes into develop, you need to create a merge request from GitLab interface. Go on Merge Requests > New merge request > Select a source branch (your branch) + a target branch (often develop), click on compare branch and continue, and then assign your request to an owner.
+> To merge your changes into develop, you need to create a merge request from GitLab interface. Go on Merge Requests > New merge request > Select a source branch (your branch) + a target branch (often develop), click on compare branch and continue, and then assign your request to a project owner.
