@@ -31,3 +31,22 @@ Create virtual environment and install dependencies:
 - ```venv\Scripts\activate```
 - ```pip install -r requirements.txt```
 - [Optionnal] ```deactivate```
+
+<div align="center">
+
+## Branch Conventions
+
+</div>
+
+### How to create a branch?
+
+> On GitLab, you can click on Repository > Branches > New Branch, then give it a name. Your branch need to be created from Develop.
+
+### How to name my branch?
+
+> Your branch has to follow this naming convention: <type>/<category>/<name>
+> Example: feature/command/stats
+
+### How to merge my branch?
+
+> To merge your changes into develop, you need to create a merge request from GitLab interface. Go on Merge Requests > New merge request > Select a source branch (your branch) + a target branch (often develop), click on compare branch and continue, and then assign your request to an owner.
