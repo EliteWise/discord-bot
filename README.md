@@ -34,7 +34,7 @@ Create virtual environment and install dependencies:
 
 <div align="center">
 
-## Branch Conventions
+## Branches Conventions
 
 </div>
 
