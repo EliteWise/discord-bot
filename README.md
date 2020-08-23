@@ -40,7 +40,7 @@ Create virtual environment and install dependencies:
 
 ### How to create a branch?
 
-> On GitLab, you can click on Repository > Branches > New Branch, then give it a name. Your branch need to be created from Develop.
+> On GitLab, you can click on Repository > Branches > New Branch, then give it a name. Your branch need to be created from Develop most of the time.
 
 ### How to name my branch?
 
