@@ -6,7 +6,7 @@
 
 </div>
 
-| directories | packages  | modules/files  | classes | fonctions | variables | constants |
+| directories | packages  | modules/files  | classes | functions | variables | constants |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 | l | l | l + u | cw | l + u | l + u | c + u |
 
