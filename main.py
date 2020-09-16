@@ -1,4 +1,7 @@
+import os
+
 import discord
+import logging
 from discord.ext import commands
 
 bot = discord.Client()
@@ -6,14 +9,17 @@ bot = discord.Client()
 invites = {}
 
 # this specifies what extensions to load when the bot starts up
-startup_extensions = ["core.event.invitation-manager"]
+startup_extensions = ["core.event.invitation-manager", "core.command.giveaway"]
 
-bot = commands.Bot(command_prefix='?')
+bot = commands.Bot(command_prefix='!')
+
+log = logging.getLogger("main")
+logging.basicConfig(level=os.environ.get("LOGLEVEL", "INFO"))
 
 
 @bot.event
 async def on_ready():
-    print("Bot Ready!")
+    log.info("Bot Ready!")
 
     # Getting all the guilds our bot is in
     for guild in bot.guilds:
@@ -25,10 +31,10 @@ if __name__ == "__main__":
     for extension in startup_extensions:
         try:
             bot.load_extension(extension)
-            print('Extensions: ' + extension + ' loaded!')
+            log.info('Extension: ' + extension + ' loaded!')
         except Exception as e:
             exc = '{}: {}'.format(type(e).__name__, e)
-            print('Failed to load extension {}\n{}'.format(extension, exc))
+            log.error('Failed to load extension {}\n{}'.format(extension, exc))
 
     token = "NzQwNTg3MjYyMzY1OTI1NDE3.XyrLog.H3J6BO934a64bzspWypTYV5cFaY"
     bot.run(token)
