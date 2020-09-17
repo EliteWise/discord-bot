@@ -59,6 +59,6 @@ Create virtual environment and install dependencies:
 
 - __**Discord.py**__  → https://discordpy.readthedocs.io/en/latest/api.html
 - __**Pdoc**__ → https://medium.com/cemac/simple-documentation-generation-in-python-using-pdoc-16fb86eb5cd5
+- __**Git-Secret**__ → https://git-secret.io/#:~:text=git%2Dsecret%20encrypts%20files%20and,decrypt%20all%20the%20required%20files
 - __**Logging**__ → https://docs.python.org/3/library/logging.html
-- __**Keyring**__ → https://keyring.readthedocs.io/en/latest/
 - __**Unittest**__ → https://docs.python.org/3/library/unittest.html
