@@ -1,5 +1,4 @@
 from discord.ext import commands
-from main import bot
 from main import invites
 
 members_invites_counter = {}
@@ -25,6 +24,7 @@ class Invitation(commands.Cog):
 
     @commands.Cog.listener()
     async def on_member_join(self, member):
+        """When a member join Discord"""
         channel = member.guild.get_channel(719257870822277174)
         member_name = member.display_name
         print("Welcome ", member_name, " !")
@@ -42,6 +42,7 @@ class Invitation(commands.Cog):
 
     @commands.Cog.listener()
     async def on_member_remove(self, member):
+        """When a member leave or gets banned/kicked"""
         channel = member.guild.get_channel(719257870822277174)
         member_name = member.display_name
         print("Bye! See you next time ", member_name)
@@ -50,4 +51,5 @@ class Invitation(commands.Cog):
 
 
 def setup(bot):
+    """Setup cog to be able to listen events & commands inside this class"""
     bot.add_cog(Invitation(bot))

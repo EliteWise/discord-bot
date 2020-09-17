@@ -43,7 +43,7 @@ class Giveaway(commands.Cog):
             display_winners = ' | '.join(str(player) for player in random_pick)
             self.log.info("Winners > " + display_winners)
 
-        await channel.send(f"Le giveaway {name} vient de se terminer !" + f"\nLes gagnants sont: {display_winners}")
+        await channel.send(f"Le giveaway {name} vient de se terminer ! " + (f"\nLe gagnant est: {display_winners}" if len(random_pick) == 1 else f"\nLes gagnants sont: {display_winners}"))
 
 
 def setup(bot):

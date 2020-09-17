@@ -13,7 +13,8 @@ class Giveaway(commands.Cog):
     async def on_reaction_add(self, reaction, user):
         channel = user.guild.get_channel(719257870822277174)
         if reaction.message.id == self.giveaway_message_id and channel and reaction.emoji == self.giveaway_emoji:
-            self.players.append(user.display_name)
+            if user.display_name != "Odyssia":
+                self.players.append(user.mention)
             with open('core/data/giveaway.json', 'w') as outfile:
                 json.dump(self.players, outfile)
 
