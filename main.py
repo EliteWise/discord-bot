@@ -1,7 +1,6 @@
 import discord
 import logging
 from discord.ext import commands
-import keyring
 
 bot = discord.Client()
 
@@ -45,5 +44,5 @@ if __name__ == "__main__":
             exc = '{}: {}'.format(type(e).__name__, e)
             log.error('Failed to load extension {}\n{}'.format(extension, exc))
 
-    token = keyring.get_password('discord-bot', 'odyssia_dev')
+    token = "NzQwNTg3MjYyMzY1OTI1NDE3.XyrLog.H3J6BO934a64bzspWypTYV5cFaY"
     bot.run(token)

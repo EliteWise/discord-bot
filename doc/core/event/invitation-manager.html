@@ -37,6 +37,8 @@ class Invitation(commands.Cog):
         self.bot = bot
 
     def find_invite_by_code(self, invite_list, code):
+        &#34;&#34;&#34;Invitations are identified by a code, it&#39;s the same code visible in a link discord.gg/&lt;code&gt;&#34;&#34;&#34;
+
         # Simply looping through each invite in an
         # invite list which we will get using guild.invites()
 
@@ -46,6 +48,7 @@ class Invitation(commands.Cog):
             # of the list is the one we&#39;re looking for
 
             if inv.code == code:
+                print(code)
                 # If it is, we return it.
 
                 return inv
@@ -55,11 +58,11 @@ class Invitation(commands.Cog):
         &#34;&#34;&#34;When a member join Discord&#34;&#34;&#34;
         channel = member.guild.get_channel(719257870822277174)
         member_name = member.display_name
-        print(&#34;Welcome &#34;, member_name, &#34; !&#34;)
         invites_before_join = invites[member.guild.id]
         invites_after_join = await member.guild.invites()
         members_counter = member.guild.member_count
         for invite in invites_before_join:
+            # When a new invitation is used (clicked), then the condition is true
             if invite.uses &lt; self.find_invite_by_code(invites_after_join, invite.code).uses:
                 inviter_name = invite.inviter.name
                 members_invites_counter[inviter_name] = 1 if inviter_name not in members_invites_counter else members_invites_counter.get(inviter_name) + 1
@@ -73,7 +76,6 @@ class Invitation(commands.Cog):
         &#34;&#34;&#34;When a member leave or gets banned/kicked&#34;&#34;&#34;
         channel = member.guild.get_channel(719257870822277174)
         member_name = member.display_name
-        print(&#34;Bye! See you next time &#34;, member_name)
         invites[member.guild.id] = await member.guild.invites()
         await channel.send(&#34;Bye &#34; + member_name + &#34; (Members: &#34; + str(member.guild.member_count) + &#34;)&#34;)
 
@@ -129,6 +131,8 @@ are equally valid here.</p></div>
         self.bot = bot
 
     def find_invite_by_code(self, invite_list, code):
+        &#34;&#34;&#34;Invitations are identified by a code, it&#39;s the same code visible in a link discord.gg/&lt;code&gt;&#34;&#34;&#34;
+
         # Simply looping through each invite in an
         # invite list which we will get using guild.invites()
 
@@ -138,6 +142,7 @@ are equally valid here.</p></div>
             # of the list is the one we&#39;re looking for
 
             if inv.code == code:
+                print(code)
                 # If it is, we return it.
 
                 return inv
@@ -147,11 +152,11 @@ are equally valid here.</p></div>
         &#34;&#34;&#34;When a member join Discord&#34;&#34;&#34;
         channel = member.guild.get_channel(719257870822277174)
         member_name = member.display_name
-        print(&#34;Welcome &#34;, member_name, &#34; !&#34;)
         invites_before_join = invites[member.guild.id]
         invites_after_join = await member.guild.invites()
         members_counter = member.guild.member_count
         for invite in invites_before_join:
+            # When a new invitation is used (clicked), then the condition is true
             if invite.uses &lt; self.find_invite_by_code(invites_after_join, invite.code).uses:
                 inviter_name = invite.inviter.name
                 members_invites_counter[inviter_name] = 1 if inviter_name not in members_invites_counter else members_invites_counter.get(inviter_name) + 1
@@ -165,7 +170,6 @@ are equally valid here.</p></div>
         &#34;&#34;&#34;When a member leave or gets banned/kicked&#34;&#34;&#34;
         channel = member.guild.get_channel(719257870822277174)
         member_name = member.display_name
-        print(&#34;Bye! See you next time &#34;, member_name)
         invites[member.guild.id] = await member.guild.invites()
         await channel.send(&#34;Bye &#34; + member_name + &#34; (Members: &#34; + str(member.guild.member_count) + &#34;)&#34;)</code></pre>
 </details>
@@ -179,12 +183,14 @@ are equally valid here.</p></div>
 <span>def <span class="ident">find_invite_by_code</span></span>(<span>self, invite_list, code)</span>
 </code></dt>
 <dd>
-<div class="desc"></div>
+<div class="desc"><p>Invitations are identified by a code, it's the same code visible in a link discord.gg/<code></p></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
 <pre><code class="python">def find_invite_by_code(self, invite_list, code):
+    &#34;&#34;&#34;Invitations are identified by a code, it&#39;s the same code visible in a link discord.gg/&lt;code&gt;&#34;&#34;&#34;
+
     # Simply looping through each invite in an
     # invite list which we will get using guild.invites()
 
@@ -194,6 +200,7 @@ are equally valid here.</p></div>
         # of the list is the one we&#39;re looking for
 
         if inv.code == code:
+            print(code)
             # If it is, we return it.
 
             return inv</code></pre>
@@ -213,11 +220,11 @@ async def on_member_join(self, member):
     &#34;&#34;&#34;When a member join Discord&#34;&#34;&#34;
     channel = member.guild.get_channel(719257870822277174)
     member_name = member.display_name
-    print(&#34;Welcome &#34;, member_name, &#34; !&#34;)
     invites_before_join = invites[member.guild.id]
     invites_after_join = await member.guild.invites()
     members_counter = member.guild.member_count
     for invite in invites_before_join:
+        # When a new invitation is used (clicked), then the condition is true
         if invite.uses &lt; self.find_invite_by_code(invites_after_join, invite.code).uses:
             inviter_name = invite.inviter.name
             members_invites_counter[inviter_name] = 1 if inviter_name not in members_invites_counter else members_invites_counter.get(inviter_name) + 1
@@ -241,7 +248,6 @@ async def on_member_remove(self, member):
     &#34;&#34;&#34;When a member leave or gets banned/kicked&#34;&#34;&#34;
     channel = member.guild.get_channel(719257870822277174)
     member_name = member.display_name
-    print(&#34;Bye! See you next time &#34;, member_name)
     invites[member.guild.id] = await member.guild.invites()
     await channel.send(&#34;Bye &#34; + member_name + &#34; (Members: &#34; + str(member.guild.member_count) + &#34;)&#34;)</code></pre>
 </details>

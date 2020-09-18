@@ -46,6 +46,11 @@ class Giveaway(commands.Cog):
 
     @commands.command(name=&#34;giveaway&#34;)
     async def create_giveaway(self, ctx, name, duration, prizes_size):
+        &#34;&#34;&#34;
+        :param str name: The name of the giveaway
+        :param int duration: How long the giveaway will last in hours
+        :param int prizes_size: The number of winners (1 prize per winner)
+        &#34;&#34;&#34;
         channel = ctx.guild.get_channel(719257870822277174)
         days = int(duration)/24
         hours_left = int(duration) % 24
@@ -56,15 +61,19 @@ class Giveaway(commands.Cog):
         emoji = &#39;\N{BALLOT BOX WITH CHECK}&#39;
         self.giveaway_message_id = message.id
         await message.add_reaction(emoji)
+
+        # Put the message id to know what is the right message in giveaway events
         self.bot.add_cog(giveaway.Giveaway(self.bot, self.giveaway_message_id))
+        # Process can continue, the task run in background
+        bot.loop.create_task(self.hided_timer_task(duration, channel, name, prizes_size))
 
-        bot.loop.create_task(self.hided_task(duration, channel, name, prizes_size))
-        # Process can continue, the task is in background
-
-    async def hided_task(self, duration, channel, name, prizes_size):
+    async def hided_timer_task(self, duration, channel, name, prizes_size):
+        &#34;&#34;&#34;Only suspends the current task, allowing other tasks to run&#34;&#34;&#34;
         await asyncio.sleep(int(duration))
         self.log.info(&#34;Timer done!&#34;)
 
+        # Retrieve data stored in json file
+        # It will be used for failure recovery in the future
         with open(&#39;core/data/giveaway.json&#39;) as json_file:
             data = json.load(json_file)
             random_pick = random.sample(data, int(prizes_size))
@@ -76,9 +85,7 @@ class Giveaway(commands.Cog):
 
 def setup(bot):
     &#34;&#34;&#34;Setup cog to be able to listen events &amp; commands inside this class&#34;&#34;&#34;
-    bot.add_cog(Giveaway(bot))
-    &#34;&#34;&#34;Initialize logging configuration&#34;&#34;&#34;
-    logging.basicConfig(level=os.environ.get(&#34;LOGLEVEL&#34;, &#34;INFO&#34;))</code></pre>
+    bot.add_cog(Giveaway(bot))</code></pre>
 </details>
 </section>
 <section>
@@ -99,9 +106,7 @@ def setup(bot):
 </summary>
 <pre><code class="python">def setup(bot):
     &#34;&#34;&#34;Setup cog to be able to listen events &amp; commands inside this class&#34;&#34;&#34;
-    bot.add_cog(Giveaway(bot))
-    &#34;&#34;&#34;Initialize logging configuration&#34;&#34;&#34;
-    logging.basicConfig(level=os.environ.get(&#34;LOGLEVEL&#34;, &#34;INFO&#34;))</code></pre>
+    bot.add_cog(Giveaway(bot))</code></pre>
 </details>
 </dd>
 </dl>
@@ -132,6 +137,11 @@ are equally valid here.</p></div>
 
     @commands.command(name=&#34;giveaway&#34;)
     async def create_giveaway(self, ctx, name, duration, prizes_size):
+        &#34;&#34;&#34;
+        :param str name: The name of the giveaway
+        :param int duration: How long the giveaway will last in hours
+        :param int prizes_size: The number of winners (1 prize per winner)
+        &#34;&#34;&#34;
         channel = ctx.guild.get_channel(719257870822277174)
         days = int(duration)/24
         hours_left = int(duration) % 24
@@ -142,15 +152,19 @@ are equally valid here.</p></div>
         emoji = &#39;\N{BALLOT BOX WITH CHECK}&#39;
         self.giveaway_message_id = message.id
         await message.add_reaction(emoji)
+
+        # Put the message id to know what is the right message in giveaway events
         self.bot.add_cog(giveaway.Giveaway(self.bot, self.giveaway_message_id))
+        # Process can continue, the task run in background
+        bot.loop.create_task(self.hided_timer_task(duration, channel, name, prizes_size))
 
-        bot.loop.create_task(self.hided_task(duration, channel, name, prizes_size))
-        # Process can continue, the task is in background
-
-    async def hided_task(self, duration, channel, name, prizes_size):
+    async def hided_timer_task(self, duration, channel, name, prizes_size):
+        &#34;&#34;&#34;Only suspends the current task, allowing other tasks to run&#34;&#34;&#34;
         await asyncio.sleep(int(duration))
         self.log.info(&#34;Timer done!&#34;)
 
+        # Retrieve data stored in json file
+        # It will be used for failure recovery in the future
         with open(&#39;core/data/giveaway.json&#39;) as json_file:
             data = json.load(json_file)
             random_pick = random.sample(data, int(prizes_size))
@@ -172,19 +186,22 @@ are equally valid here.</p></div>
 </dl>
 <h3>Methods</h3>
 <dl>
-<dt id="core.command.giveaway.Giveaway.hided_task"><code class="name flex">
-<span>async def <span class="ident">hided_task</span></span>(<span>self, duration, channel, name, prizes_size)</span>
+<dt id="core.command.giveaway.Giveaway.hided_timer_task"><code class="name flex">
+<span>async def <span class="ident">hided_timer_task</span></span>(<span>self, duration, channel, name, prizes_size)</span>
 </code></dt>
 <dd>
-<div class="desc"></div>
+<div class="desc"><p>Only suspends the current task, allowing other tasks to run</p></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">async def hided_task(self, duration, channel, name, prizes_size):
+<pre><code class="python">async def hided_timer_task(self, duration, channel, name, prizes_size):
+    &#34;&#34;&#34;Only suspends the current task, allowing other tasks to run&#34;&#34;&#34;
     await asyncio.sleep(int(duration))
     self.log.info(&#34;Timer done!&#34;)
 
+    # Retrieve data stored in json file
+    # It will be used for failure recovery in the future
     with open(&#39;core/data/giveaway.json&#39;) as json_file:
         data = json.load(json_file)
         random_pick = random.sample(data, int(prizes_size))
@@ -221,7 +238,7 @@ are equally valid here.</p></div>
 <h4><code><a title="core.command.giveaway.Giveaway" href="#core.command.giveaway.Giveaway">Giveaway</a></code></h4>
 <ul class="">
 <li><code><a title="core.command.giveaway.Giveaway.create_giveaway" href="#core.command.giveaway.Giveaway.create_giveaway">create_giveaway</a></code></li>
-<li><code><a title="core.command.giveaway.Giveaway.hided_task" href="#core.command.giveaway.Giveaway.hided_task">hided_task</a></code></li>
+<li><code><a title="core.command.giveaway.Giveaway.hided_timer_task" href="#core.command.giveaway.Giveaway.hided_timer_task">hided_timer_task</a></code></li>
 </ul>
 </li>
 </ul>
