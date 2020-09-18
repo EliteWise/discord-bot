@@ -27,7 +27,6 @@
 <span>Expand source code</span>
 </summary>
 <pre><code class="python">from discord.ext import commands
-from main import bot
 from main import invites
 
 members_invites_counter = {}
@@ -53,7 +52,7 @@ class Invitation(commands.Cog):
 
     @commands.Cog.listener()
     async def on_member_join(self, member):
-        &#34;&#34;&#34;Cette méthode fait: blablabla...&#34;&#34;&#34;
+        &#34;&#34;&#34;When a member join Discord&#34;&#34;&#34;
         channel = member.guild.get_channel(719257870822277174)
         member_name = member.display_name
         print(&#34;Welcome &#34;, member_name, &#34; !&#34;)
@@ -71,6 +70,7 @@ class Invitation(commands.Cog):
 
     @commands.Cog.listener()
     async def on_member_remove(self, member):
+        &#34;&#34;&#34;When a member leave or gets banned/kicked&#34;&#34;&#34;
         channel = member.guild.get_channel(719257870822277174)
         member_name = member.display_name
         print(&#34;Bye! See you next time &#34;, member_name)
@@ -79,6 +79,7 @@ class Invitation(commands.Cog):
 
 
 def setup(bot):
+    &#34;&#34;&#34;Setup cog to be able to listen events &amp; commands inside this class&#34;&#34;&#34;
     bot.add_cog(Invitation(bot))</code></pre>
 </details>
 </section>
@@ -93,12 +94,13 @@ def setup(bot):
 <span>def <span class="ident">setup</span></span>(<span>bot)</span>
 </code></dt>
 <dd>
-<div class="desc"></div>
+<div class="desc"><p>Setup cog to be able to listen events &amp; commands inside this class</p></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
 <pre><code class="python">def setup(bot):
+    &#34;&#34;&#34;Setup cog to be able to listen events &amp; commands inside this class&#34;&#34;&#34;
     bot.add_cog(Invitation(bot))</code></pre>
 </details>
 </dd>
@@ -142,7 +144,7 @@ are equally valid here.</p></div>
 
     @commands.Cog.listener()
     async def on_member_join(self, member):
-        &#34;&#34;&#34;Cette méthode fait: blablabla...&#34;&#34;&#34;
+        &#34;&#34;&#34;When a member join Discord&#34;&#34;&#34;
         channel = member.guild.get_channel(719257870822277174)
         member_name = member.display_name
         print(&#34;Welcome &#34;, member_name, &#34; !&#34;)
@@ -160,6 +162,7 @@ are equally valid here.</p></div>
 
     @commands.Cog.listener()
     async def on_member_remove(self, member):
+        &#34;&#34;&#34;When a member leave or gets banned/kicked&#34;&#34;&#34;
         channel = member.guild.get_channel(719257870822277174)
         member_name = member.display_name
         print(&#34;Bye! See you next time &#34;, member_name)
@@ -200,14 +203,14 @@ are equally valid here.</p></div>
 <span>async def <span class="ident">on_member_join</span></span>(<span>self, member)</span>
 </code></dt>
 <dd>
-<div class="desc"><p>Cette méthode fait: blablabla&hellip;</p></div>
+<div class="desc"><p>When a member join Discord</p></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
 <pre><code class="python">@commands.Cog.listener()
 async def on_member_join(self, member):
-    &#34;&#34;&#34;Cette méthode fait: blablabla...&#34;&#34;&#34;
+    &#34;&#34;&#34;When a member join Discord&#34;&#34;&#34;
     channel = member.guild.get_channel(719257870822277174)
     member_name = member.display_name
     print(&#34;Welcome &#34;, member_name, &#34; !&#34;)
@@ -228,13 +231,14 @@ async def on_member_join(self, member):
 <span>async def <span class="ident">on_member_remove</span></span>(<span>self, member)</span>
 </code></dt>
 <dd>
-<div class="desc"></div>
+<div class="desc"><p>When a member leave or gets banned/kicked</p></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
 <pre><code class="python">@commands.Cog.listener()
 async def on_member_remove(self, member):
+    &#34;&#34;&#34;When a member leave or gets banned/kicked&#34;&#34;&#34;
     channel = member.guild.get_channel(719257870822277174)
     member_name = member.display_name
     print(&#34;Bye! See you next time &#34;, member_name)

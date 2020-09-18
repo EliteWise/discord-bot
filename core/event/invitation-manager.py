@@ -9,6 +9,8 @@ class Invitation(commands.Cog):
         self.bot = bot
 
     def find_invite_by_code(self, invite_list, code):
+        """Invitations are identified by a code, it's the same code visible in a link discord.gg/<code>"""
+
         # Simply looping through each invite in an
         # invite list which we will get using guild.invites()
 
@@ -18,6 +20,7 @@ class Invitation(commands.Cog):
             # of the list is the one we're looking for
 
             if inv.code == code:
+                print(code)
                 # If it is, we return it.
 
                 return inv
@@ -27,11 +30,11 @@ class Invitation(commands.Cog):
         """When a member join Discord"""
         channel = member.guild.get_channel(719257870822277174)
         member_name = member.display_name
-        print("Welcome ", member_name, " !")
         invites_before_join = invites[member.guild.id]
         invites_after_join = await member.guild.invites()
         members_counter = member.guild.member_count
         for invite in invites_before_join:
+            # When a new invitation is used (clicked), then the condition is true
             if invite.uses < self.find_invite_by_code(invites_after_join, invite.code).uses:
                 inviter_name = invite.inviter.name
                 members_invites_counter[inviter_name] = 1 if inviter_name not in members_invites_counter else members_invites_counter.get(inviter_name) + 1
@@ -45,7 +48,6 @@ class Invitation(commands.Cog):
         """When a member leave or gets banned/kicked"""
         channel = member.guild.get_channel(719257870822277174)
         member_name = member.display_name
-        print("Bye! See you next time ", member_name)
         invites[member.guild.id] = await member.guild.invites()
         await channel.send("Bye " + member_name + " (Members: " + str(member.guild.member_count) + ")")
 

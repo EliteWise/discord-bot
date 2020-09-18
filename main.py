@@ -1,5 +1,3 @@
-import os
-
 import discord
 import logging
 from discord.ext import commands
@@ -14,8 +12,17 @@ startup_extensions = ["core.event.invitation-manager", "core.command.giveaway"]
 
 bot = commands.Bot(command_prefix='!')
 
+# Initialize logging configuration
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] {%(module)s} - %(funcName)s: %(message)s",
+    handlers=[
+        logging.FileHandler("log/debug.log"),
+        logging.StreamHandler()
+    ]
+)
+
 log = logging.getLogger("main")
-logging.basicConfig(level=os.environ.get("LOGLEVEL", "INFO"))
 
 
 @bot.event
@@ -29,6 +36,7 @@ async def on_ready():
 
 
 if __name__ == "__main__":
+    # Load all extensions inside command and event packages
     for extension in startup_extensions:
         try:
             bot.load_extension(extension)

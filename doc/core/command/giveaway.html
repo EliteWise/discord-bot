@@ -39,7 +39,6 @@ from main import bot
 
 
 class Giveaway(commands.Cog):
-    &#34;&#34;&#34;Docstring for A.&#34;&#34;&#34;
     def __init__(self, bot):
         self.bot = bot
         self.giveaway_message_id = None
@@ -63,7 +62,6 @@ class Giveaway(commands.Cog):
         # Process can continue, the task is in background
 
     async def hided_task(self, duration, channel, name, prizes_size):
-        &#34;&#34;&#34;Docstring for A.&#34;&#34;&#34;
         await asyncio.sleep(int(duration))
         self.log.info(&#34;Timer done!&#34;)
 
@@ -73,11 +71,13 @@ class Giveaway(commands.Cog):
             display_winners = &#39; | &#39;.join(str(player) for player in random_pick)
             self.log.info(&#34;Winners &gt; &#34; + display_winners)
 
-        await channel.send(f&#34;Le giveaway {name} vient de se terminer !&#34; + f&#34;\nLes gagnants sont: {display_winners}&#34;)
+        await channel.send(f&#34;Le giveaway {name} vient de se terminer ! &#34; + (f&#34;\nLe gagnant est: {display_winners}&#34; if len(random_pick) == 1 else f&#34;\nLes gagnants sont: {display_winners}&#34;))
 
 
 def setup(bot):
+    &#34;&#34;&#34;Setup cog to be able to listen events &amp; commands inside this class&#34;&#34;&#34;
     bot.add_cog(Giveaway(bot))
+    &#34;&#34;&#34;Initialize logging configuration&#34;&#34;&#34;
     logging.basicConfig(level=os.environ.get(&#34;LOGLEVEL&#34;, &#34;INFO&#34;))</code></pre>
 </details>
 </section>
@@ -92,13 +92,15 @@ def setup(bot):
 <span>def <span class="ident">setup</span></span>(<span>bot)</span>
 </code></dt>
 <dd>
-<div class="desc"></div>
+<div class="desc"><p>Setup cog to be able to listen events &amp; commands inside this class</p></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
 <pre><code class="python">def setup(bot):
+    &#34;&#34;&#34;Setup cog to be able to listen events &amp; commands inside this class&#34;&#34;&#34;
     bot.add_cog(Giveaway(bot))
+    &#34;&#34;&#34;Initialize logging configuration&#34;&#34;&#34;
     logging.basicConfig(level=os.environ.get(&#34;LOGLEVEL&#34;, &#34;INFO&#34;))</code></pre>
 </details>
 </dd>
@@ -112,13 +114,17 @@ def setup(bot):
 <span>(</span><span>bot)</span>
 </code></dt>
 <dd>
-<div class="desc"><p>Docstring for A.</p></div>
+<div class="desc"><p>The base class that all cogs must inherit from.</p>
+<p>A cog is a collection of commands, listeners, and optional state to
+help group commands together. More information on them can be found on
+the :ref:<code>ext_commands_cogs</code> page.</p>
+<p>When inheriting from this class, the options shown in :class:<code>CogMeta</code>
+are equally valid here.</p></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
 <pre><code class="python">class Giveaway(commands.Cog):
-    &#34;&#34;&#34;Docstring for A.&#34;&#34;&#34;
     def __init__(self, bot):
         self.bot = bot
         self.giveaway_message_id = None
@@ -142,7 +148,6 @@ def setup(bot):
         # Process can continue, the task is in background
 
     async def hided_task(self, duration, channel, name, prizes_size):
-        &#34;&#34;&#34;Docstring for A.&#34;&#34;&#34;
         await asyncio.sleep(int(duration))
         self.log.info(&#34;Timer done!&#34;)
 
@@ -152,7 +157,7 @@ def setup(bot):
             display_winners = &#39; | &#39;.join(str(player) for player in random_pick)
             self.log.info(&#34;Winners &gt; &#34; + display_winners)
 
-        await channel.send(f&#34;Le giveaway {name} vient de se terminer !&#34; + f&#34;\nLes gagnants sont: {display_winners}&#34;)</code></pre>
+        await channel.send(f&#34;Le giveaway {name} vient de se terminer ! &#34; + (f&#34;\nLe gagnant est: {display_winners}&#34; if len(random_pick) == 1 else f&#34;\nLes gagnants sont: {display_winners}&#34;))</code></pre>
 </details>
 <h3>Ancestors</h3>
 <ul class="hlist">
@@ -171,13 +176,12 @@ def setup(bot):
 <span>async def <span class="ident">hided_task</span></span>(<span>self, duration, channel, name, prizes_size)</span>
 </code></dt>
 <dd>
-<div class="desc"><p>Docstring for A.</p></div>
+<div class="desc"></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
 <pre><code class="python">async def hided_task(self, duration, channel, name, prizes_size):
-    &#34;&#34;&#34;Docstring for A.&#34;&#34;&#34;
     await asyncio.sleep(int(duration))
     self.log.info(&#34;Timer done!&#34;)
 
@@ -187,7 +191,7 @@ def setup(bot):
         display_winners = &#39; | &#39;.join(str(player) for player in random_pick)
         self.log.info(&#34;Winners &gt; &#34; + display_winners)
 
-    await channel.send(f&#34;Le giveaway {name} vient de se terminer !&#34; + f&#34;\nLes gagnants sont: {display_winners}&#34;)</code></pre>
+    await channel.send(f&#34;Le giveaway {name} vient de se terminer ! &#34; + (f&#34;\nLe gagnant est: {display_winners}&#34; if len(random_pick) == 1 else f&#34;\nLes gagnants sont: {display_winners}&#34;))</code></pre>
 </details>
 </dd>
 </dl>
