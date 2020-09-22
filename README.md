@@ -8,12 +8,13 @@
 
 | directories | packages  | modules/files  | classes | functions | variables | constants |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| l | l | l + u | cw | l + u | l + u | c + u |
+| l | l | l + u | cw | l + u | l + d | c + u |
 
 ### Legend:
 
 l = lowercase \
 u = underscores \
+d = dashes \
 cw = CapWords \
 c = caps
 
@@ -46,6 +47,8 @@ Create virtual environment and install dependencies:
 
 > Your branch has to follow this naming convention: type/name \
 > Example: feature/stats
+> When the name contain multiple words which must be separated, you can use dashes
+> Example: feature/player-stats
 
 ### How to merge my branch?
 
