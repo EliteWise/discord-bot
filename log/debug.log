@@ -1556,3 +1556,125 @@ ExtensionFailed: Extension 'core.command.player_stats' raised an error: Interfac
 2020-09-24 15:16:36,484 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
 2020-09-24 15:16:36,692 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-cn9p",{"micros":58008,"calls":["discord-sessions-prd-1-15",{"micros":54423,"calls":["start_session",{"micros":31538,"calls":["api-prd-main-6824",{"micros":28535,"calls":["get_user",{"micros":2810},"add_authorized_ip",{"micros":1588},"get_guilds",{"micros":1523},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":2729,"calls":[]}]}]}] (Session ID: 13304c50d46248ec6b4862556e9ce716).
 2020-09-24 15:16:38,704 [INFO] {main} - on_ready: Bot Ready!
+2020-09-24 15:32:58,554 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-24 15:32:58,556 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-24 15:32:58,557 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-24 15:32:58,953 [INFO] {player_request} - <module>: True
+2020-09-24 15:32:58,954 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-24 15:32:58,955 [INFO] {main} - <module>: Extension: core.event.error_handler loaded!
+2020-09-24 15:32:58,955 [INFO] {client} - login: logging in using static token
+2020-09-24 15:32:59,738 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-24 15:32:59,740 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-24 15:33:00,161 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-6pq3",{"micros":227422,"calls":["discord-sessions-prd-2-32",{"micros":225134,"calls":["start_session",{"micros":207113,"calls":["api-prd-main-w8sp",{"micros":194688,"calls":["get_user",{"micros":13091},"add_authorized_ip",{"micros":12859},"get_guilds",{"micros":13466},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":7982,"calls":[]}]}]}] (Session ID: ef5958d0b5353e40c7ab99a96556f5d4).
+2020-09-24 15:33:02,172 [INFO] {main} - on_ready: Bot Ready!
+2020-09-24 15:33:02,391 [ERROR] {base_events} - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<update_status() done, defined at C:\Users\Elite\Desktop\- Odyssia -\odyssia-bot\core\util\server_status.py:18> exception=gaierror(11001, 'getaddrinfo failed')>
+Traceback (most recent call last):
+  File "C:\Users\Elite\Desktop\- Odyssia -\odyssia-bot\core\util\server_status.py", line 31, in update_status
+    query = response.query()
+  File "C:\Users\Elite\Desktop\- Odyssia -\odyssia-bot\venv\lib\site-packages\mcstatus\server.py", line 76, in query
+    raise exception
+  File "C:\Users\Elite\Desktop\- Odyssia -\odyssia-bot\venv\lib\site-packages\mcstatus\server.py", line 71, in query
+    querier.handshake()
+  File "C:\Users\Elite\Desktop\- Odyssia -\odyssia-bot\venv\lib\site-packages\mcstatus\querier.py", line 30, in handshake
+    self.connection.write(self._create_packet(self.PACKET_TYPE_CHALLENGE))
+  File "C:\Users\Elite\Desktop\- Odyssia -\odyssia-bot\venv\lib\site-packages\mcstatus\protocol\connection.py", line 186, in write
+    self.socket.sendto(data, self.addr)
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2020-09-24 15:34:21,739 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-24 15:34:21,741 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-24 15:34:21,742 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-24 15:34:22,140 [INFO] {player_request} - <module>: True
+2020-09-24 15:34:22,141 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-24 15:34:22,141 [INFO] {main} - <module>: Extension: core.event.error_handler loaded!
+2020-09-24 15:34:22,142 [INFO] {client} - login: logging in using static token
+2020-09-24 15:34:22,872 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-24 15:34:22,873 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-24 15:34:23,128 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-mp3q",{"micros":69645,"calls":["discord-sessions-prd-2-41",{"micros":66424,"calls":["start_session",{"micros":56333,"calls":["api-prd-main-fplv",{"micros":48400,"calls":["get_user",{"micros":6029},"add_authorized_ip",{"micros":2837},"get_guilds",{"micros":3447},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":8623,"calls":[]}]}]}] (Session ID: 59ac4ca60c48363baa22a8b699625dda).
+2020-09-24 15:34:25,141 [INFO] {main} - on_ready: Bot Ready!
+2020-09-24 15:34:25,264 [ERROR] {base_events} - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<update_status() done, defined at C:\Users\Elite\Desktop\- Odyssia -\odyssia-bot\core\util\server_status.py:18> exception=gaierror(11001, 'getaddrinfo failed')>
+Traceback (most recent call last):
+  File "C:\Users\Elite\Desktop\- Odyssia -\odyssia-bot\core\util\server_status.py", line 31, in update_status
+    query = response.query()
+  File "C:\Users\Elite\Desktop\- Odyssia -\odyssia-bot\venv\lib\site-packages\mcstatus\server.py", line 76, in query
+    raise exception
+  File "C:\Users\Elite\Desktop\- Odyssia -\odyssia-bot\venv\lib\site-packages\mcstatus\server.py", line 71, in query
+    querier.handshake()
+  File "C:\Users\Elite\Desktop\- Odyssia -\odyssia-bot\venv\lib\site-packages\mcstatus\querier.py", line 30, in handshake
+    self.connection.write(self._create_packet(self.PACKET_TYPE_CHALLENGE))
+  File "C:\Users\Elite\Desktop\- Odyssia -\odyssia-bot\venv\lib\site-packages\mcstatus\protocol\connection.py", line 186, in write
+    self.socket.sendto(data, self.addr)
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2020-09-24 15:35:00,899 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-24 15:35:00,901 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-24 15:35:00,902 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-24 15:35:01,316 [INFO] {player_request} - <module>: True
+2020-09-24 15:35:01,316 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-24 15:35:01,317 [INFO] {main} - <module>: Extension: core.event.error_handler loaded!
+2020-09-24 15:35:01,318 [INFO] {client} - login: logging in using static token
+2020-09-24 15:35:02,021 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-24 15:35:02,023 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-24 15:35:02,287 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-d5fj",{"micros":72932,"calls":["discord-sessions-prd-1-30",{"micros":71527,"calls":["start_session",{"micros":37995,"calls":["api-prd-main-3mj8",{"micros":34336,"calls":["get_user",{"micros":2512},"add_authorized_ip",{"micros":2535},"get_guilds",{"micros":4166},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":3813,"calls":[]}]}]}] (Session ID: 91da1c04ad454e178a4ab0454ad29201).
+2020-09-24 15:35:04,299 [INFO] {main} - on_ready: Bot Ready!
+2020-09-24 15:37:16,298 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-24 15:37:16,300 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-24 15:37:16,301 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-24 15:37:16,728 [INFO] {player_request} - <module>: True
+2020-09-24 15:37:16,729 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-24 15:37:16,730 [INFO] {main} - <module>: Extension: core.event.error_handler loaded!
+2020-09-24 15:37:16,730 [INFO] {client} - login: logging in using static token
+2020-09-24 15:37:17,479 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-24 15:37:17,480 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-24 15:37:17,752 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-khp7",{"micros":80976,"calls":["discord-sessions-prd-1-37",{"micros":78071,"calls":["start_session",{"micros":68867,"calls":["api-prd-main-lk49",{"micros":61072,"calls":["get_user",{"micros":4344},"add_authorized_ip",{"micros":1757},"get_guilds",{"micros":10101},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":5643,"calls":[]}]}]}] (Session ID: 02f9b5338cf92b8a94bf4445bde7df68).
+2020-09-24 15:37:19,763 [INFO] {main} - on_ready: Bot Ready!
+2020-09-24 15:37:19,875 [ERROR] {base_events} - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<update_status() done, defined at C:\Users\Elite\Desktop\- Odyssia -\odyssia-bot\core\util\server_status.py:18> exception=gaierror(11001, 'getaddrinfo failed')>
+Traceback (most recent call last):
+  File "C:\Users\Elite\Desktop\- Odyssia -\odyssia-bot\core\util\server_status.py", line 31, in update_status
+    query = response.query()
+  File "C:\Users\Elite\Desktop\- Odyssia -\odyssia-bot\venv\lib\site-packages\mcstatus\server.py", line 76, in query
+    raise exception
+  File "C:\Users\Elite\Desktop\- Odyssia -\odyssia-bot\venv\lib\site-packages\mcstatus\server.py", line 71, in query
+    querier.handshake()
+  File "C:\Users\Elite\Desktop\- Odyssia -\odyssia-bot\venv\lib\site-packages\mcstatus\querier.py", line 30, in handshake
+    self.connection.write(self._create_packet(self.PACKET_TYPE_CHALLENGE))
+  File "C:\Users\Elite\Desktop\- Odyssia -\odyssia-bot\venv\lib\site-packages\mcstatus\protocol\connection.py", line 186, in write
+    self.socket.sendto(data, self.addr)
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2020-09-24 15:39:33,335 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-24 15:39:33,337 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-24 15:39:33,337 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-24 15:39:34,582 [INFO] {player_request} - <module>: True
+2020-09-24 15:39:34,583 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-24 15:39:34,584 [INFO] {main} - <module>: Extension: core.event.error_handler loaded!
+2020-09-24 15:39:34,584 [INFO] {client} - login: logging in using static token
+2020-09-24 15:39:35,329 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-24 15:39:35,331 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-24 15:39:35,569 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-p6xk",{"micros":53380,"calls":["discord-sessions-prd-2-47",{"micros":52237,"calls":["start_session",{"micros":39449,"calls":["api-prd-main-61pp",{"micros":36252,"calls":["get_user",{"micros":3416},"add_authorized_ip",{"micros":1234},"get_guilds",{"micros":5882},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":2148,"calls":[]}]}]}] (Session ID: 11892efeda6704b9069b978c309f5d55).
+2020-09-24 15:39:37,581 [INFO] {main} - on_ready: Bot Ready!
+2020-09-24 15:39:37,687 [ERROR] {base_events} - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<update_status() done, defined at C:\Users\Elite\Desktop\- Odyssia -\odyssia-bot\core\util\server_status.py:18> exception=gaierror(11001, 'getaddrinfo failed')>
+Traceback (most recent call last):
+  File "C:\Users\Elite\Desktop\- Odyssia -\odyssia-bot\core\util\server_status.py", line 31, in update_status
+    query = response.query()
+  File "C:\Users\Elite\Desktop\- Odyssia -\odyssia-bot\venv\lib\site-packages\mcstatus\server.py", line 76, in query
+    raise exception
+  File "C:\Users\Elite\Desktop\- Odyssia -\odyssia-bot\venv\lib\site-packages\mcstatus\server.py", line 71, in query
+    querier.handshake()
+  File "C:\Users\Elite\Desktop\- Odyssia -\odyssia-bot\venv\lib\site-packages\mcstatus\querier.py", line 30, in handshake
+    self.connection.write(self._create_packet(self.PACKET_TYPE_CHALLENGE))
+  File "C:\Users\Elite\Desktop\- Odyssia -\odyssia-bot\venv\lib\site-packages\mcstatus\protocol\connection.py", line 186, in write
+    self.socket.sendto(data, self.addr)
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2020-09-24 15:40:02,906 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-24 15:40:02,909 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-24 15:40:02,910 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-24 15:40:03,319 [INFO] {player_request} - <module>: True
+2020-09-24 15:40:03,319 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-24 15:40:03,320 [INFO] {main} - <module>: Extension: core.event.error_handler loaded!
+2020-09-24 15:40:03,321 [INFO] {client} - login: logging in using static token
+2020-09-24 15:40:04,212 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-24 15:40:04,213 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-24 15:40:04,448 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-p0hd",{"micros":49735,"calls":["discord-sessions-prd-2-17",{"micros":47821,"calls":["start_session",{"micros":41866,"calls":["api-prd-main-j3np",{"micros":36859,"calls":["get_user",{"micros":2486},"add_authorized_ip",{"micros":1281},"get_guilds",{"micros":1493},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":4659,"calls":[]}]}]}] (Session ID: f7c78979075908555b5976dee87cbe48).
+2020-09-24 15:40:06,460 [INFO] {main} - on_ready: Bot Ready!

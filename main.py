@@ -3,6 +3,7 @@ import logging
 import asyncio
 from discord.ext import commands
 from core.util.server_status import update_status
+from core.util.constant import Constant
 
 bot = discord.Client()
 
@@ -32,7 +33,7 @@ async def on_ready():
     log.info("Bot Ready!")
 
     loop = asyncio.get_event_loop()
-    #loop.create_task(update_status(bot.get_channel(756791389097820210), '185.157.246.189', 10))
+    loop.create_task(update_status(bot.get_channel(756791389097820210), Constant.HOSTNAME, 10))
 
     # Getting all the guilds our bot is in
     for guild in bot.guilds:
