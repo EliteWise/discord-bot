@@ -1,4 +1,7 @@
+import logging
+
 from discord.ext import commands
+from core.util.channel_id import get_channel_id_by_command_name
 
 
 class ErrorHandler(commands.Cog):
@@ -7,8 +10,10 @@ class ErrorHandler(commands.Cog):
 
     @commands.Cog.listener()
     async def on_command_error(self, ctx, error):
-        if isinstance(error, commands.MissingRequiredArgument) and ctx.command.name == "stats":
-            await ctx.send("Saisis le pseudo d'un joueur pour voir ses stats.")
+        if isinstance(error, commands.MissingRequiredArgument):
+            await ctx.send("Cette commande prend un ou plusieurs paramètres.")
+        elif isinstance(error, commands.CommandNotFound):
+            pass
         else:
             raise error
 

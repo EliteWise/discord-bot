@@ -4,6 +4,7 @@ import random
 import logging
 from math import floor
 
+from core.util.channel_id import get_channel_id_by_command_name
 from discord.ext import commands
 from core.event import giveaway
 from main import bot
@@ -15,6 +16,7 @@ class Giveaway(commands.Cog):
         self.giveaway_message_id = None
         self.log = logging.getLogger("command/giveaway")
 
+    @commands.is_owner()
     @commands.command(name="giveaway")
     async def create_giveaway(self, ctx, name, duration, prizes_size):
         """
@@ -22,7 +24,11 @@ class Giveaway(commands.Cog):
         :param int duration: How long the giveaway will last in hours
         :param int prizes_size: The number of winners (1 prize per winner)
         """
-        channel = ctx.guild.get_channel(719257870822277174)
+        channel = ctx.guild.get_channel(await get_channel_id_by_command_name(ctx, ctx.command.name))
+
+        if channel is None:
+            return
+
         days = int(duration)/24
         hours_left = int(duration) % 24
         duration_day_converter = str(round(days)) + " jours" if int(hours_left) == 0 else str(floor(days)) + " jour(s) et " + str(hours_left) + " heure(s)"

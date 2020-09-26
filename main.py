@@ -1,9 +1,6 @@
 import discord
 import logging
-import asyncio
 from discord.ext import commands
-from core.util.server_status import update_status
-from core.util.constant import Constant
 
 bot = discord.Client()
 
@@ -11,7 +8,8 @@ invites = {}
 
 # this specifies what extensions to load when the bot starts up
 startup_extensions = ["core.event.invitation_manager", "core.command.giveaway", "core.command.server_status",
-                      "core.command.player_stats", "core.event.error_handler"]
+                      "core.command.player_stats", "core.event.command_error_handler", "core.command.link_channel",
+                      "core.command.invitation", "core.command.clear"]
 
 bot = commands.Bot(command_prefix='!')
 
@@ -31,9 +29,6 @@ log = logging.getLogger("main")
 @bot.event
 async def on_ready():
     log.info("Bot Ready!")
-
-    loop = asyncio.get_event_loop()
-    loop.create_task(update_status(bot.get_channel(756791389097820210), Constant.HOSTNAME, 10))
 
     # Getting all the guilds our bot is in
     for guild in bot.guilds:
