@@ -5,6 +5,7 @@ import logging
 from math import floor
 
 from core.util.channel_id import get_channel_id_by_command_name
+from core.util.permission import is_admin
 from discord.ext import commands
 from core.event import giveaway
 from main import bot
@@ -16,8 +17,8 @@ class Giveaway(commands.Cog):
         self.giveaway_message_id = None
         self.log = logging.getLogger("command/giveaway")
 
-    @commands.is_owner()
     @commands.command(name="giveaway")
+    @commands.check(is_admin)
     async def create_giveaway(self, ctx, name, duration, prizes_size):
         """
         :param str name: The name of the giveaway

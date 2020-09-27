@@ -2,6 +2,7 @@ import asyncio
 import logging
 from discord.ext import commands
 from core.util.constant import Constant
+from core.util.permission import is_admin
 from core.util.server_status import update_status
 from core.util.channel_id import get_channel_id_by_command_name
 
@@ -10,8 +11,8 @@ class ServerStatus(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @commands.is_owner()
     @commands.command(name="server-status")
+    @commands.check(is_admin)
     async def start_status_task(self, ctx):
 
         channel = ctx.guild.get_channel(await get_channel_id_by_command_name(ctx, ctx.command.name))
@@ -22,8 +23,8 @@ class ServerStatus(commands.Cog):
         loop = asyncio.get_event_loop()
         loop.create_task(update_status(channel, Constant.HOSTNAME, 10))
 
-    @commands.is_owner()
     @commands.command(name="maintenance")
+    @commands.check(is_admin)
     async def set_maintenance(self, ctx, status):
         """
         :param ctx: A command must always have at least one parameter, ctx, which is the Context

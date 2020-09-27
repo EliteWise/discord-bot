@@ -1,6 +1,6 @@
 import asyncio
 import json
-import logging
+from core.util.permission import is_admin
 from discord.ext import commands
 
 
@@ -9,8 +9,8 @@ class LinkChannel(commands.Cog):
         self.bot = bot
         self.channel_id = {}
 
-    @commands.is_owner()
     @commands.command(name="link")
+    @commands.check(is_admin)
     async def link(self, ctx, feature_name):
         for command in self.bot.commands:
             if str(command) == str(feature_name):

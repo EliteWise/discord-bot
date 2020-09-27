@@ -3833,3 +3833,438 @@ AttributeError: 'int' object has no attribute 'send'
 2020-09-26 15:07:38,700 [INFO] {client} - run: Cleaning up tasks.
 2020-09-26 15:07:38,700 [INFO] {client} - _cancel_tasks: Cleaning up after 4 tasks.
 2020-09-26 15:07:44,018 [INFO] {client} - _cleanup_loop: Closing the event loop.
+2020-09-26 15:49:26,471 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-26 15:49:26,477 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-26 15:49:26,511 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-26 15:49:26,936 [INFO] {player_request} - <module>: True
+2020-09-26 15:49:26,936 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-26 15:49:26,939 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-26 15:49:26,941 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-26 15:49:26,944 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-26 15:49:26,946 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-26 15:49:26,946 [INFO] {client} - login: logging in using static token
+2020-09-26 15:49:27,700 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-26 15:49:27,702 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-26 15:49:27,949 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-qmwb",{"micros":67638,"calls":["discord-sessions-prd-2-50",{"micros":66684,"calls":["start_session",{"micros":37315,"calls":["api-prd-main-v8p7",{"micros":34758,"calls":["get_user",{"micros":2481},"add_authorized_ip",{"micros":1674},"get_guilds",{"micros":6635},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":17055,"calls":[]}]}]}] (Session ID: ffe18f16dd88d516950112879f533eb3).
+2020-09-26 15:49:29,963 [INFO] {main} - on_ready: Bot Ready!
+2020-09-26 15:51:06,024 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-26 15:51:06,026 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-26 15:51:06,054 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-26 15:51:06,468 [INFO] {player_request} - <module>: True
+2020-09-26 15:51:06,469 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-26 15:51:06,470 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-26 15:51:06,471 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-26 15:51:06,472 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-26 15:51:06,472 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-26 15:51:06,473 [INFO] {client} - login: logging in using static token
+2020-09-26 15:51:07,247 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-26 15:51:07,249 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-26 15:51:07,500 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-jmfd",{"micros":63831,"calls":["discord-sessions-prd-2-38",{"micros":62698,"calls":["start_session",{"micros":40767,"calls":["api-prd-main-pn7n",{"micros":36684,"calls":["get_user",{"micros":4402},"add_authorized_ip",{"micros":1572},"get_guilds",{"micros":6819},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":10030,"calls":[]}]}]}] (Session ID: 96e16c1b705a4be6912ca90a10c13a67).
+2020-09-26 15:51:09,512 [INFO] {main} - on_ready: Bot Ready!
+2020-09-26 15:51:16,656 [INFO] {client} - run: Received signal to terminate bot and event loop.
+2020-09-26 15:51:16,657 [INFO] {client} - run: Cleaning up tasks.
+2020-09-26 15:51:16,657 [INFO] {client} - _cancel_tasks: Cleaning up after 4 tasks.
+2020-09-26 15:51:19,974 [INFO] {client} - _cleanup_loop: Closing the event loop.
+2020-09-26 22:50:17,114 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-26 22:50:17,116 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-26 22:50:17,144 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-26 22:50:17,906 [INFO] {player_request} - <module>: True
+2020-09-26 22:50:17,907 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-26 22:50:17,910 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-26 22:50:17,910 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-26 22:50:17,911 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-26 22:50:17,914 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-26 22:50:17,914 [INFO] {client} - login: logging in using static token
+2020-09-26 22:50:18,696 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-26 22:50:18,697 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-26 22:50:18,957 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-bj8r",{"micros":77199,"calls":["discord-sessions-prd-2-56",{"micros":75222,"calls":["start_session",{"micros":60990,"calls":["api-prd-main-30j2",{"micros":58573,"calls":["get_user",{"micros":7366},"add_authorized_ip",{"micros":1420},"get_guilds",{"micros":7090},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":8,"calls":[]},"presence_connect",{"micros":4668,"calls":[]}]}]}] (Session ID: 4ecc51f252d3f5759aa8f83f9473c04a).
+2020-09-26 22:50:20,980 [INFO] {main} - on_ready: Bot Ready!
+2020-09-26 22:51:00,443 [WARNING] {http} - request: We are being rate limited. Retrying in 2.82 seconds. Handled under the bucket "756571529315352646:None:/channels/{channel_id}/messages/bulk_delete"
+2020-09-26 22:51:15,762 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-26 22:51:15,765 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-26 22:51:15,793 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-26 22:51:16,546 [INFO] {player_request} - <module>: True
+2020-09-26 22:51:16,546 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-26 22:51:16,547 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-26 22:51:16,548 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-26 22:51:16,549 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-26 22:51:16,551 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-26 22:51:16,552 [INFO] {client} - login: logging in using static token
+2020-09-26 22:51:17,249 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-26 22:51:17,251 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-26 22:51:17,506 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-9h3r",{"micros":72862,"calls":["discord-sessions-prd-1-19",{"micros":66113,"calls":["start_session",{"micros":42372,"calls":["api-prd-main-9q3d",{"micros":39390,"calls":["get_user",{"micros":2642},"add_authorized_ip",{"micros":1716},"get_guilds",{"micros":4678},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":10,"calls":[]},"presence_connect",{"micros":13447,"calls":[]}]}]}] (Session ID: 81210e251683ac3c2812317747525484).
+2020-09-26 22:51:19,518 [INFO] {main} - on_ready: Bot Ready!
+2020-09-26 22:52:47,709 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-26 22:52:47,712 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-26 22:52:47,741 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-26 22:52:48,167 [INFO] {player_request} - <module>: True
+2020-09-26 22:52:48,168 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-26 22:52:48,169 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-26 22:52:48,170 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-26 22:52:48,170 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-26 22:52:48,173 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-26 22:52:48,173 [INFO] {client} - login: logging in using static token
+2020-09-26 22:52:48,856 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-26 22:52:48,858 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-26 22:52:49,116 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-1xl2",{"micros":70985,"calls":["discord-sessions-prd-2-10",{"micros":69988,"calls":["start_session",{"micros":54553,"calls":["api-prd-main-zw89",{"micros":50030,"calls":["get_user",{"micros":4905},"add_authorized_ip",{"micros":1585},"get_guilds",{"micros":4495},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":7,"calls":[]},"presence_connect",{"micros":9623,"calls":[]}]}]}] (Session ID: 14434019ac386cfdcbbc8d9c3def6d09).
+2020-09-26 22:52:51,138 [INFO] {main} - on_ready: Bot Ready!
+2020-09-26 22:54:42,108 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-26 22:54:42,110 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-26 22:54:42,137 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-26 22:54:42,561 [INFO] {player_request} - <module>: True
+2020-09-26 22:54:42,562 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-26 22:54:42,563 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-26 22:54:42,564 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-26 22:54:42,564 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-26 22:54:42,566 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-26 22:54:42,567 [INFO] {client} - login: logging in using static token
+2020-09-26 22:54:43,312 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-26 22:54:43,314 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-26 22:54:43,587 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-qnqx",{"micros":89345,"calls":["discord-sessions-prd-2-2",{"micros":84183,"calls":["start_session",{"micros":76163,"calls":["api-prd-main-7ptm",{"micros":73838,"calls":["get_user",{"micros":2391},"add_authorized_ip",{"micros":6628},"get_guilds",{"micros":5556},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":6,"calls":[]},"presence_connect",{"micros":381,"calls":[]}]}]}] (Session ID: 3b566aa3ce4cf3f6bf53bae1325cc237).
+2020-09-26 22:54:45,601 [INFO] {main} - on_ready: Bot Ready!
+2020-09-26 22:55:58,737 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-26 22:55:58,739 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-26 22:55:58,767 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-26 22:55:59,179 [INFO] {player_request} - <module>: True
+2020-09-26 22:55:59,180 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-26 22:55:59,180 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-26 22:55:59,181 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-26 22:55:59,182 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-26 22:55:59,185 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-26 22:55:59,185 [INFO] {client} - login: logging in using static token
+2020-09-26 22:55:59,922 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-26 22:55:59,924 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-26 22:56:00,191 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-rrtd",{"micros":59519,"calls":["discord-sessions-prd-1-40",{"micros":56356,"calls":["start_session",{"micros":36389,"calls":["api-prd-main-fjsg",{"micros":32712,"calls":["get_user",{"micros":2976},"add_authorized_ip",{"micros":1847},"get_guilds",{"micros":1498},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":10,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 769980e7f131323e46e0af490fc3979a).
+2020-09-26 22:56:02,193 [INFO] {main} - on_ready: Bot Ready!
+2020-09-26 23:01:21,069 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-26 23:01:21,071 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-26 23:01:21,098 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-26 23:01:21,529 [INFO] {player_request} - <module>: True
+2020-09-26 23:01:21,530 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-26 23:01:21,531 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-26 23:01:21,531 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-26 23:01:21,532 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-26 23:01:21,535 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-26 23:01:21,535 [INFO] {client} - login: logging in using static token
+2020-09-26 23:01:22,331 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-26 23:01:22,332 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-26 23:01:22,595 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-01tb",{"micros":77848,"calls":["discord-sessions-prd-1-23",{"micros":74727,"calls":["start_session",{"micros":68495,"calls":["api-prd-main-dlqk",{"micros":66061,"calls":["get_user",{"micros":7253},"add_authorized_ip",{"micros":4206},"get_guilds",{"micros":1968},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":5,"calls":[]},"presence_connect",{"micros":12,"calls":[]}]}]}] (Session ID: 3c51e8b0a04cd0a3f6dc517f90da4dea).
+2020-09-26 23:01:24,605 [INFO] {main} - on_ready: Bot Ready!
+2020-09-26 23:02:06,928 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-26 23:02:06,930 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-26 23:02:06,960 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-26 23:02:07,380 [INFO] {player_request} - <module>: True
+2020-09-26 23:02:07,381 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-26 23:02:07,382 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-26 23:02:07,383 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-26 23:02:07,383 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-26 23:02:07,386 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-26 23:02:07,386 [INFO] {client} - login: logging in using static token
+2020-09-26 23:02:08,138 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-26 23:02:08,140 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-26 23:02:08,370 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-gv6k",{"micros":46492,"calls":["discord-sessions-prd-1-35",{"micros":44569,"calls":["start_session",{"micros":33837,"calls":["api-prd-main-mrzs",{"micros":31256,"calls":["get_user",{"micros":3747},"add_authorized_ip",{"micros":1643},"get_guilds",{"micros":1878},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":6,"calls":[]},"presence_connect",{"micros":4317,"calls":[]}]}]}] (Session ID: 58dff5e4a31d66238680dc762f37f5c0).
+2020-09-26 23:02:10,376 [INFO] {main} - on_ready: Bot Ready!
+2020-09-26 23:03:07,706 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-26 23:03:07,708 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-26 23:03:07,736 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-26 23:03:08,149 [INFO] {player_request} - <module>: True
+2020-09-26 23:03:08,149 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-26 23:03:08,150 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-26 23:03:08,151 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-26 23:03:08,152 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-26 23:03:08,154 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-26 23:03:08,155 [INFO] {client} - login: logging in using static token
+2020-09-26 23:03:08,849 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-26 23:03:08,851 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-26 23:03:09,077 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-5cbn",{"micros":44861,"calls":["discord-sessions-prd-2-17",{"micros":41393,"calls":["start_session",{"micros":33089,"calls":["api-prd-main-n30n",{"micros":30172,"calls":["get_user",{"micros":2777},"add_authorized_ip",{"micros":1594},"get_guilds",{"micros":2067},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":544,"calls":[]}]}]}] (Session ID: 9f5a7d196299791935c4f4905da521b0).
+2020-09-26 23:03:11,086 [INFO] {main} - on_ready: Bot Ready!
+2020-09-26 23:05:06,664 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-26 23:05:06,666 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-26 23:05:06,694 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-26 23:05:07,126 [INFO] {player_request} - <module>: True
+2020-09-26 23:05:07,127 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-26 23:05:07,127 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-26 23:05:07,128 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-26 23:05:07,129 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-26 23:05:07,131 [ERROR] {main} - <module>: Failed to load extension core.command.clear
+ExtensionFailed: Extension 'core.command.clear' raised an error: TypeError: test() missing 1 required positional argument: 'self'
+2020-09-26 23:05:07,132 [INFO] {client} - login: logging in using static token
+2020-09-26 23:05:07,867 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-26 23:05:07,869 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-26 23:05:08,124 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-bl9r",{"micros":67189,"calls":["discord-sessions-prd-1-48",{"micros":65678,"calls":["start_session",{"micros":62522,"calls":["api-prd-main-100t",{"micros":55840,"calls":["get_user",{"micros":2721},"add_authorized_ip",{"micros":2015},"get_guilds",{"micros":5670},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":34,"calls":[]},"presence_connect",{"micros":0,"calls":[]}]}]}] (Session ID: 806498bb6e09cefe0909207133964c0d).
+2020-09-26 23:05:10,139 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 11:40:55,330 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-27 11:40:55,333 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-27 11:40:55,387 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-27 11:40:59,010 [INFO] {player_request} - <module>: True
+2020-09-27 11:40:59,011 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-27 11:40:59,013 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-27 11:40:59,014 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-27 11:40:59,015 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-27 11:40:59,018 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-27 11:40:59,019 [INFO] {client} - login: logging in using static token
+2020-09-27 11:40:59,818 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 11:40:59,819 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 11:41:00,104 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-8cvd",{"micros":103817,"calls":["discord-sessions-prd-2-14",{"micros":102659,"calls":["start_session",{"micros":52049,"calls":["api-prd-main-b3dm",{"micros":48221,"calls":["get_user",{"micros":2556},"add_authorized_ip",{"micros":1753},"get_guilds",{"micros":5072},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":4,"calls":[]},"presence_connect",{"micros":25524,"calls":[]}]}]}] (Session ID: aa52203fb8936cc564c89f0c77fe47f3).
+2020-09-27 11:41:02,108 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 11:43:07,982 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-27 11:43:07,984 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-27 11:43:08,011 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-27 11:43:11,622 [INFO] {player_request} - <module>: True
+2020-09-27 11:43:11,622 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-27 11:43:11,623 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-27 11:43:11,624 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-27 11:43:11,625 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-27 11:43:11,627 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-27 11:43:11,628 [INFO] {client} - login: logging in using static token
+2020-09-27 11:43:12,345 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 11:43:12,347 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 11:43:12,609 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-n5ms",{"micros":81995,"calls":["discord-sessions-prd-1-7",{"micros":80399,"calls":["start_session",{"micros":54290,"calls":["api-prd-main-xr8n",{"micros":51671,"calls":["get_user",{"micros":2610},"add_authorized_ip",{"micros":3690},"get_guilds",{"micros":4100},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":18183,"calls":[]}]}]}] (Session ID: 54e1cd10a4e0ae2c58c9983abe3f7187).
+2020-09-27 11:43:14,632 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 11:45:33,452 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-27 11:45:33,454 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-27 11:45:33,481 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-27 11:45:33,999 [INFO] {player_request} - <module>: True
+2020-09-27 11:45:34,000 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-27 11:45:34,001 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-27 11:45:34,002 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-27 11:45:34,002 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-27 11:45:34,005 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-27 11:45:34,005 [INFO] {client} - login: logging in using static token
+2020-09-27 11:45:34,752 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 11:45:34,754 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 11:45:35,083 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-l95c",{"micros":143702,"calls":["discord-sessions-prd-2-16",{"micros":142053,"calls":["start_session",{"micros":98181,"calls":["api-prd-main-2s3w",{"micros":89712,"calls":["get_user",{"micros":8982},"add_authorized_ip",{"micros":5369},"get_guilds",{"micros":2327},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":26041,"calls":[]}]}]}] (Session ID: f31d66fa4e7f63e4d00c76fddff43de4).
+2020-09-27 11:45:37,096 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 11:46:29,872 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-27 11:46:29,874 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-27 11:46:29,903 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-27 11:46:30,323 [INFO] {player_request} - <module>: True
+2020-09-27 11:46:30,323 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-27 11:46:30,324 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-27 11:46:30,325 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-27 11:46:30,326 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-27 11:46:30,329 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-27 11:46:30,329 [INFO] {client} - login: logging in using static token
+2020-09-27 11:46:30,993 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 11:46:30,994 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 11:46:31,224 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-b7qj",{"micros":48562,"calls":["discord-sessions-prd-1-6",{"micros":46091,"calls":["start_session",{"micros":39674,"calls":["api-prd-main-0l9f",{"micros":37040,"calls":["get_user",{"micros":3625},"add_authorized_ip",{"micros":1509},"get_guilds",{"micros":2089},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":4,"calls":[]},"presence_connect",{"micros":1535,"calls":[]}]}]}] (Session ID: 1d051a06c85cc54d168ec1700363e7d5).
+2020-09-27 11:46:33,233 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 11:46:47,481 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-27 11:46:47,483 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-27 11:46:47,512 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-27 11:46:47,936 [INFO] {player_request} - <module>: True
+2020-09-27 11:46:47,937 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-27 11:46:47,938 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-27 11:46:47,938 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-27 11:46:47,939 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-27 11:46:47,942 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-27 11:46:47,942 [INFO] {client} - login: logging in using static token
+2020-09-27 11:46:48,626 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 11:46:48,628 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 11:46:48,913 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-z971",{"micros":95681,"calls":["discord-sessions-prd-2-50",{"micros":92329,"calls":["start_session",{"micros":30946,"calls":["api-prd-main-hw60",{"micros":27683,"calls":["get_user",{"micros":2582},"add_authorized_ip",{"micros":1797},"get_guilds",{"micros":1760},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":8,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: f2462a561fd73b2185e5a0f818c338b7).
+2020-09-27 11:46:50,923 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 11:47:19,701 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-27 11:47:19,703 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-27 11:47:19,733 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-27 11:47:20,155 [INFO] {player_request} - <module>: True
+2020-09-27 11:47:20,156 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-27 11:47:20,157 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-27 11:47:20,158 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-27 11:47:20,158 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-27 11:47:20,161 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-27 11:47:20,161 [INFO] {client} - login: logging in using static token
+2020-09-27 11:47:20,857 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 11:47:20,859 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 11:47:21,133 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-16dl",{"micros":91457,"calls":["discord-sessions-prd-2-23",{"micros":90528,"calls":["start_session",{"micros":76724,"calls":["api-prd-main-dq60",{"micros":74060,"calls":["get_user",{"micros":3870},"add_authorized_ip",{"micros":2360},"get_guilds",{"micros":4049},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":34,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: d9a25ee7bcc939c0e309b91606365cd0).
+2020-09-27 11:47:23,149 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 11:48:26,970 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-27 11:48:26,973 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-27 11:48:27,001 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-27 11:48:27,411 [INFO] {player_request} - <module>: True
+2020-09-27 11:48:27,411 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-27 11:48:27,412 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-27 11:48:27,413 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-27 11:48:27,414 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-27 11:48:27,416 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-27 11:48:27,417 [INFO] {client} - login: logging in using static token
+2020-09-27 11:48:28,159 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 11:48:28,161 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 11:48:28,408 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-8cvd",{"micros":62364,"calls":["discord-sessions-prd-1-10",{"micros":61466,"calls":["start_session",{"micros":49572,"calls":["api-prd-main-dq7f",{"micros":47473,"calls":["get_user",{"micros":1971},"add_authorized_ip",{"micros":2283},"get_guilds",{"micros":1342},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":4,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: f9c44c138a51a772aa21de16b9afd256).
+2020-09-27 11:48:30,420 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 11:57:21,866 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-27 11:57:21,868 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-27 11:57:21,895 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-27 11:57:22,303 [INFO] {player_request} - <module>: True
+2020-09-27 11:57:22,304 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-27 11:57:22,305 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-27 11:57:22,305 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-27 11:57:22,306 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-27 11:57:22,309 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-27 11:57:22,309 [INFO] {client} - login: logging in using static token
+2020-09-27 11:57:23,082 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 11:57:23,083 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 11:57:23,341 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-qnqx",{"micros":74798,"calls":["discord-sessions-prd-1-5",{"micros":71774,"calls":["start_session",{"micros":42715,"calls":["api-prd-main-1gtt",{"micros":37675,"calls":["get_user",{"micros":3827},"add_authorized_ip",{"micros":3890},"get_guilds",{"micros":1662},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":4,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 2021bfb3d17a1fd59a17b2f991b0967e).
+2020-09-27 11:57:25,350 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 12:00:56,702 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-27 12:00:56,704 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-27 12:00:56,732 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-27 12:00:57,252 [INFO] {player_request} - <module>: True
+2020-09-27 12:00:57,253 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-27 12:00:57,253 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-27 12:00:57,254 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-27 12:00:57,255 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-27 12:00:57,258 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-27 12:00:57,258 [INFO] {client} - login: logging in using static token
+2020-09-27 12:00:58,392 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 12:00:58,394 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 12:00:58,669 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-36rt",{"micros":91858,"calls":["discord-sessions-prd-1-11",{"micros":90452,"calls":["start_session",{"micros":68033,"calls":["api-prd-main-ndjz",{"micros":61826,"calls":["get_user",{"micros":5376},"add_authorized_ip",{"micros":4448},"get_guilds",{"micros":3223},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":5,"calls":[]},"presence_connect",{"micros":12109,"calls":[]}]}]}] (Session ID: e79d729f7446c17346927bd473984eed).
+2020-09-27 12:01:00,677 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 12:01:23,732 [WARNING] {http} - request: We are being rate limited. Retrying in 2.91 seconds. Handled under the bucket "756571529315352646:None:/channels/{channel_id}/messages/bulk_delete"
+2020-09-27 12:02:57,064 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-27 12:02:57,067 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-27 12:02:57,094 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-27 12:02:57,533 [INFO] {player_request} - <module>: True
+2020-09-27 12:02:57,533 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-27 12:02:57,534 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-27 12:02:57,535 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-27 12:02:57,536 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-27 12:02:57,538 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-27 12:02:57,538 [INFO] {client} - login: logging in using static token
+2020-09-27 12:02:58,534 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 12:02:58,536 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 12:02:58,843 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-lbtp",{"micros":101168,"calls":["discord-sessions-prd-1-15",{"micros":100188,"calls":["start_session",{"micros":67372,"calls":["api-prd-main-g0hq",{"micros":64856,"calls":["get_user",{"micros":5143},"add_authorized_ip",{"micros":2522},"get_guilds",{"micros":2076},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":6,"calls":[]},"presence_connect",{"micros":1715,"calls":[]}]}]}] (Session ID: c0265f64a591fa431b82b05b96700506).
+2020-09-27 12:03:00,865 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 12:03:33,996 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-27 12:03:33,999 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-27 12:03:34,026 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-27 12:03:34,448 [INFO] {player_request} - <module>: True
+2020-09-27 12:03:34,449 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-27 12:03:34,450 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-27 12:03:34,451 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-27 12:03:34,452 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-27 12:03:34,454 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-27 12:03:34,454 [INFO] {client} - login: logging in using static token
+2020-09-27 12:03:35,177 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 12:03:35,179 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 12:03:35,425 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-9g6w",{"micros":61798,"calls":["discord-sessions-prd-2-32",{"micros":58224,"calls":["start_session",{"micros":32981,"calls":["api-prd-main-73hn",{"micros":30452,"calls":["get_user",{"micros":2605},"add_authorized_ip",{"micros":1923},"get_guilds",{"micros":1520},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":9,"calls":[]},"presence_connect",{"micros":8054,"calls":[]}]}]}] (Session ID: de1cd95c1ba6609263834f31d4aff51c).
+2020-09-27 12:03:37,443 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 12:07:25,757 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-27 12:07:25,759 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-27 12:07:25,787 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-27 12:07:26,199 [INFO] {player_request} - <module>: True
+2020-09-27 12:07:26,200 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-27 12:07:26,200 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-27 12:07:26,201 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-27 12:07:26,202 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-27 12:07:26,204 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-27 12:07:26,205 [INFO] {client} - login: logging in using static token
+2020-09-27 12:07:27,181 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 12:07:27,183 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 12:07:27,418 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-8cvd",{"micros":54639,"calls":["discord-sessions-prd-1-6",{"micros":48829,"calls":["start_session",{"micros":34184,"calls":["api-prd-main-6lrb",{"micros":31687,"calls":["get_user",{"micros":4469},"add_authorized_ip",{"micros":1214},"get_guilds",{"micros":1353},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":8001,"calls":[]}]}]}] (Session ID: 5d8b1667d5b30d97e0dd7eee466bec18).
+2020-09-27 12:07:29,425 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 12:08:33,287 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-27 12:08:33,290 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-27 12:08:33,317 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-27 12:08:33,724 [INFO] {player_request} - <module>: True
+2020-09-27 12:08:33,725 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-27 12:08:33,726 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-27 12:08:33,726 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-27 12:08:33,727 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-27 12:08:33,728 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-27 12:08:33,728 [INFO] {client} - login: logging in using static token
+2020-09-27 12:08:34,526 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 12:08:34,527 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 12:08:34,803 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-q4x5",{"micros":95359,"calls":["discord-sessions-prd-1-2",{"micros":93781,"calls":["start_session",{"micros":41042,"calls":["api-prd-main-mk41",{"micros":38500,"calls":["get_user",{"micros":2402},"add_authorized_ip",{"micros":1928},"get_guilds",{"micros":2287},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":11,"calls":[]},"presence_connect",{"micros":20702,"calls":[]}]}]}] (Session ID: 04c4dd42c4b31b0f242ccb1a3d9d2b19).
+2020-09-27 12:08:36,820 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 12:09:01,645 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-27 12:09:01,647 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-27 12:09:01,676 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-27 12:09:02,100 [INFO] {player_request} - <module>: True
+2020-09-27 12:09:02,100 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-27 12:09:02,101 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-27 12:09:02,102 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-27 12:09:02,103 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-27 12:09:02,105 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-27 12:09:02,106 [INFO] {client} - login: logging in using static token
+2020-09-27 12:09:02,827 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 12:09:02,828 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 12:09:03,155 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-ndb2",{"micros":135601,"calls":["discord-sessions-prd-1-47",{"micros":134494,"calls":["start_session",{"micros":73216,"calls":["api-prd-main-qh1x",{"micros":70684,"calls":["get_user",{"micros":5296},"add_authorized_ip",{"micros":7231},"get_guilds",{"micros":5767},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":12,"calls":[]},"presence_connect",{"micros":26368,"calls":[]}]}]}] (Session ID: 138a931fd1abd189cd5356821f0c6d67).
+2020-09-27 12:09:05,160 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 12:09:13,917 [WARNING] {http} - request: We are being rate limited. Retrying in 2.95 seconds. Handled under the bucket "756571529315352646:None:/channels/{channel_id}/messages/bulk_delete"
+2020-09-27 12:11:23,679 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-27 12:11:23,682 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-27 12:11:23,709 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-27 12:11:24,134 [INFO] {player_request} - <module>: True
+2020-09-27 12:11:24,135 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-27 12:11:24,136 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-27 12:11:24,137 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-27 12:11:24,138 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-27 12:11:24,142 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-27 12:11:24,142 [INFO] {client} - login: logging in using static token
+2020-09-27 12:11:24,983 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 12:11:24,984 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 12:11:25,239 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-khp7",{"micros":71417,"calls":["discord-sessions-prd-1-20",{"micros":65672,"calls":["start_session",{"micros":43495,"calls":["api-prd-main-hvs5",{"micros":38294,"calls":["get_user",{"micros":3565},"add_authorized_ip",{"micros":1764},"get_guilds",{"micros":1771},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":14,"calls":[]},"presence_connect",{"micros":17162,"calls":[]}]}]}] (Session ID: f7847bb188859838431c7e2d5dc178d0).
+2020-09-27 12:11:27,245 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 12:12:11,047 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-27 12:12:11,049 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-27 12:12:11,081 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-27 12:12:11,492 [INFO] {player_request} - <module>: True
+2020-09-27 12:12:11,493 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-27 12:12:11,494 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-27 12:12:11,494 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-27 12:12:11,495 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-27 12:12:11,499 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-27 12:12:11,499 [INFO] {client} - login: logging in using static token
+2020-09-27 12:12:12,194 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 12:12:12,196 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 12:12:12,489 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-f8k1",{"micros":108793,"calls":["discord-sessions-prd-1-10",{"micros":107057,"calls":["start_session",{"micros":29316,"calls":["api-prd-main-htlm",{"micros":26990,"calls":["get_user",{"micros":2402},"add_authorized_ip",{"micros":1993},"get_guilds",{"micros":2845},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":4,"calls":[]},"presence_connect",{"micros":39165,"calls":[]}]}]}] (Session ID: 8be627d406a63ad44e46d83b720957bb).
+2020-09-27 12:12:14,498 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 13:18:20,092 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-27 13:18:20,102 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-27 13:18:20,135 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-27 13:18:20,548 [INFO] {player_request} - <module>: True
+2020-09-27 13:18:20,549 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-27 13:18:20,549 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-27 13:18:20,552 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-27 13:18:20,554 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-27 13:18:20,557 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-27 13:18:20,557 [INFO] {client} - login: logging in using static token
+2020-09-27 13:18:21,309 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 13:18:21,310 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 13:18:21,593 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-fk5n",{"micros":89850,"calls":["discord-sessions-prd-1-8",{"micros":85812,"calls":["start_session",{"micros":42391,"calls":["api-prd-main-vrfr",{"micros":36475,"calls":["get_user",{"micros":4646},"add_authorized_ip",{"micros":1542},"get_guilds",{"micros":7409},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":12,"calls":[]},"presence_connect",{"micros":15178,"calls":[]}]}]}] (Session ID: 62990bb063e85f5d74ed1d18ef9ddc59).
+2020-09-27 13:18:23,594 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 13:19:16,472 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-27 13:19:16,474 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-27 13:19:16,503 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-27 13:19:16,925 [INFO] {player_request} - <module>: True
+2020-09-27 13:19:16,925 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-27 13:19:16,928 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-27 13:19:16,929 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-27 13:19:16,930 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-27 13:19:16,931 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-27 13:19:16,931 [INFO] {client} - login: logging in using static token
+2020-09-27 13:19:17,704 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 13:19:17,705 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 13:19:17,974 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-kpv7",{"micros":88426,"calls":["discord-sessions-prd-1-13",{"micros":87412,"calls":["start_session",{"micros":64224,"calls":["api-prd-main-1mxm",{"micros":59135,"calls":["get_user",{"micros":2527},"add_authorized_ip",{"micros":5647},"get_guilds",{"micros":5198},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":13,"calls":[]},"presence_connect",{"micros":8008,"calls":[]}]}]}] (Session ID: 670b6e61f460ac4923a42cd8f561ffe0).
+2020-09-27 13:19:19,985 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 13:19:21,172 [WARNING] {command_error_handler} - on_command_error: You are missing Administrator permission(s) to run this command.
+2020-09-27 13:20:26,184 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-27 13:20:26,187 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-27 13:20:26,215 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-27 13:20:26,632 [INFO] {player_request} - <module>: True
+2020-09-27 13:20:26,633 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-27 13:20:26,634 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-27 13:20:26,635 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-27 13:20:26,635 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-27 13:20:26,638 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-27 13:20:26,638 [INFO] {client} - login: logging in using static token
+2020-09-27 13:20:27,354 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 13:20:27,355 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 13:20:27,707 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-b43w",{"micros":162769,"calls":["discord-sessions-prd-2-5",{"micros":161272,"calls":["start_session",{"micros":154987,"calls":["api-prd-main-pppk",{"micros":152595,"calls":["get_user",{"micros":3858},"add_authorized_ip",{"micros":6623},"get_guilds",{"micros":3808},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":5079,"calls":[]}]}]}] (Session ID: 5153c74a28c101a1faadfda5827167c7).
+2020-09-27 13:20:29,728 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 13:20:31,449 [WARNING] {command_error_handler} - on_command_error: The check functions for command clear failed.
+2020-09-27 15:12:13,559 [INFO] {gateway} - received_message: Received RECONNECT opcode.
+2020-09-27 15:12:13,702 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-27 15:12:14,280 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 15:12:14,282 [INFO] {gateway} - resume: Shard ID None has sent the RESUME payload.
+2020-09-27 15:12:14,480 [INFO] {gateway} - received_message: Shard ID None has successfully RESUMED session 5153c74a28c101a1faadfda5827167c7 under trace ["gateway-prd-main-cc51",{"micros":2831,"calls":["discord-sessions-prd-2-5",{"micros":27}]}].

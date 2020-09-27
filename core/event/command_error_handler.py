@@ -1,7 +1,6 @@
 import logging
 
 from discord.ext import commands
-from core.util.channel_id import get_channel_id_by_command_name
 
 
 class ErrorHandler(commands.Cog):
@@ -12,10 +11,10 @@ class ErrorHandler(commands.Cog):
     async def on_command_error(self, ctx, error):
         if isinstance(error, commands.MissingRequiredArgument):
             await ctx.send("Cette commande prend un ou plusieurs paramètres.")
-        elif isinstance(error, commands.CommandNotFound):
+        elif isinstance(error, commands.CommandNotFound) or isinstance(error, commands.NotOwner):
             pass
         else:
-            raise error
+            logging.warning(error)
 
 
 def setup(bot):
