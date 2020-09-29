@@ -35,7 +35,7 @@ class Giveaway(commands.Cog):
         duration_day_converter = str(round(days)) + " jours" if int(hours_left) == 0 else str(floor(days)) + " jour(s) et " + str(hours_left) + " heure(s)"
         message = await channel.send(f"Un giveaway {name} vient d'être lancé !"
                                      f"\nIl se terminera dans " + str(duration_day_converter) +
-                                     f"\n{prizes_size} joueurs seront tirés au sort !")
+                                     f"\n{prizes_size} " + ("joueurs seront tirés au sort !" if int(prizes_size) > 0 else "joueur sera tiré au sort !"))
         emoji = '\N{BALLOT BOX WITH CHECK}'
         self.giveaway_message_id = message.id
         await message.add_reaction(emoji)
@@ -47,7 +47,7 @@ class Giveaway(commands.Cog):
 
     async def hided_timer_task(self, duration, channel, name, prizes_size):
         """Only suspends the current task, allowing other tasks to run"""
-        await asyncio.sleep(int(duration))
+        await asyncio.sleep(int(duration) * 3600)
         self.log.info("Timer done!")
 
         # Retrieve data stored in json file
@@ -62,5 +62,8 @@ class Giveaway(commands.Cog):
 
 
 def setup(bot):
-    """Setup cog to be able to listen events & commands inside this class"""
+    """
+    Setup cog to be able to listen events & commands inside this class
+    Without this class, the module giveaway.py cannot be load
+    """
     bot.add_cog(Giveaway(bot))

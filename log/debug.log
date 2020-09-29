@@ -4268,3 +4268,43 @@ ExtensionFailed: Extension 'core.command.clear' raised an error: TypeError: test
 2020-09-27 15:12:14,280 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
 2020-09-27 15:12:14,282 [INFO] {gateway} - resume: Shard ID None has sent the RESUME payload.
 2020-09-27 15:12:14,480 [INFO] {gateway} - received_message: Shard ID None has successfully RESUMED session 5153c74a28c101a1faadfda5827167c7 under trace ["gateway-prd-main-cc51",{"micros":2831,"calls":["discord-sessions-prd-2-5",{"micros":27}]}].
+2020-09-27 18:41:33,461 [WARNING] {http} - request: We are being rate limited. Retrying in 2.85 seconds. Handled under the bucket "701733697673756704:None:/channels/{channel_id}/messages/bulk_delete"
+2020-09-27 18:41:36,788 [WARNING] {http} - request: We are being rate limited. Retrying in 1.68 seconds. Handled under the bucket "701733697673756704:None:/channels/{channel_id}/messages/{message_id}"
+2020-09-27 19:12:30,429 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-27 19:12:30,432 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-27 19:12:30,461 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-27 19:12:31,231 [INFO] {player_request} - <module>: True
+2020-09-27 19:12:31,231 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-27 19:12:31,235 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-27 19:12:31,236 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-27 19:12:31,236 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-27 19:12:31,237 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-27 19:12:31,237 [INFO] {client} - login: logging in using static token
+2020-09-27 19:12:32,039 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 19:12:32,040 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 19:12:32,286 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-bj8r",{"micros":61853,"calls":["discord-sessions-prd-1-49",{"micros":59547,"calls":["start_session",{"micros":48987,"calls":["api-prd-main-j6fk",{"micros":46140,"calls":["get_user",{"micros":4170},"add_authorized_ip",{"micros":1625},"get_guilds",{"micros":8746},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":97,"calls":[]},"presence_connect",{"micros":1410,"calls":[]}]}]}] (Session ID: b56a3da42ba5a5e2f078947aef514465).
+2020-09-27 19:12:34,299 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 19:14:35,476 [ERROR] {base_events} - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-25' coro=<update_status() done, defined at C:\Users\Elite\Desktop\- Odyssia -\odyssia-bot\core\util\server_status.py:17> exception=NotFound('404 Not Found (error code: 10008): Unknown Message')>
+Traceback (most recent call last):
+  File "C:\Users\Elite\Desktop\- Odyssia -\odyssia-bot\core\util\server_status.py", line 44, in update_status
+    await players_online.edit(content=display_players)
+  File "C:\Users\Elite\Desktop\- Odyssia -\odyssia-bot\venv\lib\site-packages\discord\message.py", line 829, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, **fields)
+  File "C:\Users\Elite\Desktop\- Odyssia -\odyssia-bot\venv\lib\site-packages\discord\http.py", line 223, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+2020-09-27 19:14:44,160 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-27 19:14:44,163 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-27 19:14:44,192 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-27 19:14:45,044 [INFO] {player_request} - <module>: True
+2020-09-27 19:14:45,044 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-27 19:14:45,046 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-27 19:14:45,047 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-27 19:14:45,048 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-27 19:14:45,049 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-27 19:14:45,049 [INFO] {client} - login: logging in using static token
+2020-09-27 19:14:45,859 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 19:14:45,861 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 19:14:46,121 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-rrtd",{"micros":69841,"calls":["discord-sessions-prd-1-33",{"micros":68198,"calls":["start_session",{"micros":49221,"calls":["api-prd-main-1xxx",{"micros":46236,"calls":["get_user",{"micros":2688},"add_authorized_ip",{"micros":1597},"get_guilds",{"micros":2532},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":4,"calls":[]},"presence_connect",{"micros":5151,"calls":[]}]}]}] (Session ID: 95688a48d7b280ff5dbd9cdc0e65c7b3).
+2020-09-27 19:14:48,127 [INFO] {main} - on_ready: Bot Ready!

@@ -12,6 +12,11 @@ class LinkChannel(commands.Cog):
     @commands.command(name="link")
     @commands.check(is_admin)
     async def link(self, ctx, feature_name):
+        """
+        :param ctx:
+        :param feature_name:
+        :return:
+        """
         for command in self.bot.commands:
             if str(command) == str(feature_name):
                 # Data to be written

@@ -31,7 +31,7 @@ class ServerStatus(commands.Cog):
         :param status: Define the status of the maintenance, it can be on or off
         :return: Change the announcement message in the server-status channel
         """
-        channel = ctx.guild.get_channel(await get_channel_id_by_command_name(ctx, ctx.command.name))
+        channel = ctx.guild.get_channel(await get_channel_id_by_command_name(ctx, "server-status"))
 
         if channel is None:
             return

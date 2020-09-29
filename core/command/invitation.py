@@ -13,5 +13,8 @@ class Invitation(commands.Cog):
 
 
 def setup(bot):
-    """Setup cog to be able to listen events & commands inside this class"""
+    """
+    Setup cog to be able to listen events & commands inside this class
+    Without this class, the module invitation.py cannot be load
+    """
     bot.add_cog(Invitation(bot))

@@ -27,7 +27,7 @@ class Giveaway(commands.Cog):
 
     @commands.Cog.listener()
     async def on_reaction_remove(self, reaction, user):
-        channel = user.guild.get_channel(await get_channel_id_by_command_name("giveaway"))
+        channel = user.guild.get_channel(await get_channel_id_by_feature_name("giveaway"))
 
         if channel is None:
             return
