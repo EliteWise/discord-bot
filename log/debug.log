@@ -4268,3 +4268,435 @@ ExtensionFailed: Extension 'core.command.clear' raised an error: TypeError: test
 2020-09-27 15:12:14,280 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
 2020-09-27 15:12:14,282 [INFO] {gateway} - resume: Shard ID None has sent the RESUME payload.
 2020-09-27 15:12:14,480 [INFO] {gateway} - received_message: Shard ID None has successfully RESUMED session 5153c74a28c101a1faadfda5827167c7 under trace ["gateway-prd-main-cc51",{"micros":2831,"calls":["discord-sessions-prd-2-5",{"micros":27}]}].
+2020-09-27 16:33:09,696 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-27 16:33:09,705 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-27 16:33:09,727 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-27 16:33:09,762 [INFO] {player_request} - <module>: True
+2020-09-27 16:33:09,763 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-27 16:33:09,764 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-27 16:33:09,766 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-27 16:33:09,767 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-27 16:33:09,768 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-27 16:33:09,768 [INFO] {client} - login: logging in using static token
+2020-09-27 16:33:10,221 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 16:33:10,222 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 16:33:10,411 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-p0hd",{"micros":71040,"calls":["discord-sessions-prd-1-34",{"micros":69480,"calls":["start_session",{"micros":54943,"calls":["api-prd-main-lrk0",{"micros":51865,"calls":["get_user",{"micros":13367},"add_authorized_ip",{"micros":1652},"get_guilds",{"micros":8844},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":28,"calls":[]},"presence_connect",{"micros":2833,"calls":[]}]}]}] (Session ID: a118242a183eac5bdaa9387a2471549e).
+2020-09-27 16:33:12,423 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 16:41:34,848 [WARNING] {http} - request: We are being rate limited. Retrying in 4.14 seconds. Handled under the bucket "701733697673756704:None:/channels/{channel_id}/messages/{message_id}"
+2020-09-27 16:41:39,939 [WARNING] {http} - request: We are being rate limited. Retrying in 4.24 seconds. Handled under the bucket "701733697673756704:None:/channels/{channel_id}/messages/{message_id}"
+2020-09-27 16:41:45,138 [WARNING] {http} - request: We are being rate limited. Retrying in 4.19 seconds. Handled under the bucket "701733697673756704:None:/channels/{channel_id}/messages/{message_id}"
+2020-09-27 16:41:50,335 [WARNING] {http} - request: We are being rate limited. Retrying in 4.13 seconds. Handled under the bucket "701733697673756704:None:/channels/{channel_id}/messages/{message_id}"
+2020-09-27 16:41:55,402 [WARNING] {http} - request: We are being rate limited. Retrying in 4.20 seconds. Handled under the bucket "701733697673756704:None:/channels/{channel_id}/messages/{message_id}"
+2020-09-27 16:42:00,587 [WARNING] {http} - request: We are being rate limited. Retrying in 4.17 seconds. Handled under the bucket "701733697673756704:None:/channels/{channel_id}/messages/{message_id}"
+2020-09-27 16:46:50,256 [ERROR] {base_events} - default_exception_handler: Task exception was never retrieved
+future: <Task finished coro=<update_status() done, defined at /volumes/odyssia-bot/core/util/server_status.py:17> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/volumes/odyssia-bot/core/util/server_status.py", line 48, in update_status
+    status = response.status()
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/mcstatus/server.py", line 43, in status
+    connection = TCPSocketConnection((self.host, self.port))
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/mcstatus/protocol/connection.py", line 130, in __init__
+    self.socket = socket.create_connection(addr, timeout=timeout)
+  File "/usr/lib/python3.7/socket.py", line 727, in create_connection
+    raise err
+  File "/usr/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/volumes/odyssia-bot/core/util/server_status.py", line 57, in update_status
+    await messages[iterate].edit(content="Le serveur {0} est **Fermé**".format(server_name, status.players.online))
+IndexError: list index out of range
+2020-09-27 16:48:50,922 [ERROR] {base_events} - default_exception_handler: Task exception was never retrieved
+future: <Task finished coro=<update_status() done, defined at /volumes/odyssia-bot/core/util/server_status.py:17> exception=NotFound('404 Not Found (error code: 10008): Unknown Message')>
+Traceback (most recent call last):
+  File "/volumes/odyssia-bot/core/util/server_status.py", line 55, in update_status
+    await messages[iterate].edit(content=display_status.format(server_name, status.players.online))
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/message.py", line 829, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, **fields)
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/http.py", line 223, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/volumes/odyssia-bot/core/util/server_status.py", line 57, in update_status
+    await messages[iterate].edit(content="Le serveur {0} est **Fermé**".format(server_name, status.players.online))
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/message.py", line 829, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, **fields)
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/http.py", line 223, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+2020-09-27 16:49:38,065 [ERROR] {base_events} - default_exception_handler: Task exception was never retrieved
+future: <Task finished coro=<update_status() done, defined at /volumes/odyssia-bot/core/util/server_status.py:17> exception=NotFound('404 Not Found (error code: 10008): Unknown Message')>
+Traceback (most recent call last):
+  File "/volumes/odyssia-bot/core/util/server_status.py", line 48, in update_status
+    status = response.status()
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/mcstatus/server.py", line 55, in status
+    raise exception
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/mcstatus/server.py", line 49, in status
+    result = pinger.read_status()
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/mcstatus/pinger.py", line 34, in read_status
+    response = self.connection.read_buffer()
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/mcstatus/protocol/connection.py", line 116, in read_buffer
+    length = self.read_varint()
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/mcstatus/protocol/connection.py", line 45, in read_varint
+    part = ord(self.read(1))
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/mcstatus/protocol/connection.py", line 145, in read
+    new = self.socket.recv(length - len(result))
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/volumes/odyssia-bot/core/util/server_status.py", line 57, in update_status
+    await messages[iterate].edit(content="Le serveur {0} est **Fermé**".format(server_name, status.players.online))
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/message.py", line 829, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, **fields)
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/http.py", line 223, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+2020-09-27 16:51:28,721 [ERROR] {base_events} - default_exception_handler: Task exception was never retrieved
+future: <Task finished coro=<update_status() done, defined at /volumes/odyssia-bot/core/util/server_status.py:17> exception=NotFound('404 Not Found (error code: 10008): Unknown Message')>
+Traceback (most recent call last):
+  File "/volumes/odyssia-bot/core/util/server_status.py", line 55, in update_status
+    await messages[iterate].edit(content=display_status.format(server_name, status.players.online))
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/message.py", line 829, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, **fields)
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/http.py", line 223, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/volumes/odyssia-bot/core/util/server_status.py", line 57, in update_status
+    await messages[iterate].edit(content="Le serveur {0} est **Fermé**".format(server_name, status.players.online))
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/message.py", line 829, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, **fields)
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/http.py", line 223, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+2020-09-27 17:03:41,489 [ERROR] {base_events} - default_exception_handler: Task exception was never retrieved
+future: <Task finished coro=<update_status() done, defined at /volumes/odyssia-bot/core/util/server_status.py:17> exception=NotFound('404 Not Found (error code: 10008): Unknown Message')>
+Traceback (most recent call last):
+  File "/volumes/odyssia-bot/core/util/server_status.py", line 55, in update_status
+    await messages[iterate].edit(content=display_status.format(server_name, status.players.online))
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/message.py", line 829, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, **fields)
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/http.py", line 223, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/volumes/odyssia-bot/core/util/server_status.py", line 57, in update_status
+    await messages[iterate].edit(content="Le serveur {0} est **Fermé**".format(server_name, status.players.online))
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/message.py", line 829, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, **fields)
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/http.py", line 223, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+2020-09-27 17:06:34,116 [ERROR] {base_events} - default_exception_handler: Task exception was never retrieved
+future: <Task finished coro=<update_status() done, defined at /volumes/odyssia-bot/core/util/server_status.py:17> exception=NotFound('404 Not Found (error code: 10008): Unknown Message')>
+Traceback (most recent call last):
+  File "/volumes/odyssia-bot/core/util/server_status.py", line 55, in update_status
+    await messages[iterate].edit(content=display_status.format(server_name, status.players.online))
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/message.py", line 829, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, **fields)
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/http.py", line 223, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/volumes/odyssia-bot/core/util/server_status.py", line 57, in update_status
+    await messages[iterate].edit(content="Le serveur {0} est **Fermé**".format(server_name, status.players.online))
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/message.py", line 829, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, **fields)
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/http.py", line 223, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+2020-09-27 17:12:18,311 [INFO] {client} - run: Cleaning up tasks.
+2020-09-27 17:12:18,312 [INFO] {client} - _cancel_tasks: Cleaning up after 4 tasks.
+2020-09-27 17:12:20,074 [INFO] {client} - _cleanup_loop: Closing the event loop.
+2020-09-27 17:18:58,279 [INFO] {main} - <module>: Extension: core.event.invitation_manager loaded!
+2020-09-27 17:18:58,281 [INFO] {main} - <module>: Extension: core.command.giveaway loaded!
+2020-09-27 17:18:58,306 [INFO] {main} - <module>: Extension: core.command.server_status loaded!
+2020-09-27 17:18:58,345 [INFO] {player_request} - <module>: True
+2020-09-27 17:18:58,346 [INFO] {main} - <module>: Extension: core.command.player_stats loaded!
+2020-09-27 17:18:58,346 [INFO] {main} - <module>: Extension: core.event.command_error_handler loaded!
+2020-09-27 17:18:58,347 [INFO] {main} - <module>: Extension: core.command.link_channel loaded!
+2020-09-27 17:18:58,348 [INFO] {main} - <module>: Extension: core.command.invitation loaded!
+2020-09-27 17:18:58,349 [INFO] {main} - <module>: Extension: core.command.clear loaded!
+2020-09-27 17:18:58,349 [INFO] {client} - login: logging in using static token
+2020-09-27 17:18:58,831 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 17:18:58,833 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 17:18:59,012 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-bj8r",{"micros":66322,"calls":["discord-sessions-prd-1-49",{"micros":49630,"calls":["start_session",{"micros":38533,"calls":["api-prd-main-rq75",{"micros":34604,"calls":["get_user",{"micros":2732},"add_authorized_ip",{"micros":1472},"get_guilds",{"micros":5026},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":6394,"calls":[]}]}]}] (Session ID: 6b17263c8dd1f6b8acb86b051c353dce).
+2020-09-27 17:19:01,026 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 18:31:46,255 [INFO] {gateway} - received_message: Received RECONNECT opcode.
+2020-09-27 18:31:46,370 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-27 18:31:46,593 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 18:31:46,595 [INFO] {gateway} - resume: Shard ID None has sent the RESUME payload.
+2020-09-27 18:31:46,718 [INFO] {gateway} - received_message: Shard ID None has successfully RESUMED session 6b17263c8dd1f6b8acb86b051c353dce under trace ["gateway-prd-main-kjxg",{"micros":711,"calls":["discord-sessions-prd-1-49",{"micros":28}]}].
+2020-09-27 19:29:23,687 [WARNING] {command_error_handler} - on_command_error: Command raised an exception: ValueError: invalid literal for int() with base 10: '<48>'
+2020-09-27 19:30:56,198 [INFO] {giveaway} - hided_timer_task: Timer done!
+2020-09-27 19:30:56,199 [ERROR] {base_events} - default_exception_handler: Task exception was never retrieved
+future: <Task finished coro=<Giveaway.hided_timer_task() done, defined at /volumes/odyssia-bot/core/command/giveaway.py:48> exception=ValueError('Sample larger than population or is negative')>
+Traceback (most recent call last):
+  File "/volumes/odyssia-bot/core/command/giveaway.py", line 57, in hided_timer_task
+    random_pick = random.sample(data, int(prizes_size))
+  File "/usr/lib/python3.7/random.py", line 321, in sample
+    raise ValueError("Sample larger than population or is negative")
+ValueError: Sample larger than population or is negative
+2020-09-27 22:15:49,290 [INFO] {gateway} - received_message: Received RECONNECT opcode.
+2020-09-27 22:15:49,405 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-27 22:15:49,629 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 22:15:49,630 [INFO] {gateway} - resume: Shard ID None has sent the RESUME payload.
+2020-09-27 22:15:49,749 [INFO] {gateway} - received_message: Shard ID None has successfully RESUMED session 6b17263c8dd1f6b8acb86b051c353dce under trace ["gateway-prd-main-11ht",{"micros":7859,"calls":["discord-sessions-prd-1-49",{"micros":24}]}].
+2020-09-28 00:20:57,420 [INFO] {gateway} - poll_event: Websocket closed with 1006 (), attempting a reconnect.
+2020-09-28 00:20:57,421 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-28 00:20:57,441 [ERROR] {client} - connect: Attempting a reconnect in 0.21s
+Traceback (most recent call last):
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/websockets/protocol.py", line 827, in transfer_data
+    message = await self.read_message()
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/websockets/protocol.py", line 895, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/websockets/protocol.py", line 971, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/websockets/protocol.py", line 1051, in read_frame
+    extensions=self.extensions,
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/websockets/framing.py", line 105, in read
+    data = await reader(2)
+  File "/usr/lib/python3.7/asyncio/streams.py", line 679, in readexactly
+    await self._wait_for_data('readexactly')
+  File "/usr/lib/python3.7/asyncio/streams.py", line 473, in _wait_for_data
+    await self._waiter
+  File "/usr/lib/python3.7/asyncio/selector_events.py", line 801, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/gateway.py", line 470, in poll_event
+    msg = await self.recv()
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/websockets/protocol.py", line 509, in recv
+    await self.ensure_open()
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/websockets/protocol.py", line 803, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: code = 1006 (connection closed abnormally [internal]), no reason
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/client.py", line 463, in _connect
+    await self.ws.poll_event()
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/gateway.py", line 475, in poll_event
+    raise ResumeWebSocket(self.shard_id) from exc
+discord.gateway.ResumeWebSocket: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/client.py", line 499, in connect
+    await self._connect()
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/client.py", line 469, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "/usr/lib/python3.7/asyncio/tasks.py", line 416, in wait_for
+    return fut.result()
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/aiohttp/client.py", line 504, in _request
+    await resp.start(conn)
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 847, in start
+    message, payload = await self._protocol.read()  # type: ignore  # noqa
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/aiohttp/streams.py", line 591, in read
+    await self._waiter
+aiohttp.client_exceptions.ClientOSError: [Errno 104] Connection reset by peer
+2020-09-28 00:20:58,104 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-28 00:20:58,105 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-28 00:20:58,295 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-gph3",{"micros":67419,"calls":["discord-sessions-prd-2-41",{"micros":66373,"calls":["start_session",{"micros":52726,"calls":["api-prd-main-19pj",{"micros":50082,"calls":["get_user",{"micros":8047},"add_authorized_ip",{"micros":1864},"get_guilds",{"micros":11424},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":92,"calls":[]},"presence_connect",{"micros":3932,"calls":[]}]}]}] (Session ID: f6ff553050244edb2a1e1154f8b0aa62).
+2020-09-28 00:21:00,322 [INFO] {main} - on_ready: Bot Ready!
+2020-09-28 00:21:38,651 [WARNING] {gateway} - run: Shard ID None has stopped responding to the gateway. Closing and restarting.
+2020-09-28 03:07:02,822 [INFO] {gateway} - received_message: Received RECONNECT opcode.
+2020-09-28 03:07:02,951 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-28 03:07:03,202 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-28 03:07:03,203 [INFO] {gateway} - resume: Shard ID None has sent the RESUME payload.
+2020-09-28 03:07:03,329 [INFO] {gateway} - received_message: Shard ID None has successfully RESUMED session f6ff553050244edb2a1e1154f8b0aa62 under trace ["gateway-prd-main-3mm3",{"micros":3213,"calls":["discord-sessions-prd-2-41",{"micros":43}]}].
+2020-09-28 04:05:47,487 [INFO] {gateway} - received_message: Received RECONNECT opcode.
+2020-09-28 04:05:47,611 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-28 04:05:47,843 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-28 04:05:47,846 [INFO] {gateway} - resume: Shard ID None has sent the RESUME payload.
+2020-09-28 04:05:47,965 [INFO] {gateway} - received_message: Shard ID None has successfully RESUMED session f6ff553050244edb2a1e1154f8b0aa62 under trace ["gateway-prd-main-s26j",{"micros":627,"calls":["discord-sessions-prd-2-41",{"micros":23}]}].
+2020-09-28 04:23:54,451 [INFO] {gateway} - poll_event: Websocket closed with 1006 (), attempting a reconnect.
+2020-09-28 04:23:54,452 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-28 04:23:54,471 [ERROR] {client} - connect: Attempting a reconnect in 0.33s
+Traceback (most recent call last):
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/websockets/protocol.py", line 827, in transfer_data
+    message = await self.read_message()
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/websockets/protocol.py", line 895, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/websockets/protocol.py", line 971, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/websockets/protocol.py", line 1051, in read_frame
+    extensions=self.extensions,
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/websockets/framing.py", line 105, in read
+    data = await reader(2)
+  File "/usr/lib/python3.7/asyncio/streams.py", line 679, in readexactly
+    await self._wait_for_data('readexactly')
+  File "/usr/lib/python3.7/asyncio/streams.py", line 473, in _wait_for_data
+    await self._waiter
+  File "/usr/lib/python3.7/asyncio/selector_events.py", line 801, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/gateway.py", line 470, in poll_event
+    msg = await self.recv()
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/websockets/protocol.py", line 509, in recv
+    await self.ensure_open()
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/websockets/protocol.py", line 803, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: code = 1006 (connection closed abnormally [internal]), no reason
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/client.py", line 463, in _connect
+    await self.ws.poll_event()
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/gateway.py", line 475, in poll_event
+    raise ResumeWebSocket(self.shard_id) from exc
+discord.gateway.ResumeWebSocket: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/client.py", line 499, in connect
+    await self._connect()
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/client.py", line 469, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "/usr/lib/python3.7/asyncio/tasks.py", line 416, in wait_for
+    return fut.result()
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/discord/http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/aiohttp/client.py", line 504, in _request
+    await resp.start(conn)
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 847, in start
+    message, payload = await self._protocol.read()  # type: ignore  # noqa
+  File "/volumes/odyssia-bot/venv/lib/python3.7/site-packages/aiohttp/streams.py", line 591, in read
+    await self._waiter
+aiohttp.client_exceptions.ClientOSError: [Errno 104] Connection reset by peer
+2020-09-28 04:23:55,133 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-28 04:23:55,135 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-28 04:23:55,378 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-zv73",{"micros":129458,"calls":["discord-sessions-prd-2-9",{"micros":127772,"calls":["start_session",{"micros":102151,"calls":["api-prd-main-nvdl",{"micros":99375,"calls":["get_user",{"micros":7130},"add_authorized_ip",{"micros":2701},"get_guilds",{"micros":9277},"coros_wait",{"micros":40}]}]},"guilds_connect",{"micros":5,"calls":[]},"presence_connect",{"micros":10891,"calls":[]}]}]}] (Session ID: 131e3c479bde2954d0c3b58cbb955b3f).
+2020-09-28 04:23:57,400 [INFO] {main} - on_ready: Bot Ready!
+2020-09-28 04:25:02,876 [WARNING] {gateway} - run: Shard ID None has stopped responding to the gateway. Closing and restarting.
+2020-09-28 05:25:37,248 [INFO] {gateway} - received_message: Received RECONNECT opcode.
+2020-09-28 05:25:37,365 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-28 05:25:37,592 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-28 05:25:37,594 [INFO] {gateway} - resume: Shard ID None has sent the RESUME payload.
+2020-09-28 05:25:37,713 [INFO] {gateway} - received_message: Shard ID None has successfully RESUMED session 131e3c479bde2954d0c3b58cbb955b3f under trace ["gateway-prd-main-tm3d",{"micros":4845,"calls":["discord-sessions-prd-2-9",{"micros":23}]}].
+2020-09-28 06:58:11,405 [INFO] {gateway} - received_message: Received RECONNECT opcode.
+2020-09-28 06:58:11,517 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-28 06:58:11,738 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-28 06:58:11,739 [INFO] {gateway} - resume: Shard ID None has sent the RESUME payload.
+2020-09-28 06:58:11,868 [INFO] {gateway} - received_message: Shard ID None has successfully RESUMED session 131e3c479bde2954d0c3b58cbb955b3f under trace ["gateway-prd-main-08jl",{"micros":4933,"calls":["discord-sessions-prd-2-9",{"micros":28}]}].
+2020-09-28 10:19:43,200 [INFO] {gateway} - received_message: Received RECONNECT opcode.
+2020-09-28 10:19:43,314 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-28 10:19:43,537 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-28 10:19:43,538 [INFO] {gateway} - resume: Shard ID None has sent the RESUME payload.
+2020-09-28 10:19:43,653 [INFO] {gateway} - received_message: Shard ID None has successfully RESUMED session 131e3c479bde2954d0c3b58cbb955b3f under trace ["gateway-prd-main-wrr3",{"micros":3310,"calls":["discord-sessions-prd-2-9",{"micros":27}]}].
+2020-09-28 12:39:18,864 [INFO] {gateway} - received_message: Received RECONNECT opcode.
+2020-09-28 12:39:18,979 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-28 12:39:19,210 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-28 12:39:19,214 [INFO] {gateway} - resume: Shard ID None has sent the RESUME payload.
+2020-09-28 12:39:19,332 [INFO] {gateway} - received_message: Shard ID None has successfully RESUMED session 131e3c479bde2954d0c3b58cbb955b3f under trace ["gateway-prd-main-97qw",{"micros":2538,"calls":["discord-sessions-prd-2-9",{"micros":11}]}].
+2020-09-28 13:39:08,456 [INFO] {gateway} - received_message: Received RECONNECT opcode.
+2020-09-28 13:39:08,636 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-28 13:39:08,901 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-28 13:39:08,903 [INFO] {gateway} - resume: Shard ID None has sent the RESUME payload.
+2020-09-28 13:39:09,024 [INFO] {gateway} - received_message: Shard ID None has successfully RESUMED session 131e3c479bde2954d0c3b58cbb955b3f under trace ["gateway-prd-main-07k7",{"micros":598,"calls":["discord-sessions-prd-2-9",{"micros":14}]}].
+2020-09-28 15:13:53,832 [INFO] {gateway} - received_message: Received RECONNECT opcode.
+2020-09-28 15:13:53,954 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-28 15:13:54,251 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-28 15:13:54,252 [INFO] {gateway} - resume: Shard ID None has sent the RESUME payload.
+2020-09-28 15:13:54,372 [INFO] {gateway} - received_message: Shard ID None has successfully RESUMED session 131e3c479bde2954d0c3b58cbb955b3f under trace ["gateway-prd-main-hr68",{"micros":2965,"calls":["discord-sessions-prd-2-9",{"micros":51}]}].
+2020-09-28 15:21:34,545 [WARNING] {command_error_handler} - on_command_error: Command raised an exception: OperationalError: MySQL Connection not available.
+2020-09-28 15:22:14,146 [WARNING] {command_error_handler} - on_command_error: Command raised an exception: OperationalError: MySQL Connection not available.
+2020-09-28 15:22:17,717 [WARNING] {command_error_handler} - on_command_error: Command raised an exception: OperationalError: MySQL Connection not available.
+2020-09-28 15:24:20,556 [WARNING] {command_error_handler} - on_command_error: Command raised an exception: OperationalError: MySQL Connection not available.
+2020-09-28 15:33:50,867 [WARNING] {command_error_handler} - on_command_error: Command raised an exception: OperationalError: MySQL Connection not available.
+2020-09-28 15:33:58,518 [WARNING] {command_error_handler} - on_command_error: Command raised an exception: OperationalError: MySQL Connection not available.
+2020-09-28 17:55:40,611 [INFO] {gateway} - received_message: Received RECONNECT opcode.
+2020-09-28 17:55:40,729 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-28 17:55:40,965 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-28 17:55:40,966 [INFO] {gateway} - resume: Shard ID None has sent the RESUME payload.
+2020-09-28 17:55:41,084 [INFO] {gateway} - received_message: Shard ID None has successfully RESUMED session 131e3c479bde2954d0c3b58cbb955b3f under trace ["gateway-prd-main-61fc",{"micros":1510,"calls":["discord-sessions-prd-2-9",{"micros":27}]}].
+2020-09-28 19:34:27,765 [INFO] {gateway} - received_message: Received RECONNECT opcode.
+2020-09-28 19:34:27,910 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-28 19:34:28,167 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-28 19:34:28,170 [INFO] {gateway} - resume: Shard ID None has sent the RESUME payload.
+2020-09-28 19:34:28,286 [INFO] {gateway} - received_message: Shard ID None has successfully RESUMED session 131e3c479bde2954d0c3b58cbb955b3f under trace ["gateway-prd-main-fbtr",{"micros":3015,"calls":["discord-sessions-prd-2-9",{"micros":43}]}].
+2020-09-28 22:46:38,847 [INFO] {gateway} - received_message: Received RECONNECT opcode.
+2020-09-28 22:46:38,959 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-28 22:46:39,172 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-28 22:46:39,173 [INFO] {gateway} - resume: Shard ID None has sent the RESUME payload.
+2020-09-28 22:46:39,285 [INFO] {gateway} - received_message: Shard ID None has successfully RESUMED session 131e3c479bde2954d0c3b58cbb955b3f under trace ["gateway-prd-main-pl5g",{"micros":2884,"calls":["discord-sessions-prd-2-9",{"micros":23}]}].
+2020-09-29 01:59:51,093 [INFO] {gateway} - received_message: Received RECONNECT opcode.
+2020-09-29 01:59:51,204 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-29 01:59:51,429 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-29 01:59:51,430 [INFO] {gateway} - resume: Shard ID None has sent the RESUME payload.
+2020-09-29 01:59:51,544 [INFO] {gateway} - received_message: Shard ID None has successfully RESUMED session 131e3c479bde2954d0c3b58cbb955b3f under trace ["gateway-prd-main-wdvt",{"micros":939,"calls":["discord-sessions-prd-2-9",{"micros":17}]}].
+2020-09-29 05:13:38,643 [WARNING] {command_error_handler} - on_command_error: Command raised an exception: OperationalError: MySQL Connection not available.
+2020-09-29 05:18:38,135 [INFO] {gateway} - received_message: Received RECONNECT opcode.
+2020-09-29 05:18:38,248 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-29 05:18:38,475 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-29 05:18:38,478 [INFO] {gateway} - resume: Shard ID None has sent the RESUME payload.
+2020-09-29 05:18:38,593 [INFO] {gateway} - received_message: Shard ID None has successfully RESUMED session 131e3c479bde2954d0c3b58cbb955b3f under trace ["gateway-prd-main-60jb",{"micros":2030,"calls":["discord-sessions-prd-2-9",{"micros":34}]}].
+2020-09-29 05:49:42,394 [INFO] {gateway} - poll_event: Websocket closed with 1001 (CloudFlare WebSocket proxy restarting), attempting a reconnect.
+2020-09-29 05:49:42,395 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-29 05:49:42,711 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-29 05:49:42,713 [INFO] {gateway} - resume: Shard ID None has sent the RESUME payload.
+2020-09-29 05:49:42,833 [INFO] {gateway} - received_message: Shard ID None has successfully RESUMED session 131e3c479bde2954d0c3b58cbb955b3f under trace ["gateway-prd-main-60jb",{"micros":5939,"calls":["discord-sessions-prd-2-9",{"micros":54}]}].
+2020-09-29 05:50:57,286 [WARNING] {gateway} - run: Shard ID None has stopped responding to the gateway. Closing and restarting.
+2020-09-29 06:11:07,147 [INFO] {gateway} - received_message: Received RECONNECT opcode.
+2020-09-29 06:11:07,264 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-29 06:11:07,497 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-29 06:11:07,499 [INFO] {gateway} - resume: Shard ID None has sent the RESUME payload.
+2020-09-29 06:11:07,623 [INFO] {gateway} - received_message: Shard ID None has successfully RESUMED session 131e3c479bde2954d0c3b58cbb955b3f under trace ["gateway-prd-main-0q32",{"micros":8941,"calls":["discord-sessions-prd-2-9",{"micros":15}]}].
+2020-09-29 07:57:07,973 [WARNING] {command_error_handler} - on_command_error: Command raised an exception: OperationalError: MySQL Connection not available.
+2020-09-29 07:57:20,368 [WARNING] {command_error_handler} - on_command_error: Command raised an exception: OperationalError: MySQL Connection not available.
+2020-09-29 07:58:09,900 [INFO] {gateway} - received_message: Received RECONNECT opcode.
+2020-09-29 07:58:10,015 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-29 07:58:10,241 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-29 07:58:10,242 [INFO] {gateway} - resume: Shard ID None has sent the RESUME payload.
+2020-09-29 07:58:10,355 [INFO] {gateway} - received_message: Shard ID None has successfully RESUMED session 131e3c479bde2954d0c3b58cbb955b3f under trace ["gateway-prd-main-l95c",{"micros":2082,"calls":["discord-sessions-prd-2-9",{"micros":23}]}].
+2020-09-29 11:22:15,054 [INFO] {gateway} - received_message: Received RECONNECT opcode.
+2020-09-29 11:22:15,166 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-29 11:22:15,402 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-29 11:22:15,406 [INFO] {gateway} - resume: Shard ID None has sent the RESUME payload.
+2020-09-29 11:22:15,528 [INFO] {gateway} - received_message: Shard ID None has successfully RESUMED session 131e3c479bde2954d0c3b58cbb955b3f under trace ["gateway-prd-main-rrtd",{"micros":4037,"calls":["discord-sessions-prd-2-9",{"micros":19}]}].
+2020-09-29 11:30:38,426 [INFO] {client} - run: Cleaning up tasks.
+2020-09-29 11:30:38,427 [INFO] {client} - _cancel_tasks: Cleaning up after 5 tasks.
+2020-09-29 11:30:38,558 [INFO] {client} - _cancel_tasks: All tasks finished cancelling.
+2020-09-29 11:30:38,558 [INFO] {client} - _cleanup_loop: Closing the event loop.
