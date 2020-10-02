@@ -19,7 +19,7 @@ async def update_status(channel, hostname, sleep_time):
     :param channel: Channel where messages will be written
     :param hostname: IP of the server
     :param sleep_time: Time to wait before update
-    :return:
+    :return: Send messages or edit them if they are already sent
     """
 
     already_send = False

@@ -9,6 +9,11 @@ class Clear(commands.Cog):
     @commands.command(name="clear")
     @commands.check(is_admin)
     async def clear_channel(self, ctx, limit):
+        """
+        :param ctx: Context of the command
+        :param limit: The amount of messages to erase
+        :return: Clear theses messages in the current channel
+        """
         try:
             await ctx.channel.purge(limit=int(limit))
         except Exception:

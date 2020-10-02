@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 <meta name="generator" content="pdoc 0.9.1" />
-<title>core.event.invitation-manager API documentation</title>
+<title>core.event.invitation_manager API documentation</title>
 <meta name="description" content="" />
 <link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
 <link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
@@ -19,22 +19,24 @@
 <main>
 <article id="content">
 <header>
-<h1 class="title">Module <code>core.event.invitation-manager</code></h1>
+<h1 class="title">Module <code>core.event.invitation_manager</code></h1>
 </header>
 <section id="section-intro">
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">from discord.ext import commands
-from main import invites
+<pre><code class="python">import json
 
-members_invites_counter = {}
+from discord.ext import commands
+from main import invites
+from core.util.channel_id import get_channel_id_by_feature_name
 
 
 class Invitation(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
+        self.members_invites_counter = {}
 
     def find_invite_by_code(self, invite_list, code):
         &#34;&#34;&#34;Invitations are identified by a code, it&#39;s the same code visible in a link discord.gg/&lt;code&gt;&#34;&#34;&#34;
@@ -48,7 +50,6 @@ class Invitation(commands.Cog):
             # of the list is the one we&#39;re looking for
 
             if inv.code == code:
-                print(code)
                 # If it is, we return it.
 
                 return inv
@@ -56,17 +57,29 @@ class Invitation(commands.Cog):
     @commands.Cog.listener()
     async def on_member_join(self, member):
         &#34;&#34;&#34;When a member join Discord&#34;&#34;&#34;
-        channel = member.guild.get_channel(719257870822277174)
+
+        channel = member.guild.get_channel(await get_channel_id_by_feature_name(&#34;invitation&#34;))
+
+        if channel is None:
+            return
+
         member_name = member.display_name
         invites_before_join = invites[member.guild.id]
         invites_after_join = await member.guild.invites()
         members_counter = member.guild.member_count
+
+        with open(&#34;core/data/inviter_counter.json&#34;, mode=&#39;r&#39;) as file:
+            self.members_invites_counter = dict(json.load(file))
+
         for invite in invites_before_join:
             # When a new invitation is used (clicked), then the condition is true
             if invite.uses &lt; self.find_invite_by_code(invites_after_join, invite.code).uses:
                 inviter_name = invite.inviter.name
-                members_invites_counter[inviter_name] = 1 if inviter_name not in members_invites_counter else members_invites_counter.get(inviter_name) + 1
-                await channel.send(&#34;Hello &#34; + member_name + f&#34; (Members: {members_counter}) (Invited by: {invite.inviter.name}) (Invitations: {members_invites_counter.get(inviter_name)})&#34;)
+                self.members_invites_counter[inviter_name] = 1 if inviter_name not in self.members_invites_counter else self.members_invites_counter.get(inviter_name) + 1
+                await channel.send(&#34;Hello &#34; + member_name + f&#34; (Members: {members_counter}) (Invited by: {invite.inviter.name}) (Invitations: {self.members_invites_counter.get(inviter_name)})&#34;)
+
+                with open(&#34;core/data/inviter_counter.json&#34;, mode=&#39;w&#39;) as file:
+                    json.dump(self.members_invites_counter, file)
 
                 invites[member.guild.id] = invites_after_join
                 return
@@ -74,14 +87,22 @@ class Invitation(commands.Cog):
     @commands.Cog.listener()
     async def on_member_remove(self, member):
         &#34;&#34;&#34;When a member leave or gets banned/kicked&#34;&#34;&#34;
-        channel = member.guild.get_channel(719257870822277174)
+
+        channel = member.guild.get_channel(await get_channel_id_by_feature_name(&#34;invitation&#34;))
+
+        if channel is None:
+            return
+
         member_name = member.display_name
         invites[member.guild.id] = await member.guild.invites()
         await channel.send(&#34;Bye &#34; + member_name + &#34; (Members: &#34; + str(member.guild.member_count) + &#34;)&#34;)
 
 
 def setup(bot):
-    &#34;&#34;&#34;Setup cog to be able to listen events &amp; commands inside this class&#34;&#34;&#34;
+    &#34;&#34;&#34;
+    Setup cog to be able to listen events &amp; commands inside this class
+    Without this class, the module invitation_manager.py cannot be load
+    &#34;&#34;&#34;
     bot.add_cog(Invitation(bot))</code></pre>
 </details>
 </section>
@@ -92,17 +113,21 @@ def setup(bot):
 <section>
 <h2 class="section-title" id="header-functions">Functions</h2>
 <dl>
-<dt id="core.event.invitation-manager.setup"><code class="name flex">
+<dt id="core.event.invitation_manager.setup"><code class="name flex">
 <span>def <span class="ident">setup</span></span>(<span>bot)</span>
 </code></dt>
 <dd>
-<div class="desc"><p>Setup cog to be able to listen events &amp; commands inside this class</p></div>
+<div class="desc"><p>Setup cog to be able to listen events &amp; commands inside this class
+Without this class, the module invitation_manager.py cannot be load</p></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
 <pre><code class="python">def setup(bot):
-    &#34;&#34;&#34;Setup cog to be able to listen events &amp; commands inside this class&#34;&#34;&#34;
+    &#34;&#34;&#34;
+    Setup cog to be able to listen events &amp; commands inside this class
+    Without this class, the module invitation_manager.py cannot be load
+    &#34;&#34;&#34;
     bot.add_cog(Invitation(bot))</code></pre>
 </details>
 </dd>
@@ -111,7 +136,7 @@ def setup(bot):
 <section>
 <h2 class="section-title" id="header-classes">Classes</h2>
 <dl>
-<dt id="core.event.invitation-manager.Invitation"><code class="flex name class">
+<dt id="core.event.invitation_manager.Invitation"><code class="flex name class">
 <span>class <span class="ident">Invitation</span></span>
 <span>(</span><span>bot)</span>
 </code></dt>
@@ -129,6 +154,7 @@ are equally valid here.</p></div>
 <pre><code class="python">class Invitation(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
+        self.members_invites_counter = {}
 
     def find_invite_by_code(self, invite_list, code):
         &#34;&#34;&#34;Invitations are identified by a code, it&#39;s the same code visible in a link discord.gg/&lt;code&gt;&#34;&#34;&#34;
@@ -142,7 +168,6 @@ are equally valid here.</p></div>
             # of the list is the one we&#39;re looking for
 
             if inv.code == code:
-                print(code)
                 # If it is, we return it.
 
                 return inv
@@ -150,17 +175,29 @@ are equally valid here.</p></div>
     @commands.Cog.listener()
     async def on_member_join(self, member):
         &#34;&#34;&#34;When a member join Discord&#34;&#34;&#34;
-        channel = member.guild.get_channel(719257870822277174)
+
+        channel = member.guild.get_channel(await get_channel_id_by_feature_name(&#34;invitation&#34;))
+
+        if channel is None:
+            return
+
         member_name = member.display_name
         invites_before_join = invites[member.guild.id]
         invites_after_join = await member.guild.invites()
         members_counter = member.guild.member_count
+
+        with open(&#34;core/data/inviter_counter.json&#34;, mode=&#39;r&#39;) as file:
+            self.members_invites_counter = dict(json.load(file))
+
         for invite in invites_before_join:
             # When a new invitation is used (clicked), then the condition is true
             if invite.uses &lt; self.find_invite_by_code(invites_after_join, invite.code).uses:
                 inviter_name = invite.inviter.name
-                members_invites_counter[inviter_name] = 1 if inviter_name not in members_invites_counter else members_invites_counter.get(inviter_name) + 1
-                await channel.send(&#34;Hello &#34; + member_name + f&#34; (Members: {members_counter}) (Invited by: {invite.inviter.name}) (Invitations: {members_invites_counter.get(inviter_name)})&#34;)
+                self.members_invites_counter[inviter_name] = 1 if inviter_name not in self.members_invites_counter else self.members_invites_counter.get(inviter_name) + 1
+                await channel.send(&#34;Hello &#34; + member_name + f&#34; (Members: {members_counter}) (Invited by: {invite.inviter.name}) (Invitations: {self.members_invites_counter.get(inviter_name)})&#34;)
+
+                with open(&#34;core/data/inviter_counter.json&#34;, mode=&#39;w&#39;) as file:
+                    json.dump(self.members_invites_counter, file)
 
                 invites[member.guild.id] = invites_after_join
                 return
@@ -168,7 +205,12 @@ are equally valid here.</p></div>
     @commands.Cog.listener()
     async def on_member_remove(self, member):
         &#34;&#34;&#34;When a member leave or gets banned/kicked&#34;&#34;&#34;
-        channel = member.guild.get_channel(719257870822277174)
+
+        channel = member.guild.get_channel(await get_channel_id_by_feature_name(&#34;invitation&#34;))
+
+        if channel is None:
+            return
+
         member_name = member.display_name
         invites[member.guild.id] = await member.guild.invites()
         await channel.send(&#34;Bye &#34; + member_name + &#34; (Members: &#34; + str(member.guild.member_count) + &#34;)&#34;)</code></pre>
@@ -179,7 +221,7 @@ are equally valid here.</p></div>
 </ul>
 <h3>Methods</h3>
 <dl>
-<dt id="core.event.invitation-manager.Invitation.find_invite_by_code"><code class="name flex">
+<dt id="core.event.invitation_manager.Invitation.find_invite_by_code"><code class="name flex">
 <span>def <span class="ident">find_invite_by_code</span></span>(<span>self, invite_list, code)</span>
 </code></dt>
 <dd>
@@ -200,13 +242,12 @@ are equally valid here.</p></div>
         # of the list is the one we&#39;re looking for
 
         if inv.code == code:
-            print(code)
             # If it is, we return it.
 
             return inv</code></pre>
 </details>
 </dd>
-<dt id="core.event.invitation-manager.Invitation.on_member_join"><code class="name flex">
+<dt id="core.event.invitation_manager.Invitation.on_member_join"><code class="name flex">
 <span>async def <span class="ident">on_member_join</span></span>(<span>self, member)</span>
 </code></dt>
 <dd>
@@ -218,23 +259,35 @@ are equally valid here.</p></div>
 <pre><code class="python">@commands.Cog.listener()
 async def on_member_join(self, member):
     &#34;&#34;&#34;When a member join Discord&#34;&#34;&#34;
-    channel = member.guild.get_channel(719257870822277174)
+
+    channel = member.guild.get_channel(await get_channel_id_by_feature_name(&#34;invitation&#34;))
+
+    if channel is None:
+        return
+
     member_name = member.display_name
     invites_before_join = invites[member.guild.id]
     invites_after_join = await member.guild.invites()
     members_counter = member.guild.member_count
+
+    with open(&#34;core/data/inviter_counter.json&#34;, mode=&#39;r&#39;) as file:
+        self.members_invites_counter = dict(json.load(file))
+
     for invite in invites_before_join:
         # When a new invitation is used (clicked), then the condition is true
         if invite.uses &lt; self.find_invite_by_code(invites_after_join, invite.code).uses:
             inviter_name = invite.inviter.name
-            members_invites_counter[inviter_name] = 1 if inviter_name not in members_invites_counter else members_invites_counter.get(inviter_name) + 1
-            await channel.send(&#34;Hello &#34; + member_name + f&#34; (Members: {members_counter}) (Invited by: {invite.inviter.name}) (Invitations: {members_invites_counter.get(inviter_name)})&#34;)
+            self.members_invites_counter[inviter_name] = 1 if inviter_name not in self.members_invites_counter else self.members_invites_counter.get(inviter_name) + 1
+            await channel.send(&#34;Hello &#34; + member_name + f&#34; (Members: {members_counter}) (Invited by: {invite.inviter.name}) (Invitations: {self.members_invites_counter.get(inviter_name)})&#34;)
+
+            with open(&#34;core/data/inviter_counter.json&#34;, mode=&#39;w&#39;) as file:
+                json.dump(self.members_invites_counter, file)
 
             invites[member.guild.id] = invites_after_join
             return</code></pre>
 </details>
 </dd>
-<dt id="core.event.invitation-manager.Invitation.on_member_remove"><code class="name flex">
+<dt id="core.event.invitation_manager.Invitation.on_member_remove"><code class="name flex">
 <span>async def <span class="ident">on_member_remove</span></span>(<span>self, member)</span>
 </code></dt>
 <dd>
@@ -246,7 +299,12 @@ async def on_member_join(self, member):
 <pre><code class="python">@commands.Cog.listener()
 async def on_member_remove(self, member):
     &#34;&#34;&#34;When a member leave or gets banned/kicked&#34;&#34;&#34;
-    channel = member.guild.get_channel(719257870822277174)
+
+    channel = member.guild.get_channel(await get_channel_id_by_feature_name(&#34;invitation&#34;))
+
+    if channel is None:
+        return
+
     member_name = member.display_name
     invites[member.guild.id] = await member.guild.invites()
     await channel.send(&#34;Bye &#34; + member_name + &#34; (Members: &#34; + str(member.guild.member_count) + &#34;)&#34;)</code></pre>
@@ -270,17 +328,17 @@ async def on_member_remove(self, member):
 </li>
 <li><h3><a href="#header-functions">Functions</a></h3>
 <ul class="">
-<li><code><a title="core.event.invitation-manager.setup" href="#core.event.invitation-manager.setup">setup</a></code></li>
+<li><code><a title="core.event.invitation_manager.setup" href="#core.event.invitation_manager.setup">setup</a></code></li>
 </ul>
 </li>
 <li><h3><a href="#header-classes">Classes</a></h3>
 <ul>
 <li>
-<h4><code><a title="core.event.invitation-manager.Invitation" href="#core.event.invitation-manager.Invitation">Invitation</a></code></h4>
+<h4><code><a title="core.event.invitation_manager.Invitation" href="#core.event.invitation_manager.Invitation">Invitation</a></code></h4>
 <ul class="">
-<li><code><a title="core.event.invitation-manager.Invitation.find_invite_by_code" href="#core.event.invitation-manager.Invitation.find_invite_by_code">find_invite_by_code</a></code></li>
-<li><code><a title="core.event.invitation-manager.Invitation.on_member_join" href="#core.event.invitation-manager.Invitation.on_member_join">on_member_join</a></code></li>
-<li><code><a title="core.event.invitation-manager.Invitation.on_member_remove" href="#core.event.invitation-manager.Invitation.on_member_remove">on_member_remove</a></code></li>
+<li><code><a title="core.event.invitation_manager.Invitation.find_invite_by_code" href="#core.event.invitation_manager.Invitation.find_invite_by_code">find_invite_by_code</a></code></li>
+<li><code><a title="core.event.invitation_manager.Invitation.on_member_join" href="#core.event.invitation_manager.Invitation.on_member_join">on_member_join</a></code></li>
+<li><code><a title="core.event.invitation_manager.Invitation.on_member_remove" href="#core.event.invitation_manager.Invitation.on_member_remove">on_member_remove</a></code></li>
 </ul>
 </li>
 </ul>

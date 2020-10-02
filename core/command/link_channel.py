@@ -13,9 +13,9 @@ class LinkChannel(commands.Cog):
     @commands.check(is_admin)
     async def link(self, ctx, feature_name):
         """
-        :param ctx:
-        :param feature_name:
-        :return:
+        :param ctx: Context of the command
+        :param feature_name: It will be the name of the command/feature to link with the channel where this command is written
+        :return: Link the command/feature with this channel, the corresponding data will be sent in the channel
         """
         for command in self.bot.commands:
             if str(command) == str(feature_name):

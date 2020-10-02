@@ -1,21 +1,25 @@
 from core.model.player import Player
 import mysql.connector
 import logging
+import settings
 
 odyssia_db = mysql.connector.connect(
-    host="185.157.246.189",
-    user="odyssia_admin",
-    password="LF[#S2je",
+    host=settings.HOSTNAME,
+    user=settings.DB_USER,
+    password=settings.DB_PASSWORD,
     database="odyssia"
 )
 logging.info(odyssia_db.is_connected())
 
 
 def getStats(player_name: str):
-    cursor = odyssia_db.cursor()
 
     # if the connection was lost, then it reconnects
-    odyssia_db.ping(reconnect=True)
+    if odyssia_db.is_connected() == False:
+        logging.info("Try to reconnect...")
+        odyssia_db.reconnect(attempts=3)
+
+    cursor = odyssia_db.cursor()
 
     cursor.execute(f"SELECT game_points, top1, kills, deaths FROM stats WHERE player_id = '{getPlayerID(player_name)}'")
 

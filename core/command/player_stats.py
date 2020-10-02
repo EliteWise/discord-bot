@@ -9,6 +9,11 @@ class PlayerStats(commands.Cog):
 
     @commands.command(name="stats")
     async def player_stats(self, ctx, player_name):
+        """
+        :param ctx: Context of the command
+        :param player_name: Name of a player who has already connected at least once to the server
+        :return: Display stats by player_name
+        """
         try:
             # Get the channel chosen by the owner to display statistics
             channel = ctx.guild.get_channel(await get_channel_id_by_command_name(ctx, ctx.command.name))

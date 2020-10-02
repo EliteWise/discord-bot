@@ -1,7 +1,7 @@
 import asyncio
 import logging
+import settings
 from discord.ext import commands
-from core.util.constant import Constant
 from core.util.permission import is_admin
 from core.util.server_status import update_status
 from core.util.channel_id import get_channel_id_by_command_name
@@ -21,7 +21,7 @@ class ServerStatus(commands.Cog):
             return
 
         loop = asyncio.get_event_loop()
-        loop.create_task(update_status(channel, Constant.HOSTNAME, 10))
+        loop.create_task(update_status(channel, settings.HOSTNAME, 10))
 
     @commands.command(name="maintenance")
     @commands.check(is_admin)
