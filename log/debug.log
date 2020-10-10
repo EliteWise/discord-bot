@@ -1,0 +1,1890 @@
+2020-09-27 10:34:27,426 [ERROR] {main} - <module>: Failed to load extension core.command.stackvoice
+ExtensionFailed: Extension 'core.command.stackvoice' raised an error: ModuleNotFoundError: No module named 'core.util.errors'
+2020-09-27 10:34:27,427 [INFO] {client} - login: logging in using static token
+2020-09-27 10:34:31,004 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 10:34:31,005 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 10:34:31,455 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-1351",{"micros":78934,"calls":["discord-sessions-prd-2-53",{"micros":78032,"calls":["start_session",{"micros":65063,"calls":["api-prd-main-7q3d",{"micros":62033,"calls":["get_user",{"micros":3791},"add_authorized_ip",{"micros":2933},"get_guilds",{"micros":5151},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 72a9995724d547d5ca22bab30b634379).
+2020-09-27 10:34:33,461 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 10:46:20,105 [ERROR] {main} - <module>: Failed to load extension core.command.stackvoice
+ExtensionFailed: Extension 'core.command.stackvoice' raised an error: ModuleNotFoundError: No module named 'toolbox'
+2020-09-27 10:46:20,105 [INFO] {client} - login: logging in using static token
+2020-09-27 10:46:23,869 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 10:46:23,870 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 10:46:24,739 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-gph3",{"micros":111673,"calls":["discord-sessions-prd-2-33",{"micros":109441,"calls":["start_session",{"micros":63387,"calls":["api-prd-main-nmrn",{"micros":60793,"calls":["get_user",{"micros":3642},"add_authorized_ip",{"micros":2509},"get_guilds",{"micros":3453},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":28570,"calls":[]}]}]}] (Session ID: eae60dcabe6d0faf4181b1874997863b).
+2020-09-27 10:46:26,746 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 10:53:32,914 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 10:53:32,915 [INFO] {client} - login: logging in using static token
+2020-09-27 10:53:36,020 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 10:53:36,021 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 10:53:36,874 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-d5jm",{"micros":177451,"calls":["discord-sessions-prd-2-11",{"micros":175389,"calls":["start_session",{"micros":169278,"calls":["api-prd-main-n9lp",{"micros":165538,"calls":["get_user",{"micros":13785},"add_authorized_ip",{"micros":3431},"get_guilds",{"micros":7929},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":4571,"calls":[]}]}]}] (Session ID: 908fcf1e7c8ee3d92a74543834e37221).
+2020-09-27 10:53:38,880 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 11:05:56,630 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 11:05:56,635 [ERROR] {main} - <module>: Failed to load extension core.command.votes
+ExtensionFailed: Extension 'core.command.votes' raised an error: ModuleNotFoundError: No module named 'toolbox'
+2020-09-27 11:05:56,635 [INFO] {client} - login: logging in using static token
+2020-09-27 11:06:00,632 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 11:06:00,633 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 11:06:01,527 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-q4x5",{"micros":51866,"calls":["discord-sessions-prd-1-15",{"micros":50215,"calls":["start_session",{"micros":41421,"calls":["api-prd-main-kr0w",{"micros":38647,"calls":["get_user",{"micros":2413},"add_authorized_ip",{"micros":3698},"get_guilds",{"micros":1796},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":8064,"calls":[]}]}]}] (Session ID: 33f5005f70477025d54da7526b7a3e69).
+2020-09-27 11:06:03,533 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 11:08:55,524 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 11:08:55,527 [ERROR] {main} - <module>: Failed to load extension core.command.votes
+ExtensionFailed: Extension 'core.command.votes' raised an error: ModuleNotFoundError: No module named 'toolbox'
+2020-09-27 11:08:55,534 [ERROR] {main} - <module>: Failed to load extension core.event.Voicechannel_stack_events
+ExtensionNotFound: Extension 'core.event.Voicechannel_stack_events' could not be loaded.
+2020-09-27 11:08:55,534 [ERROR] {main} - <module>: Failed to load extension core.event.votes_events
+ExtensionNotFound: Extension 'core.event.votes_events' could not be loaded.
+2020-09-27 11:08:55,535 [INFO] {client} - login: logging in using static token
+2020-09-27 11:08:59,924 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 11:08:59,925 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 11:09:04,134 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-l5rc",{"micros":66955,"calls":["discord-sessions-prd-2-56",{"micros":66297,"calls":["start_session",{"micros":47913,"calls":["api-prd-main-v8p7",{"micros":44983,"calls":["get_user",{"micros":2753},"add_authorized_ip",{"micros":1363},"get_guilds",{"micros":3305},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":11148,"calls":[]}]}]}] (Session ID: e6eabdb0957236d8bbc8ba020b15afbb).
+2020-09-27 11:09:06,142 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 11:18:35,513 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 11:18:35,515 [ERROR] {main} - <module>: Failed to load extension core.command.votes
+ExtensionFailed: Extension 'core.command.votes' raised an error: ModuleNotFoundError: No module named 'toolbox'
+2020-09-27 11:18:35,516 [ERROR] {main} - <module>: Failed to load extension core.event.Voicechannel_stack_events
+ExtensionNotFound: Extension 'core.event.Voicechannel_stack_events' could not be loaded.
+2020-09-27 11:18:35,516 [ERROR] {main} - <module>: Failed to load extension core.event.votes_events
+ExtensionNotFound: Extension 'core.event.votes_events' could not be loaded.
+2020-09-27 11:18:35,516 [INFO] {client} - login: logging in using static token
+2020-09-27 11:18:39,125 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 11:18:39,126 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 11:18:40,209 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-czms",{"micros":188953,"calls":["discord-sessions-prd-2-45",{"micros":188217,"calls":["start_session",{"micros":153970,"calls":["api-prd-main-vh0j",{"micros":142705,"calls":["get_user",{"micros":8113},"add_authorized_ip",{"micros":3836},"get_guilds",{"micros":10729},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":24895,"calls":[]}]}]}] (Session ID: 0450df54758bee4bfb357fe95304cb5c).
+2020-09-27 11:18:42,214 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 11:20:20,927 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 11:20:20,929 [ERROR] {main} - <module>: Failed to load extension core.command.votes
+ExtensionFailed: Extension 'core.command.votes' raised an error: ModuleNotFoundError: No module named 'toolbox'
+2020-09-27 11:20:20,930 [ERROR] {main} - <module>: Failed to load extension core.event.Voicechannel_stack_events
+ExtensionNotFound: Extension 'core.event.Voicechannel_stack_events' could not be loaded.
+2020-09-27 11:20:20,930 [ERROR] {main} - <module>: Failed to load extension core.event.votes_events
+ExtensionNotFound: Extension 'core.event.votes_events' could not be loaded.
+2020-09-27 11:20:20,930 [INFO] {client} - login: logging in using static token
+2020-09-27 11:20:24,559 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 11:20:24,560 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 11:20:25,576 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-x6tn",{"micros":77908,"calls":["discord-sessions-prd-1-34",{"micros":76762,"calls":["start_session",{"micros":41292,"calls":["api-prd-main-5p4m",{"micros":38527,"calls":["get_user",{"micros":3689},"add_authorized_ip",{"micros":1284},"get_guilds",{"micros":3515},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":22715,"calls":[]}]}]}] (Session ID: 34eb9356e2ff4e212025c4419f4f367c).
+2020-09-27 11:20:27,581 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 11:23:21,530 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 11:23:21,532 [ERROR] {main} - <module>: Failed to load extension core.command.votes
+ExtensionFailed: Extension 'core.command.votes' raised an error: ImportError: cannot import name 'add_delete_emote' from 'core.util.delete_emote' (c:\Users\kalic\Desktop\odybot\odyssia-bot\core\util\delete_emote.py)
+2020-09-27 11:23:21,533 [ERROR] {main} - <module>: Failed to load extension core.event.Voicechannel_stack_events
+ExtensionNotFound: Extension 'core.event.Voicechannel_stack_events' could not be loaded.
+2020-09-27 11:23:21,533 [ERROR] {main} - <module>: Failed to load extension core.event.votes_events
+ExtensionNotFound: Extension 'core.event.votes_events' could not be loaded.
+2020-09-27 11:23:21,533 [INFO] {client} - login: logging in using static token
+2020-09-27 11:23:24,994 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 11:23:24,996 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 11:23:25,685 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-t1hk",{"micros":140677,"calls":["discord-sessions-prd-1-31",{"micros":136850,"calls":["start_session",{"micros":77157,"calls":["api-prd-main-dkzz",{"micros":74009,"calls":["get_user",{"micros":6611},"add_authorized_ip",{"micros":2865},"get_guilds",{"micros":5027},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":35367,"calls":[]}]}]}] (Session ID: 31e33feb672b93fad668e18090183892).
+2020-09-27 11:23:27,691 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 11:24:21,889 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 11:24:21,892 [ERROR] {main} - <module>: Failed to load extension core.command.votes
+ExtensionFailed: Extension 'core.command.votes' raised an error: ModuleNotFoundError: No module named 'core.util.delete_emote.delete_emote'; 'core.util.delete_emote' is not a package
+2020-09-27 11:24:21,893 [ERROR] {main} - <module>: Failed to load extension core.event.Voicechannel_stack_events
+ExtensionNotFound: Extension 'core.event.Voicechannel_stack_events' could not be loaded.
+2020-09-27 11:24:21,893 [ERROR] {main} - <module>: Failed to load extension core.event.votes_events
+ExtensionNotFound: Extension 'core.event.votes_events' could not be loaded.
+2020-09-27 11:24:21,898 [INFO] {client} - login: logging in using static token
+2020-09-27 11:24:24,254 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 11:24:24,255 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 11:24:24,898 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-01tb",{"micros":53909,"calls":["discord-sessions-prd-1-34",{"micros":48725,"calls":["start_session",{"micros":31251,"calls":["api-prd-main-v8p7",{"micros":28997,"calls":["get_user",{"micros":2096},"add_authorized_ip",{"micros":1579},"get_guilds",{"micros":2115},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":14021,"calls":[]}]}]}] (Session ID: 1694af6ec99d21e4d1f548663cf028ac).
+2020-09-27 11:24:26,905 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 11:26:05,143 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 11:26:05,147 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-27 11:26:05,148 [ERROR] {main} - <module>: Failed to load extension core.event.Voicechannel_stack_events
+ExtensionNotFound: Extension 'core.event.Voicechannel_stack_events' could not be loaded.
+2020-09-27 11:26:05,149 [ERROR] {main} - <module>: Failed to load extension core.event.votes_events
+ExtensionNotFound: Extension 'core.event.votes_events' could not be loaded.
+2020-09-27 11:26:05,149 [INFO] {client} - login: logging in using static token
+2020-09-27 11:26:09,331 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 11:26:09,332 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 11:26:10,224 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-d5jm",{"micros":48276,"calls":["discord-sessions-prd-2-35",{"micros":47420,"calls":["start_session",{"micros":38569,"calls":["api-prd-main-dq60",{"micros":35804,"calls":["get_user",{"micros":2719},"add_authorized_ip",{"micros":1582},"get_guilds",{"micros":2134},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":5147,"calls":[]}]}]}] (Session ID: 6e1b16e0b0928ae53689ce7492776242).
+2020-09-27 11:26:12,230 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 11:28:09,808 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 11:28:09,809 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-27 11:28:09,811 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-27 11:28:09,817 [ERROR] {main} - <module>: Failed to load extension core.event.votes_event
+ExtensionFailed: Extension 'core.event.votes_event' raised an error: ImportError: cannot import name 'addVote' from 'core.util.db' (c:\Users\kalic\Desktop\odybot\odyssia-bot\core\util\db.py)
+2020-09-27 11:28:09,818 [INFO] {client} - login: logging in using static token
+2020-09-27 11:28:13,209 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 11:28:13,210 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 11:28:14,067 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-lbtp",{"micros":67506,"calls":["discord-sessions-prd-1-20",{"micros":64769,"calls":["start_session",{"micros":45378,"calls":["api-prd-main-g0hq",{"micros":41358,"calls":["get_user",{"micros":4826},"add_authorized_ip",{"micros":1682},"get_guilds",{"micros":3982},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":17968,"calls":[]}]}]}] (Session ID: 170b49d87b75557a7d9f8d0581b7cd1d).
+2020-09-27 11:28:16,063 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 11:28:53,870 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 11:28:53,871 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-27 11:28:53,872 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-27 11:28:53,874 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-27 11:28:53,874 [INFO] {client} - login: logging in using static token
+2020-09-27 11:28:55,480 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 11:28:55,481 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 11:28:55,969 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-z971",{"micros":70734,"calls":["discord-sessions-prd-1-46",{"micros":67877,"calls":["start_session",{"micros":29556,"calls":["api-prd-main-1gtt",{"micros":26580,"calls":["get_user",{"micros":2513},"add_authorized_ip",{"micros":1598},"get_guilds",{"micros":1600},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":9405,"calls":[]}]}]}] (Session ID: 960ebb737cb9d8ba6e4394820ebd7869).
+2020-09-27 11:28:57,974 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 11:53:47,627 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 11:53:47,628 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-27 11:53:47,630 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-27 11:53:47,631 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-27 11:53:47,631 [INFO] {client} - login: logging in using static token
+2020-09-27 11:53:49,130 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 11:53:49,133 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 11:53:49,465 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-wvqs",{"micros":49756,"calls":["discord-sessions-prd-2-32",{"micros":48733,"calls":["start_session",{"micros":42406,"calls":["api-prd-main-n9lp",{"micros":40001,"calls":["get_user",{"micros":2157},"add_authorized_ip",{"micros":1759},"get_guilds",{"micros":1567},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":0,"calls":[]}]}]}] (Session ID: 8f0ed9a7be301244d00873f0f31630a5).
+2020-09-27 11:53:51,474 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 11:55:43,239 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 11:55:43,240 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-27 11:55:43,242 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-27 11:55:43,242 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-27 11:55:43,242 [INFO] {client} - login: logging in using static token
+2020-09-27 11:55:46,509 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 11:55:46,510 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 11:55:47,312 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-gwhj",{"micros":143562,"calls":["discord-sessions-prd-2-44",{"micros":140864,"calls":["start_session",{"micros":131095,"calls":["api-prd-main-r8q5",{"micros":128388,"calls":["get_user",{"micros":6718},"add_authorized_ip",{"micros":9800},"get_guilds",{"micros":9455},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":8929,"calls":[]}]}]}] (Session ID: 51ce4372e60f31b9e0ddd538823c192d).
+2020-09-27 11:55:49,315 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 11:56:49,417 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 11:56:49,418 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-27 11:56:49,419 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-27 11:56:49,420 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-27 11:56:49,420 [INFO] {client} - login: logging in using static token
+2020-09-27 11:56:52,594 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 11:56:52,595 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 11:56:53,634 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-mrqk",{"micros":88673,"calls":["discord-sessions-prd-2-12",{"micros":88009,"calls":["start_session",{"micros":26306,"calls":["api-prd-main-73hn",{"micros":23692,"calls":["get_user",{"micros":2746},"add_authorized_ip",{"micros":1339},"get_guilds",{"micros":1661},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":36865,"calls":[]}]}]}] (Session ID: dc94a32e1d5480f68a8f610715154b56).
+2020-09-27 11:56:55,639 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 12:00:07,155 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 12:00:07,156 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-27 12:00:07,157 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-27 12:00:07,158 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-27 12:00:07,158 [INFO] {client} - login: logging in using static token
+2020-09-27 12:00:08,068 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 12:00:08,069 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 12:00:08,373 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-08jl",{"micros":75378,"calls":["discord-sessions-prd-1-41",{"micros":73114,"calls":["start_session",{"micros":46584,"calls":["api-prd-main-jm2n",{"micros":43628,"calls":["get_user",{"micros":4288},"add_authorized_ip",{"micros":2394},"get_guilds",{"micros":2200},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":20527,"calls":[]}]}]}] (Session ID: 61f91fe8a9f85e54730fa77c51c32e8e).
+2020-09-27 12:00:10,372 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 12:06:47,890 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 12:06:47,891 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-27 12:06:47,894 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-27 12:06:47,895 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-27 12:06:47,896 [INFO] {client} - login: logging in using static token
+2020-09-27 12:06:51,855 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 12:06:51,856 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 12:06:52,803 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-b7qj",{"micros":64269,"calls":["discord-sessions-prd-2-31",{"micros":59954,"calls":["start_session",{"micros":29206,"calls":["api-prd-main-nmrn",{"micros":27292,"calls":["get_user",{"micros":1933},"add_authorized_ip",{"micros":1483},"get_guilds",{"micros":3219},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":16484,"calls":[]}]}]}] (Session ID: cc50fe8770d6223a61d2a31111a03257).
+2020-09-27 12:06:54,809 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 12:15:27,216 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 12:15:27,220 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-27 12:15:27,221 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-27 12:15:27,221 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-27 12:15:27,222 [INFO] {client} - login: logging in using static token
+2020-09-27 12:15:29,358 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 12:15:29,359 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 12:15:30,009 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-cdnd",{"micros":84277,"calls":["discord-sessions-prd-2-36",{"micros":82984,"calls":["start_session",{"micros":32787,"calls":["api-prd-main-v8p7",{"micros":30020,"calls":["get_user",{"micros":2749},"add_authorized_ip",{"micros":2145},"get_guilds",{"micros":2864},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":22378,"calls":[]}]}]}] (Session ID: 1c577bde04cd909a27c5d7fcab53c48a).
+2020-09-27 12:15:32,015 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 12:19:52,024 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 12:19:52,028 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-27 12:19:52,030 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-27 12:19:52,030 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-27 12:19:52,030 [INFO] {client} - login: logging in using static token
+2020-09-27 12:19:54,801 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 12:19:54,802 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 12:19:55,876 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-918g",{"micros":72426,"calls":["discord-sessions-prd-2-35",{"micros":70057,"calls":["start_session",{"micros":39751,"calls":["api-prd-main-0k0r",{"micros":36404,"calls":["get_user",{"micros":4207},"add_authorized_ip",{"micros":1636},"get_guilds",{"micros":3422},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":9392,"calls":[]}]}]}] (Session ID: a0cc0a1d35308489381c719af66eef2e).
+2020-09-27 12:19:57,884 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 12:21:46,578 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 12:21:46,581 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-27 12:21:46,582 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-27 12:21:46,583 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-27 12:21:46,583 [INFO] {client} - login: logging in using static token
+2020-09-27 12:21:48,172 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 12:21:48,173 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 12:21:48,707 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-l95c",{"micros":70867,"calls":["discord-sessions-prd-1-30",{"micros":69030,"calls":["start_session",{"micros":35219,"calls":["api-prd-main-jbzv",{"micros":33095,"calls":["get_user",{"micros":3144},"add_authorized_ip",{"micros":2480},"get_guilds",{"micros":2313},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":30404,"calls":[]}]}]}] (Session ID: 585afc53aa3fdf54f303d471b44309a0).
+2020-09-27 12:21:50,714 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 12:22:52,930 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 12:22:52,933 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-27 12:22:52,934 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-27 12:22:52,934 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-27 12:22:52,935 [INFO] {client} - login: logging in using static token
+2020-09-27 12:22:55,165 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 12:22:55,167 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 12:22:56,106 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-01tb",{"micros":57631,"calls":["discord-sessions-prd-2-43",{"micros":55753,"calls":["start_session",{"micros":41449,"calls":["api-prd-main-597r",{"micros":38424,"calls":["get_user",{"micros":2361},"add_authorized_ip",{"micros":1697},"get_guilds",{"micros":2115},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":10051,"calls":[]}]}]}] (Session ID: 34adffc7f5badaac995f978c76cdd7b5).
+2020-09-27 12:22:58,112 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 12:33:53,688 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 12:33:53,690 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-27 12:33:53,691 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-27 12:33:53,693 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-27 12:33:53,693 [INFO] {client} - login: logging in using static token
+2020-09-27 12:33:58,012 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 12:33:58,013 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 12:33:58,863 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-wvqs",{"micros":110559,"calls":["discord-sessions-prd-1-40",{"micros":109795,"calls":["start_session",{"micros":101384,"calls":["api-prd-main-fk88",{"micros":95881,"calls":["get_user",{"micros":15683},"add_authorized_ip",{"micros":1940},"get_guilds",{"micros":3666},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":7647,"calls":[]}]}]}] (Session ID: ad4cdf78f93aa7d42a3c7d7a1c31efed).
+2020-09-27 12:34:00,857 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 12:36:39,430 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 12:36:39,432 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-27 12:36:39,434 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-27 12:36:39,434 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-27 12:36:39,434 [INFO] {client} - login: logging in using static token
+2020-09-27 12:36:40,402 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 12:36:40,403 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 12:36:40,748 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-dftz",{"micros":119312,"calls":["discord-sessions-prd-1-24",{"micros":105957,"calls":["start_session",{"micros":80174,"calls":["api-prd-main-0l9f",{"micros":74718,"calls":["get_user",{"micros":3435},"add_authorized_ip",{"micros":9886},"get_guilds",{"micros":5595},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":8474,"calls":[]}]}]}] (Session ID: 4ba667546978c91219cedb90f8a5f50f).
+2020-09-27 12:36:42,755 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 12:37:40,166 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 12:37:40,168 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-27 12:37:40,170 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-27 12:37:40,170 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-27 12:37:40,171 [INFO] {client} - login: logging in using static token
+2020-09-27 12:37:41,086 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 12:37:41,087 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 12:37:41,448 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-t1hk",{"micros":129130,"calls":["discord-sessions-prd-1-22",{"micros":128201,"calls":["start_session",{"micros":102343,"calls":["api-prd-main-qh1x",{"micros":79868,"calls":["get_user",{"micros":11442},"add_authorized_ip",{"micros":4385},"get_guilds",{"micros":8924},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":22679,"calls":[]}]}]}] (Session ID: 899aa31de49992f72d2f4ed433a39a80).
+2020-09-27 12:37:43,454 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 12:39:08,308 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 12:39:08,310 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-27 12:39:08,312 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-27 12:39:08,314 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-27 12:39:08,315 [INFO] {client} - login: logging in using static token
+2020-09-27 12:39:09,757 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 12:39:09,758 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 12:39:10,270 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-ndb2",{"micros":119420,"calls":["discord-sessions-prd-1-2",{"micros":117543,"calls":["start_session",{"micros":66433,"calls":["api-prd-main-6s75",{"micros":57931,"calls":["get_user",{"micros":9442},"add_authorized_ip",{"micros":4124},"get_guilds",{"micros":4372},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":16359,"calls":[]}]}]}] (Session ID: c8b9433b69d86e89c9ae1fb9f12a5b4c).
+2020-09-27 12:39:12,276 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 14:11:41,464 [INFO] {gateway} - poll_event: Websocket closed with 1006 (), attempting a reconnect.
+2020-09-27 14:11:41,508 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-27 14:11:41,515 [ERROR] {client} - connect: Attempting a reconnect in 1.12s
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 964, in _create_direct_connection
+    hosts = await asyncio.shield(self._resolve_host(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 829, in _resolve_host
+    addrs = await \
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\resolver.py", line 29, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 825, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 469, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\tasks.py", line 483, in wait_for
+    return fut.result()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 971, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discordapp.com:443 ssl:default [getaddrinfo failed]
+2020-09-27 14:11:42,646 [ERROR] {client} - connect: Attempting a reconnect in 1.32s
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 964, in _create_direct_connection
+    hosts = await asyncio.shield(self._resolve_host(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 829, in _resolve_host
+    addrs = await \
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\resolver.py", line 29, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 825, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 460, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\tasks.py", line 483, in wait_for
+    return fut.result()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 971, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discordapp.com:443 ssl:default [getaddrinfo failed]
+2020-09-27 14:11:43,976 [ERROR] {client} - connect: Attempting a reconnect in 4.18s
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 964, in _create_direct_connection
+    hosts = await asyncio.shield(self._resolve_host(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 829, in _resolve_host
+    addrs = await \
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\resolver.py", line 29, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 825, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 460, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\tasks.py", line 483, in wait_for
+    return fut.result()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 971, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discordapp.com:443 ssl:default [getaddrinfo failed]
+2020-09-27 14:11:48,158 [ERROR] {client} - connect: Attempting a reconnect in 8.76s
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 964, in _create_direct_connection
+    hosts = await asyncio.shield(self._resolve_host(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 829, in _resolve_host
+    addrs = await \
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\resolver.py", line 29, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 825, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 460, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\tasks.py", line 483, in wait_for
+    return fut.result()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 971, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discordapp.com:443 ssl:default [getaddrinfo failed]
+2020-09-27 14:11:56,923 [ERROR] {client} - connect: Attempting a reconnect in 6.41s
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 964, in _create_direct_connection
+    hosts = await asyncio.shield(self._resolve_host(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 829, in _resolve_host
+    addrs = await \
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\resolver.py", line 29, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 825, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 460, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\tasks.py", line 483, in wait_for
+    return fut.result()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 971, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discordapp.com:443 ssl:default [getaddrinfo failed]
+2020-09-27 14:12:03,327 [ERROR] {client} - connect: Attempting a reconnect in 40.23s
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 964, in _create_direct_connection
+    hosts = await asyncio.shield(self._resolve_host(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 829, in _resolve_host
+    addrs = await \
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\resolver.py", line 29, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 825, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 460, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\tasks.py", line 483, in wait_for
+    return fut.result()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 971, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discordapp.com:443 ssl:default [getaddrinfo failed]
+2020-09-27 14:12:39,856 [WARNING] {gateway} - run: Shard ID None has stopped responding to the gateway. Closing and restarting.
+2020-09-27 14:12:43,561 [ERROR] {client} - connect: Attempting a reconnect in 25.91s
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 964, in _create_direct_connection
+    hosts = await asyncio.shield(self._resolve_host(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 829, in _resolve_host
+    addrs = await \
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\resolver.py", line 29, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 825, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 460, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\tasks.py", line 483, in wait_for
+    return fut.result()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 971, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discordapp.com:443 ssl:default [getaddrinfo failed]
+2020-09-27 14:13:09,480 [ERROR] {client} - connect: Attempting a reconnect in 107.56s
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 964, in _create_direct_connection
+    hosts = await asyncio.shield(self._resolve_host(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 829, in _resolve_host
+    addrs = await \
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\resolver.py", line 29, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 825, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 460, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\tasks.py", line 483, in wait_for
+    return fut.result()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 971, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discordapp.com:443 ssl:default [getaddrinfo failed]
+2020-09-27 14:14:57,044 [ERROR] {client} - connect: Attempting a reconnect in 185.61s
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 964, in _create_direct_connection
+    hosts = await asyncio.shield(self._resolve_host(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 829, in _resolve_host
+    addrs = await \
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\resolver.py", line 29, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 825, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 460, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\tasks.py", line 483, in wait_for
+    return fut.result()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 971, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discordapp.com:443 ssl:default [getaddrinfo failed]
+2020-09-27 14:18:04,080 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 14:18:04,081 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 14:18:04,918 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-kjxg",{"micros":249033,"calls":["discord-sessions-prd-2-29",{"micros":243621,"calls":["start_session",{"micros":202675,"calls":["api-prd-main-0k9f",{"micros":193367,"calls":["get_user",{"micros":9357},"add_authorized_ip",{"micros":2822},"get_guilds",{"micros":3333},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":18827,"calls":[]}]}]}] (Session ID: e2da53e4cab050975a04c8da8f5cea36).
+2020-09-27 14:18:06,924 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 15:11:33,044 [INFO] {gateway} - poll_event: Websocket closed with 1006 (), attempting a reconnect.
+2020-09-27 15:11:33,087 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-27 15:11:33,093 [ERROR] {client} - connect: Attempting a reconnect in 0.97s
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 964, in _create_direct_connection
+    hosts = await asyncio.shield(self._resolve_host(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 829, in _resolve_host
+    addrs = await \
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\resolver.py", line 29, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 825, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 469, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\tasks.py", line 483, in wait_for
+    return fut.result()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 971, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discordapp.com:443 ssl:default [getaddrinfo failed]
+2020-09-27 15:11:34,067 [ERROR] {client} - connect: Attempting a reconnect in 0.92s
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 964, in _create_direct_connection
+    hosts = await asyncio.shield(self._resolve_host(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 829, in _resolve_host
+    addrs = await \
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\resolver.py", line 29, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 825, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 460, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\tasks.py", line 483, in wait_for
+    return fut.result()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 971, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discordapp.com:443 ssl:default [getaddrinfo failed]
+2020-09-27 15:11:34,988 [ERROR] {client} - connect: Attempting a reconnect in 4.67s
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 964, in _create_direct_connection
+    hosts = await asyncio.shield(self._resolve_host(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 829, in _resolve_host
+    addrs = await \
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\resolver.py", line 29, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 825, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 460, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\tasks.py", line 483, in wait_for
+    return fut.result()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 971, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discordapp.com:443 ssl:default [getaddrinfo failed]
+2020-09-27 15:11:46,810 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 15:11:46,840 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 15:11:51,020 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-gwhj",{"micros":84846,"calls":["discord-sessions-prd-1-35",{"micros":83521,"calls":["start_session",{"micros":68677,"calls":["api-prd-main-rh14",{"micros":65231,"calls":["get_user",{"micros":6296},"add_authorized_ip",{"micros":1983},"get_guilds",{"micros":8133},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":9417,"calls":[]}]}]}] (Session ID: 51fe8b0d2a97ee59cb4228c042370e00).
+2020-09-27 15:11:53,027 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 15:12:22,876 [WARNING] {gateway} - run: Shard ID None has stopped responding to the gateway. Closing and restarting.
+2020-09-27 15:21:39,259 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 15:21:39,261 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-27 15:21:39,262 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-27 15:21:39,262 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-27 15:21:39,263 [INFO] {client} - login: logging in using static token
+2020-09-27 15:21:40,495 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 15:21:40,496 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 15:21:41,177 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-mzrt",{"micros":67255,"calls":["discord-sessions-prd-2-29",{"micros":65850,"calls":["start_session",{"micros":58028,"calls":["api-prd-main-0429",{"micros":55275,"calls":["get_user",{"micros":2284},"add_authorized_ip",{"micros":7305},"get_guilds",{"micros":7474},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":6000,"calls":[]}]}]}] (Session ID: d652ebf46b2429a3c92aee97c059584a).
+2020-09-27 15:21:43,192 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 15:25:27,580 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 15:25:27,582 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-27 15:25:27,583 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-27 15:25:27,584 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-27 15:25:27,584 [INFO] {client} - login: logging in using static token
+2020-09-27 15:25:30,797 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 15:25:30,798 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 15:25:31,263 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-zv73",{"micros":41161,"calls":["discord-sessions-prd-2-30",{"micros":39480,"calls":["start_session",{"micros":34740,"calls":["api-prd-main-trzq",{"micros":31940,"calls":["get_user",{"micros":4251},"add_authorized_ip",{"micros":1776},"get_guilds",{"micros":1896},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":946,"calls":[]}]}]}] (Session ID: ccf3152e5bda8a4ef2f560d1c5b3cbc7).
+2020-09-27 15:25:33,268 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 15:30:41,426 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 15:30:41,427 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-27 15:30:41,428 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-27 15:30:41,430 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-27 15:30:41,430 [INFO] {client} - login: logging in using static token
+2020-09-27 15:30:47,832 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 15:30:47,833 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 15:30:48,487 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-hgx4",{"micros":91764,"calls":["discord-sessions-prd-1-5",{"micros":89840,"calls":["start_session",{"micros":71125,"calls":["api-prd-main-7s1f",{"micros":62763,"calls":["get_user",{"micros":12660},"add_authorized_ip",{"micros":2243},"get_guilds",{"micros":3486},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":17315,"calls":[]}]}]}] (Session ID: 5867b5e0b8f867e772f484103ad95454).
+2020-09-27 15:30:50,493 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 15:31:58,583 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 15:31:58,584 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-27 15:31:58,585 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-27 15:31:58,587 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-27 15:31:58,587 [INFO] {client} - login: logging in using static token
+2020-09-27 15:31:59,938 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 15:31:59,939 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 15:32:00,679 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-wdvt",{"micros":79330,"calls":["discord-sessions-prd-1-33",{"micros":77237,"calls":["start_session",{"micros":55085,"calls":["api-prd-main-dq7f",{"micros":50499,"calls":["get_user",{"micros":2658},"add_authorized_ip",{"micros":2407},"get_guilds",{"micros":1878},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":15747,"calls":[]}]}]}] (Session ID: a7bec734a3c0251ad5d73925cd1dd887).
+2020-09-27 15:32:02,685 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 15:33:10,675 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 15:33:10,676 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-27 15:33:10,678 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-27 15:33:10,680 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-27 15:33:10,681 [INFO] {client} - login: logging in using static token
+2020-09-27 15:33:12,144 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 15:33:12,145 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 15:33:13,686 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-gv6k",{"micros":69881,"calls":["discord-sessions-prd-1-29",{"micros":68675,"calls":["start_session",{"micros":33273,"calls":["api-prd-main-7q3d",{"micros":30714,"calls":["get_user",{"micros":2524},"add_authorized_ip",{"micros":2484},"get_guilds",{"micros":1739},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":20528,"calls":[]}]}]}] (Session ID: 7d661261e0e7500350d35f387e1d7fbd).
+2020-09-27 15:33:15,692 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 15:36:01,430 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 15:36:01,431 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-27 15:36:01,432 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-27 15:36:01,434 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-27 15:36:01,435 [INFO] {client} - login: logging in using static token
+2020-09-27 15:36:04,022 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 15:36:04,023 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 15:36:04,654 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-p0hd",{"micros":66340,"calls":["discord-sessions-prd-2-18",{"micros":64282,"calls":["start_session",{"micros":62554,"calls":["api-prd-main-nmrn",{"micros":57614,"calls":["get_user",{"micros":4930},"add_authorized_ip",{"micros":1617},"get_guilds",{"micros":28175},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 7e9cf43016bb82a777e78307d8a8b523).
+2020-09-27 15:36:06,661 [INFO] {main} - on_ready: Bot Ready!
+2020-09-27 15:38:44,629 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-27 15:38:44,631 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-27 15:38:44,632 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-27 15:38:44,632 [ERROR] {main} - <module>: Failed to load extension core.event.votes_event
+ExtensionFailed: Extension 'core.event.votes_event' raised an error: IndentationError: unexpected indent (votes_event.py, line 11)
+2020-09-27 15:38:44,633 [INFO] {client} - login: logging in using static token
+2020-09-27 15:38:46,650 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-27 15:38:46,652 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-27 15:38:47,461 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-9g6w",{"micros":39064,"calls":["discord-sessions-prd-1-32",{"micros":35110,"calls":["start_session",{"micros":30562,"calls":["api-prd-main-71n3",{"micros":27867,"calls":["get_user",{"micros":2419},"add_authorized_ip",{"micros":1633},"get_guilds",{"micros":1377},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":3094,"calls":[]}]}]}] (Session ID: 71a890d06a0189ddcbda629020d23177).
+2020-09-27 15:38:49,467 [INFO] {main} - on_ready: Bot Ready!
+2020-09-28 20:48:28,522 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-28 20:48:28,524 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-28 20:48:28,526 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-28 20:48:28,526 [ERROR] {main} - <module>: Failed to load extension core.event.votes_event
+ExtensionFailed: Extension 'core.event.votes_event' raised an error: IndentationError: unexpected indent (votes_event.py, line 11)
+2020-09-28 20:48:28,527 [INFO] {client} - login: logging in using static token
+2020-09-28 20:48:29,510 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-28 20:48:29,512 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-28 20:48:30,019 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-fgqk",{"micros":252802,"calls":["discord-sessions-prd-2-54",{"micros":244538,"calls":["start_session",{"micros":206645,"calls":["api-prd-main-r8bb",{"micros":202546,"calls":["get_user",{"micros":12073},"add_authorized_ip",{"micros":9101},"get_guilds",{"micros":9658},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":29412,"calls":[]}]}]}] (Session ID: fa4988999593d1248afdccfab4bd531a).
+2020-09-28 20:48:32,024 [INFO] {main} - on_ready: Bot Ready!
+2020-09-28 20:48:52,585 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-28 20:48:52,586 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-28 20:48:52,587 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-28 20:48:52,588 [ERROR] {main} - <module>: Failed to load extension core.event.votes_event
+ExtensionFailed: Extension 'core.event.votes_event' raised an error: IndentationError: unexpected indent (votes_event.py, line 11)
+2020-09-28 20:48:52,588 [INFO] {client} - login: logging in using static token
+2020-09-28 20:48:53,557 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-28 20:48:53,558 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-28 20:48:53,889 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-z9cb",{"micros":92957,"calls":["discord-sessions-prd-1-50",{"micros":83200,"calls":["start_session",{"micros":74367,"calls":["api-prd-main-5zmp",{"micros":71805,"calls":["get_user",{"micros":2488},"add_authorized_ip",{"micros":1702},"get_guilds",{"micros":1672},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":4312,"calls":[]}]}]}] (Session ID: 655f7d8566a676cf766e7e3eca0dea2f).
+2020-09-28 20:48:55,894 [INFO] {main} - on_ready: Bot Ready!
+2020-09-28 20:50:11,884 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-28 20:50:11,885 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-28 20:50:11,887 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-28 20:50:11,888 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-28 20:50:11,888 [INFO] {client} - login: logging in using static token
+2020-09-28 20:50:12,745 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-28 20:50:12,746 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-28 20:50:13,090 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-nswm",{"micros":114804,"calls":["discord-sessions-prd-1-24",{"micros":104995,"calls":["start_session",{"micros":97013,"calls":["api-prd-main-p2g2",{"micros":93639,"calls":["get_user",{"micros":5144},"add_authorized_ip",{"micros":7603},"get_guilds",{"micros":4085},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":4032,"calls":[]}]}]}] (Session ID: 0fd3e4a5a0d0d45dcf1fbb37b7f5a8bc).
+2020-09-28 20:50:15,095 [INFO] {main} - on_ready: Bot Ready!
+2020-09-28 20:52:31,014 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-28 20:52:31,015 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-28 20:52:31,016 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-28 20:52:31,018 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-28 20:52:31,018 [INFO] {client} - login: logging in using static token
+2020-09-28 20:52:32,006 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-28 20:52:32,007 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-28 20:52:32,409 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-f6lg",{"micros":131975,"calls":["discord-sessions-prd-1-13",{"micros":124579,"calls":["start_session",{"micros":108974,"calls":["api-prd-main-1gtt",{"micros":105223,"calls":["get_user",{"micros":5860},"add_authorized_ip",{"micros":1586},"get_guilds",{"micros":1488},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":7305,"calls":[]}]}]}] (Session ID: 62c0ff11856a5a6b79f9074717f740f9).
+2020-09-28 20:52:34,418 [INFO] {main} - on_ready: Bot Ready!
+2020-09-28 20:54:01,250 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-28 20:54:01,251 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-28 20:54:01,252 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-28 20:54:01,254 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-28 20:54:01,254 [INFO] {client} - login: logging in using static token
+2020-09-28 20:54:02,199 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-28 20:54:02,199 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-28 20:54:02,690 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-f8k1",{"micros":254483,"calls":["discord-sessions-prd-1-29",{"micros":251215,"calls":["start_session",{"micros":231918,"calls":["api-prd-main-g0jt",{"micros":227821,"calls":["get_user",{"micros":2533},"add_authorized_ip",{"micros":8325},"get_guilds",{"micros":9051},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":7531,"calls":[]}]}]}] (Session ID: 8bfa23730dcec93bc506ecc36dda1aa1).
+2020-09-28 20:54:04,696 [INFO] {main} - on_ready: Bot Ready!
+2020-09-28 20:55:17,439 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-28 20:55:17,440 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-28 20:55:17,441 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-28 20:55:17,443 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-28 20:55:17,443 [INFO] {client} - login: logging in using static token
+2020-09-28 20:55:18,552 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-28 20:55:18,554 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-28 20:55:18,889 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-h399",{"micros":98049,"calls":["discord-sessions-prd-2-36",{"micros":96013,"calls":["start_session",{"micros":76611,"calls":["api-prd-main-jshz",{"micros":72780,"calls":["get_user",{"micros":4361},"add_authorized_ip",{"micros":2536},"get_guilds",{"micros":1961},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":5261,"calls":[]}]}]}] (Session ID: 921d3821665fd8f6b36a31bbe44bf100).
+2020-09-28 20:55:20,895 [INFO] {main} - on_ready: Bot Ready!
+2020-09-28 20:56:56,108 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-28 20:56:56,112 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-28 20:56:56,113 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-28 20:56:56,113 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-28 20:56:56,113 [INFO] {client} - login: logging in using static token
+2020-09-28 20:56:57,157 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-28 20:56:57,158 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-28 20:56:57,478 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-fgqk",{"micros":83771,"calls":["discord-sessions-prd-1-24",{"micros":77298,"calls":["start_session",{"micros":64536,"calls":["api-prd-main-bqq6",{"micros":62480,"calls":["get_user",{"micros":7758},"add_authorized_ip",{"micros":2473},"get_guilds",{"micros":2799},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":7724,"calls":[]}]}]}] (Session ID: bde056535ff041248fabbb0e4da7ce62).
+2020-09-28 20:56:59,485 [INFO] {main} - on_ready: Bot Ready!
+2020-09-28 20:58:49,588 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-28 20:58:49,589 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-28 20:58:49,590 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-28 20:58:49,592 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-28 20:58:49,592 [INFO] {client} - login: logging in using static token
+2020-09-28 20:58:50,553 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-28 20:58:50,555 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-28 20:58:50,915 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-11ht",{"micros":127087,"calls":["discord-sessions-prd-1-13",{"micros":122161,"calls":["start_session",{"micros":93659,"calls":["api-prd-main-hx87",{"micros":83989,"calls":["get_user",{"micros":3607},"add_authorized_ip",{"micros":2700},"get_guilds",{"micros":4391},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":14743,"calls":[]}]}]}] (Session ID: 9e1334b355a39fdb742dc11bc59b821d).
+2020-09-28 20:58:52,921 [INFO] {main} - on_ready: Bot Ready!
+2020-09-28 21:00:20,725 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-28 21:00:20,726 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-28 21:00:20,727 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-28 21:00:20,728 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-28 21:00:20,729 [INFO] {client} - login: logging in using static token
+2020-09-28 21:00:21,670 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-28 21:00:21,671 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-28 21:00:22,026 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-z971",{"micros":144507,"calls":["discord-sessions-prd-1-1",{"micros":49617,"calls":["start_session",{"micros":45857,"calls":["api-prd-main-8371",{"micros":41979,"calls":["get_user",{"micros":3057},"add_authorized_ip",{"micros":1624},"get_guilds",{"micros":1811},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":2403,"calls":[]}]}]}] (Session ID: d4d6e0e69314e4668e50f1ddf3af2618).
+2020-09-28 21:00:24,036 [INFO] {main} - on_ready: Bot Ready!
+2020-09-28 21:36:18,824 [INFO] {gateway} - poll_event: Websocket closed with 1006 (), attempting a reconnect.
+2020-09-28 21:36:18,833 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-28 21:36:19,487 [WARNING] {gateway} - run: Shard ID None has stopped responding to the gateway. Closing and restarting.
+2020-09-28 21:36:19,617 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-28 21:36:19,619 [INFO] {gateway} - resume: Shard ID None has sent the RESUME payload.
+2020-09-28 21:36:19,869 [INFO] {gateway} - received_message: Shard ID None session has been invalidated.
+2020-09-28 21:36:24,869 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-28 21:36:25,102 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-z971",{"micros":69746,"calls":["discord-sessions-prd-1-5",{"micros":63756,"calls":["start_session",{"micros":44570,"calls":["api-prd-main-1s9l",{"micros":40953,"calls":["get_user",{"micros":2302},"add_authorized_ip",{"micros":1796},"get_guilds",{"micros":4888},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":4397,"calls":[]}]}]}] (Session ID: 6e4d18abd4ba20a66d9ee14be50dc904).
+2020-09-28 21:36:27,111 [INFO] {main} - on_ready: Bot Ready!
+2020-09-29 17:45:10,832 [ERROR] {protocol} - transfer_data: Error in data transfer
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\websockets\protocol.py", line 827, in transfer_data
+    message = await self.read_message()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\websockets\protocol.py", line 895, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\websockets\protocol.py", line 971, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\websockets\protocol.py", line 1047, in read_frame
+    frame = await Frame.read(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\websockets\framing.py", line 105, in read
+    data = await reader(2)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\streams.py", line 723, in readexactly
+    await self._wait_for_data('readexactly')
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\streams.py", line 517, in _wait_for_data
+    await self._waiter
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 280, in _loop_reading
+    data = fut.result()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\windows_events.py", line 808, in _poll
+    value = callback(transferred, key, ov)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\windows_events.py", line 453, in finish_recv
+    return ov.getresult()
+OSError: [WinError 121] Le délai de temporisation de sémaphore a expiré
+2020-09-29 17:45:10,858 [INFO] {gateway} - poll_event: Websocket closed with 1006 (), attempting a reconnect.
+2020-09-29 17:45:10,859 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-29 17:45:12,272 [ERROR] {client} - connect: Attempting a reconnect in 0.95s
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 964, in _create_direct_connection
+    hosts = await asyncio.shield(self._resolve_host(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 829, in _resolve_host
+    addrs = await \
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\resolver.py", line 29, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 825, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 469, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\tasks.py", line 483, in wait_for
+    return fut.result()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 971, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discordapp.com:443 ssl:default [getaddrinfo failed]
+2020-09-29 17:45:23,080 [WARNING] {gateway} - run: Shard ID None has stopped responding to the gateway. Closing and restarting.
+2020-09-29 17:45:25,251 [ERROR] {client} - connect: Attempting a reconnect in 2.74s
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 964, in _create_direct_connection
+    hosts = await asyncio.shield(self._resolve_host(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 829, in _resolve_host
+    addrs = await \
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\resolver.py", line 29, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 825, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 460, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\tasks.py", line 483, in wait_for
+    return fut.result()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 971, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discordapp.com:443 ssl:default [getaddrinfo failed]
+2020-09-29 17:47:19,763 [ERROR] {client} - connect: Attempting a reconnect in 6.02s
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 936, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)  # type: ignore  # noqa
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 702, in sock_connect
+    return await self._proactor.connect(sock, address)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\windows_events.py", line 808, in _poll
+    value = callback(transferred, key, ov)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\windows_events.py", line 595, in finish_connect
+    ov.getresult()
+OSError: [WinError 121] Le délai de temporisation de sémaphore a expiré
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 460, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\tasks.py", line 483, in wait_for
+    return fut.result()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 1004, in _create_direct_connection
+    raise last_exc
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 980, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 943, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discordapp.com:443 ssl:default [Le délai de temporisation de sémaphore a expiré]
+2020-09-29 17:47:27,128 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-29 17:47:27,129 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-29 17:47:27,456 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-8mwj",{"micros":75235,"calls":["discord-sessions-prd-1-29",{"micros":72040,"calls":["start_session",{"micros":36351,"calls":["api-prd-main-skv8",{"micros":33080,"calls":["get_user",{"micros":7639},"add_authorized_ip",{"micros":2137},"get_guilds",{"micros":3804},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":15790,"calls":[]}]}]}] (Session ID: 5e2d314ca93c0ad3c7e51cf7192be5fd).
+2020-09-29 17:47:29,454 [INFO] {main} - on_ready: Bot Ready!
+2020-09-29 17:56:42,591 [ERROR] {protocol} - transfer_data: Error in data transfer
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\websockets\protocol.py", line 827, in transfer_data
+    message = await self.read_message()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\websockets\protocol.py", line 895, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\websockets\protocol.py", line 971, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\websockets\protocol.py", line 1047, in read_frame
+    frame = await Frame.read(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\websockets\framing.py", line 105, in read
+    data = await reader(2)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\streams.py", line 723, in readexactly
+    await self._wait_for_data('readexactly')
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\streams.py", line 517, in _wait_for_data
+    await self._waiter
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\proactor_events.py", line 280, in _loop_reading
+    data = fut.result()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\windows_events.py", line 808, in _poll
+    value = callback(transferred, key, ov)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\windows_events.py", line 453, in finish_recv
+    return ov.getresult()
+OSError: [WinError 121] Le délai de temporisation de sémaphore a expiré
+2020-09-29 17:56:42,602 [INFO] {gateway} - poll_event: Websocket closed with 1006 (), attempting a reconnect.
+2020-09-29 17:56:42,602 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-29 17:56:54,605 [ERROR] {client} - connect: Attempting a reconnect in 15.73s
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 964, in _create_direct_connection
+    hosts = await asyncio.shield(self._resolve_host(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 829, in _resolve_host
+    addrs = await \
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\resolver.py", line 29, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 825, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 469, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\tasks.py", line 483, in wait_for
+    return fut.result()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 971, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discordapp.com:443 ssl:default [getaddrinfo failed]
+2020-09-29 17:57:04,640 [WARNING] {gateway} - run: Shard ID None has stopped responding to the gateway. Closing and restarting.
+2020-09-29 17:57:10,352 [ERROR] {client} - connect: Attempting a reconnect in 18.14s
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 964, in _create_direct_connection
+    hosts = await asyncio.shield(self._resolve_host(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 829, in _resolve_host
+    addrs = await \
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\resolver.py", line 29, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 825, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 460, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\tasks.py", line 483, in wait_for
+    return fut.result()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 971, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discordapp.com:443 ssl:default [getaddrinfo failed]
+2020-09-29 17:57:40,509 [ERROR] {client} - connect: Attempting a reconnect in 48.01s
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 964, in _create_direct_connection
+    hosts = await asyncio.shield(self._resolve_host(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 829, in _resolve_host
+    addrs = await \
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\resolver.py", line 29, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 825, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 460, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\tasks.py", line 483, in wait_for
+    return fut.result()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 971, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discordapp.com:443 ssl:default [getaddrinfo failed]
+2020-09-29 17:58:28,532 [ERROR] {client} - connect: Attempting a reconnect in 56.04s
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 964, in _create_direct_connection
+    hosts = await asyncio.shield(self._resolve_host(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 829, in _resolve_host
+    addrs = await \
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\resolver.py", line 29, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 825, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 460, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\tasks.py", line 483, in wait_for
+    return fut.result()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 971, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discordapp.com:443 ssl:default [getaddrinfo failed]
+2020-09-29 17:59:24,586 [ERROR] {client} - connect: Attempting a reconnect in 232.24s
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 964, in _create_direct_connection
+    hosts = await asyncio.shield(self._resolve_host(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 829, in _resolve_host
+    addrs = await \
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\resolver.py", line 29, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 825, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 460, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\tasks.py", line 483, in wait_for
+    return fut.result()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 971, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discordapp.com:443 ssl:default [getaddrinfo failed]
+2020-09-29 18:03:28,837 [ERROR] {client} - connect: Attempting a reconnect in 321.77s
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 964, in _create_direct_connection
+    hosts = await asyncio.shield(self._resolve_host(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 829, in _resolve_host
+    addrs = await \
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\resolver.py", line 29, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 825, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 460, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\tasks.py", line 483, in wait_for
+    return fut.result()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 971, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discordapp.com:443 ssl:default [getaddrinfo failed]
+2020-09-29 18:08:51,461 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-29 18:08:51,462 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-29 18:08:51,856 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-47hs",{"micros":114133,"calls":["discord-sessions-prd-1-63",{"micros":109741,"calls":["start_session",{"micros":71237,"calls":["api-prd-main-5v2f",{"micros":67638,"calls":["get_user",{"micros":5676},"add_authorized_ip",{"micros":5237},"get_guilds",{"micros":8704},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":24656,"calls":[]}]}]}] (Session ID: 05590b604107daa1aa9fbce071aa34a8).
+2020-09-29 18:08:53,869 [INFO] {main} - on_ready: Bot Ready!
+2020-09-29 18:29:23,584 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-29 18:29:23,588 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-29 18:29:23,589 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-29 18:29:23,591 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-29 18:29:23,591 [INFO] {client} - login: logging in using static token
+2020-09-29 18:29:24,539 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-29 18:29:24,540 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-29 18:29:24,847 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-37nw",{"micros":75847,"calls":["discord-sessions-prd-2-1",{"micros":74796,"calls":["start_session",{"micros":47026,"calls":["api-prd-main-jrpt",{"micros":43146,"calls":["get_user",{"micros":2048},"add_authorized_ip",{"micros":6903},"get_guilds",{"micros":4413},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":24406,"calls":[]}]}]}] (Session ID: e05759191309cef8e88e0b838a072499).
+2020-09-29 18:29:26,853 [INFO] {main} - on_ready: Bot Ready!
+2020-09-29 18:45:04,338 [INFO] {gateway} - received_message: Received RECONNECT opcode.
+2020-09-29 18:45:04,502 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-29 18:45:05,264 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-29 18:45:05,265 [INFO] {gateway} - resume: Shard ID None has sent the RESUME payload.
+2020-09-29 18:45:05,570 [INFO] {gateway} - received_message: Shard ID None has successfully RESUMED session e05759191309cef8e88e0b838a072499 under trace ["gateway-prd-main-97qw",{"micros":68764,"calls":["discord-sessions-prd-2-1",{"micros":21}]}].
+2020-09-30 20:24:26,458 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-30 20:24:26,460 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-30 20:24:26,462 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-30 20:24:26,463 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-30 20:24:26,463 [INFO] {client} - login: logging in using static token
+2020-09-30 20:24:29,337 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-30 20:24:29,338 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-30 20:24:29,834 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-tm2c",{"micros":104332,"calls":["discord-sessions-prd-2-54",{"micros":92723,"calls":["start_session",{"micros":88540,"calls":["api-prd-main-pljd",{"micros":76081,"calls":["get_user",{"micros":15070},"add_authorized_ip",{"micros":2818},"get_guilds",{"micros":4641},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":2528,"calls":[]}]}]}] (Session ID: a53042214dbb2c7d4837b009525bc3ea).
+2020-09-30 20:24:31,844 [INFO] {main} - on_ready: Bot Ready!
+2020-09-30 20:35:05,856 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-09-30 20:35:05,859 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-09-30 20:35:05,860 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-09-30 20:35:05,861 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-09-30 20:35:05,861 [INFO] {client} - login: logging in using static token
+2020-09-30 20:35:06,633 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-09-30 20:35:06,634 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-09-30 20:35:06,950 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-662z",{"micros":112373,"calls":["discord-sessions-prd-1-52",{"micros":104659,"calls":["start_session",{"micros":71475,"calls":["api-prd-main-kbhk",{"micros":66392,"calls":["get_user",{"micros":4615},"add_authorized_ip",{"micros":2064},"get_guilds",{"micros":4613},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":16979,"calls":[]}]}]}] (Session ID: 14887a8ee6ead37aa37948ce179d136d).
+2020-09-30 20:35:08,955 [INFO] {main} - on_ready: Bot Ready!
+2020-09-30 21:00:14,733 [INFO] {gateway} - poll_event: Websocket closed with 1006 (), attempting a reconnect.
+2020-09-30 21:00:14,734 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-09-30 21:20:54,759 [WARNING] {gateway} - run: Shard ID None has stopped responding to the gateway. Closing and restarting.
+2020-09-30 21:20:54,760 [ERROR] {client} - connect: Attempting a reconnect in 1.87s
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\websockets\protocol.py", line 827, in transfer_data
+    message = await self.read_message()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\websockets\protocol.py", line 895, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\websockets\protocol.py", line 971, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\websockets\protocol.py", line 1047, in read_frame
+    frame = await Frame.read(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\websockets\framing.py", line 105, in read
+    data = await reader(2)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\streams.py", line 723, in readexactly
+    await self._wait_for_data('readexactly')
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\streams.py", line 517, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 470, in poll_event
+    msg = await self.recv()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\websockets\protocol.py", line 509, in recv
+    await self.ensure_open()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\websockets\protocol.py", line 812, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: code = 1006 (connection closed abnormally [internal]), no reason
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 463, in _connect
+    await self.ws.poll_event()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 475, in poll_event
+    raise ResumeWebSocket(self.shard_id) from exc
+discord.gateway.ResumeWebSocket: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 469, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\tasks.py", line 490, in wait_for
+    raise exceptions.TimeoutError()
+asyncio.exceptions.TimeoutError
+2020-09-30 21:20:56,644 [ERROR] {base_events} - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-83' coro=<DiscordWebSocket.from_client() done, defined at C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py:218> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 582, in _request
+    break
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\helpers.py", line 596, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2020-09-30 21:21:00,064 [ERROR] {base_events} - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-84' coro=<TCPConnector._resolve_host() done, defined at C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py:774> exception=gaierror(11001, 'getaddrinfo failed')>
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 829, in _resolve_host
+    addrs = await \
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\resolver.py", line 29, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 825, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2020-09-30 21:21:00,075 [ERROR] {client} - connect: Attempting a reconnect in 0.59s
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 964, in _create_direct_connection
+    hosts = await asyncio.shield(self._resolve_host(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 815, in _resolve_host
+    await event.wait()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\locks.py", line 37, in wait
+    raise self._exc
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 829, in _resolve_host
+    addrs = await \
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\resolver.py", line 29, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 825, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 460, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\tasks.py", line 483, in wait_for
+    return fut.result()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 971, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discordapp.com:443 ssl:default [getaddrinfo failed]
+2020-09-30 21:21:00,671 [ERROR] {client} - connect: Attempting a reconnect in 4.09s
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 964, in _create_direct_connection
+    hosts = await asyncio.shield(self._resolve_host(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 829, in _resolve_host
+    addrs = await \
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\resolver.py", line 29, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 825, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 460, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\tasks.py", line 483, in wait_for
+    return fut.result()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 971, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discordapp.com:443 ssl:default [getaddrinfo failed]
+2020-09-30 21:21:04,774 [ERROR] {client} - connect: Attempting a reconnect in 14.00s
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 964, in _create_direct_connection
+    hosts = await asyncio.shield(self._resolve_host(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 829, in _resolve_host
+    addrs = await \
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\resolver.py", line 29, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 825, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 460, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\tasks.py", line 483, in wait_for
+    return fut.result()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 971, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discordapp.com:443 ssl:default [getaddrinfo failed]
+2020-09-30 21:21:18,791 [ERROR] {client} - connect: Attempting a reconnect in 25.99s
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 964, in _create_direct_connection
+    hosts = await asyncio.shield(self._resolve_host(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 829, in _resolve_host
+    addrs = await \
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\resolver.py", line 29, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 825, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 460, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\tasks.py", line 483, in wait_for
+    return fut.result()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 971, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discordapp.com:443 ssl:default [getaddrinfo failed]
+2020-09-30 21:21:44,798 [ERROR] {client} - connect: Attempting a reconnect in 11.82s
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 964, in _create_direct_connection
+    hosts = await asyncio.shield(self._resolve_host(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 829, in _resolve_host
+    addrs = await \
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\resolver.py", line 29, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 825, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\client.py", line 460, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\asyncio\tasks.py", line 483, in wait_for
+    return fut.result()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\discord\http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\kalic\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiohttp\connector.py", line 971, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discordapp.com:443 ssl:default [getaddrinfo failed]
+2020-10-01 18:25:33,711 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-10-01 18:25:33,713 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-10-01 18:25:33,714 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-10-01 18:25:33,715 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-10-01 18:25:33,715 [INFO] {client} - login: logging in using static token
+2020-10-01 18:25:35,026 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-10-01 18:25:35,028 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-10-01 18:25:35,378 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-9g6w",{"micros":56521,"calls":["discord-sessions-prd-1-68",{"micros":53510,"calls":["start_session",{"micros":38258,"calls":["api-prd-main-84rp",{"micros":34282,"calls":["get_user",{"micros":3775},"add_authorized_ip",{"micros":1308},"get_guilds",{"micros":3760},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":2464,"calls":[]}]}]}] (Session ID: 3e585b6a1fabc7449edc45647bdf50fa).
+2020-10-01 18:25:37,374 [INFO] {main} - on_ready: Bot Ready!
+2020-10-01 18:33:39,479 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-10-01 18:33:39,482 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-10-01 18:33:39,483 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-10-01 18:33:39,485 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-10-01 18:33:39,485 [INFO] {client} - login: logging in using static token
+2020-10-01 18:33:48,742 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-10-01 18:33:48,743 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-10-01 18:33:49,134 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-qfxv",{"micros":93456,"calls":["discord-sessions-prd-1-23",{"micros":85661,"calls":["start_session",{"micros":42258,"calls":["api-prd-main-63dr",{"micros":37676,"calls":["get_user",{"micros":2781},"add_authorized_ip",{"micros":1728},"get_guilds",{"micros":4629},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":33143,"calls":[]}]}]}] (Session ID: 0d05a69713f949bfe56b166fcc664365).
+2020-10-01 18:33:51,139 [INFO] {main} - on_ready: Bot Ready!
+2020-10-01 18:45:56,101 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-10-01 18:45:56,102 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-10-01 18:45:56,103 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-10-01 18:45:56,104 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-10-01 18:45:56,105 [INFO] {client} - login: logging in using static token
+2020-10-01 18:45:57,269 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-10-01 18:45:57,270 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-10-01 18:45:57,703 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-drxj",{"micros":158035,"calls":["discord-sessions-prd-1-50",{"micros":150175,"calls":["start_session",{"micros":114891,"calls":["api-prd-main-7vq4",{"micros":108502,"calls":["get_user",{"micros":10742},"add_authorized_ip",{"micros":2561},"get_guilds",{"micros":11631},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":25044,"calls":[]}]}]}] (Session ID: 4ad2d39f5a2fae7f298195220b95d836).
+2020-10-01 18:45:59,707 [INFO] {main} - on_ready: Bot Ready!
+2020-10-01 18:47:43,422 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-10-01 18:47:43,423 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-10-01 18:47:43,424 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-10-01 18:47:43,425 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-10-01 18:47:43,425 [INFO] {client} - login: logging in using static token
+2020-10-01 18:47:44,727 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-10-01 18:47:44,729 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-10-01 18:47:45,110 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-36rt",{"micros":50675,"calls":["discord-sessions-prd-2-34",{"micros":49099,"calls":["start_session",{"micros":41332,"calls":["api-prd-main-5gg0",{"micros":37287,"calls":["get_user",{"micros":2439},"add_authorized_ip",{"micros":1714},"get_guilds",{"micros":4615},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":3222,"calls":[]}]}]}] (Session ID: 69f75c5e2b280ea89a1d740217ff6bf9).
+2020-10-01 18:47:47,116 [INFO] {main} - on_ready: Bot Ready!
+2020-10-01 18:51:35,146 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-10-01 18:51:35,148 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-10-01 18:51:35,150 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-10-01 18:51:35,150 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-10-01 18:51:35,150 [INFO] {client} - login: logging in using static token
+2020-10-01 18:51:37,598 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-10-01 18:51:37,599 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-10-01 18:51:38,037 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-cj7x",{"micros":70865,"calls":["discord-sessions-prd-2-12",{"micros":68812,"calls":["start_session",{"micros":46571,"calls":["api-prd-main-8zh3",{"micros":40224,"calls":["get_user",{"micros":3033},"add_authorized_ip",{"micros":1812},"get_guilds",{"micros":3188},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":14124,"calls":[]}]}]}] (Session ID: df2ccb3ff4079e1d54756eb7f52298ec).
+2020-10-01 18:51:40,045 [INFO] {main} - on_ready: Bot Ready!
+2020-10-01 18:54:19,399 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-10-01 18:54:19,400 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-10-01 18:54:19,403 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-10-01 18:54:19,405 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-10-01 18:54:19,406 [INFO] {client} - login: logging in using static token
+2020-10-01 18:54:20,671 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-10-01 18:54:20,675 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-10-01 18:54:21,087 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-j76d",{"micros":110376,"calls":["discord-sessions-prd-1-40",{"micros":109331,"calls":["start_session",{"micros":79533,"calls":["api-prd-main-37mn",{"micros":75682,"calls":["get_user",{"micros":6779},"add_authorized_ip",{"micros":2858},"get_guilds",{"micros":4730},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":14712,"calls":[]}]}]}] (Session ID: 10fc52048cc4c10f4fb6d996d0928287).
+2020-10-01 18:54:23,091 [INFO] {main} - on_ready: Bot Ready!
+2020-10-01 19:03:36,838 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-10-01 19:03:36,841 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-10-01 19:03:36,842 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-10-01 19:03:36,843 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-10-01 19:03:36,843 [INFO] {client} - login: logging in using static token
+2020-10-01 19:03:39,523 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-10-01 19:03:39,525 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-10-01 19:03:39,926 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-s9tw",{"micros":40872,"calls":["discord-sessions-prd-1-10",{"micros":37539,"calls":["start_session",{"micros":35207,"calls":["api-prd-main-kkkp",{"micros":31345,"calls":["get_user",{"micros":3053},"add_authorized_ip",{"micros":1698},"get_guilds",{"micros":3356},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":859,"calls":[]}]}]}] (Session ID: 186109f3e32f3c8a5d704e1f6baf2731).
+2020-10-01 19:03:41,930 [INFO] {main} - on_ready: Bot Ready!
+2020-10-01 19:18:25,720 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-10-01 19:18:25,722 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-10-01 19:18:25,723 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-10-01 19:18:25,724 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-10-01 19:18:25,724 [INFO] {client} - login: logging in using static token
+2020-10-01 19:18:27,120 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-10-01 19:18:27,122 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-10-01 19:18:27,484 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-0btq",{"micros":36004,"calls":["discord-sessions-prd-2-27",{"micros":33498,"calls":["start_session",{"micros":31565,"calls":["api-prd-main-mk5q",{"micros":28078,"calls":["get_user",{"micros":2415},"add_authorized_ip",{"micros":1411},"get_guilds",{"micros":3047},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":67,"calls":[]}]}]}] (Session ID: 308b065083b6602f3883c988900b1c66).
+2020-10-01 19:18:29,485 [INFO] {main} - on_ready: Bot Ready!
+2020-10-03 12:31:17,816 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-10-03 12:31:17,818 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-10-03 12:31:17,819 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-10-03 12:31:17,820 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-10-03 12:31:17,820 [INFO] {client} - login: logging in using static token
+2020-10-03 12:31:21,135 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-10-03 12:31:21,137 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-10-03 12:31:21,929 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-r310",{"micros":35698,"calls":["discord-sessions-prd-2-55",{"micros":34035,"calls":["start_session",{"micros":32627,"calls":["api-prd-main-5xmn",{"micros":30040,"calls":["get_user",{"micros":3557},"add_authorized_ip",{"micros":1374},"get_guilds",{"micros":3962},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: e8498da1daebc6f5f480aa84a0472a80).
+2020-10-05 18:07:01,755 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-10-05 18:07:01,757 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-10-05 18:07:01,759 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-10-05 18:07:01,760 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-10-05 18:07:01,760 [INFO] {client} - login: logging in using static token
+2020-10-05 18:07:02,493 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-10-05 18:07:02,496 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-10-05 18:07:02,714 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-3v8x",{"micros":50819,"calls":["discord-sessions-prd-1-38",{"micros":48553,"calls":["start_session",{"micros":42273,"calls":["api-prd-main-rt7l",{"micros":39195,"calls":["get_user",{"micros":2562},"add_authorized_ip",{"micros":1751},"get_guilds",{"micros":7617},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":640,"calls":[]}]}]}] (Session ID: 9299de4601215ac51dc3cfcbf0d6ff2d).
+2020-10-05 18:07:04,720 [INFO] {main} - on_ready: Bot Ready!
+2020-10-05 18:15:12,388 [INFO] {gateway} - poll_event: Websocket closed with 1006 (), attempting a reconnect.
+2020-10-05 18:15:12,389 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-10-05 18:15:12,939 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-10-05 18:15:12,942 [INFO] {gateway} - resume: Shard ID None has sent the RESUME payload.
+2020-10-05 18:15:13,122 [INFO] {gateway} - received_message: Shard ID None has successfully RESUMED session 9299de4601215ac51dc3cfcbf0d6ff2d under trace ["gateway-prd-main-1xl2",{"micros":8543,"calls":["discord-sessions-prd-1-38",{"micros":15}]}].
+2020-10-05 18:15:58,306 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-10-05 18:15:58,309 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-10-05 18:15:58,310 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-10-05 18:15:58,311 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-10-05 18:15:58,311 [INFO] {client} - login: logging in using static token
+2020-10-05 18:15:59,092 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-10-05 18:15:59,094 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-10-05 18:15:59,410 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-36rt",{"micros":131926,"calls":["discord-sessions-prd-1-57",{"micros":117004,"calls":["start_session",{"micros":107878,"calls":["api-prd-main-qzvm",{"micros":101383,"calls":["get_user",{"micros":5532},"add_authorized_ip",{"micros":11925},"get_guilds",{"micros":5774},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":5829,"calls":[]}]}]}] (Session ID: f60a76ff39f017e6ab65fdb401d350a0).
+2020-10-05 18:16:01,416 [INFO] {main} - on_ready: Bot Ready!
+2020-10-05 18:17:59,453 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-10-05 18:17:59,454 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-10-05 18:17:59,455 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-10-05 18:17:59,456 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-10-05 18:17:59,457 [INFO] {client} - login: logging in using static token
+2020-10-05 18:18:00,163 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-10-05 18:18:00,164 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-10-05 18:18:00,451 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-5cbn",{"micros":116759,"calls":["discord-sessions-prd-1-63",{"micros":113983,"calls":["start_session",{"micros":75882,"calls":["api-prd-main-6t5k",{"micros":73183,"calls":["get_user",{"micros":4142},"add_authorized_ip",{"micros":10735},"get_guilds",{"micros":3613},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":22478,"calls":[]}]}]}] (Session ID: 88b3e50a7c943654848d947700401cda).
+2020-10-05 18:18:02,456 [INFO] {main} - on_ready: Bot Ready!
+2020-10-05 18:41:05,074 [INFO] {gateway} - received_message: Received RECONNECT opcode.
+2020-10-05 18:41:05,253 [INFO] {client} - _connect: Got a request to RESUME the websocket.
+2020-10-05 18:41:05,922 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-10-05 18:41:05,923 [INFO] {gateway} - resume: Shard ID None has sent the RESUME payload.
+2020-10-05 18:41:06,102 [INFO] {gateway} - received_message: Shard ID None has successfully RESUMED session 88b3e50a7c943654848d947700401cda under trace ["gateway-prd-main-fbtr",{"micros":874,"calls":["discord-sessions-prd-1-63",{"micros":13}]}].
+2020-10-05 18:58:35,226 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-10-05 18:58:35,227 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-10-05 18:58:35,228 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-10-05 18:58:35,230 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-10-05 18:58:35,230 [INFO] {client} - login: logging in using static token
+2020-10-05 18:58:36,041 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-10-05 18:58:36,043 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-10-05 18:58:36,371 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-k901",{"micros":151913,"calls":["discord-sessions-prd-1-24",{"micros":114567,"calls":["start_session",{"micros":81948,"calls":["api-prd-main-0vsw",{"micros":77713,"calls":["get_user",{"micros":4952},"add_authorized_ip",{"micros":7868},"get_guilds",{"micros":8351},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":24637,"calls":[]}]}]}] (Session ID: 3229ae5475251e9ca4a723efecee5bc0).
+2020-10-05 18:58:38,376 [INFO] {main} - on_ready: Bot Ready!
+2020-10-05 19:01:24,351 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-10-05 19:01:24,352 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-10-05 19:01:24,353 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-10-05 19:01:24,355 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-10-05 19:01:24,355 [INFO] {client} - login: logging in using static token
+2020-10-05 19:01:25,083 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-10-05 19:01:25,084 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-10-05 19:01:25,368 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-47hs",{"micros":95433,"calls":["discord-sessions-prd-2-6",{"micros":51938,"calls":["start_session",{"micros":44055,"calls":["api-prd-main-hcgb",{"micros":40855,"calls":["get_user",{"micros":2614},"add_authorized_ip",{"micros":1648},"get_guilds",{"micros":8481},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1825,"calls":[]}]}]}] (Session ID: 5da4364cab687be6d785b8ec51c87ed5).
+2020-10-05 19:01:27,374 [INFO] {main} - on_ready: Bot Ready!
+2020-10-05 19:03:39,369 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-10-05 19:03:39,372 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-10-05 19:03:39,373 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-10-05 19:03:39,375 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-10-05 19:03:39,375 [INFO] {client} - login: logging in using static token
+2020-10-05 19:03:40,309 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-10-05 19:03:40,311 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-10-05 19:03:40,562 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-bcqb",{"micros":76012,"calls":["discord-sessions-prd-2-59",{"micros":69770,"calls":["start_session",{"micros":56296,"calls":["api-prd-main-xmzs",{"micros":53191,"calls":["get_user",{"micros":3266},"add_authorized_ip",{"micros":2603},"get_guilds",{"micros":3261},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":6116,"calls":[]}]}]}] (Session ID: 5a80b91b061b706edfc5205a08b86c57).
+2020-10-05 19:03:42,568 [INFO] {main} - on_ready: Bot Ready!
+2020-10-05 19:05:38,938 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-10-05 19:05:38,939 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-10-05 19:05:38,940 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-10-05 19:05:38,941 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-10-05 19:05:38,941 [INFO] {client} - login: logging in using static token
+2020-10-05 19:05:51,642 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-10-05 19:05:51,643 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-10-05 19:05:51,937 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-p0hd",{"micros":115658,"calls":["discord-sessions-prd-2-29",{"micros":114567,"calls":["start_session",{"micros":92256,"calls":["api-prd-main-l9hk",{"micros":88130,"calls":["get_user",{"micros":6830},"add_authorized_ip",{"micros":2192},"get_guilds",{"micros":5966},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":14403,"calls":[]}]}]}] (Session ID: fcf71ca1a9ecfe31f32807fcf2f1dab8).
+2020-10-05 19:05:53,941 [INFO] {main} - on_ready: Bot Ready!
+2020-10-06 18:49:35,213 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-10-06 18:49:35,216 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-10-06 18:49:35,218 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-10-06 18:49:35,448 [INFO] {font_manager} - _rebuild: Generating new fontManager, this may take some time...
+2020-10-06 18:49:36,461 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-10-06 18:49:36,461 [INFO] {client} - login: logging in using static token
+2020-10-06 18:49:48,183 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-10-06 18:49:48,184 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-10-06 18:49:48,424 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-ftqk",{"micros":64149,"calls":["discord-sessions-prd-1-75",{"micros":60818,"calls":["start_session",{"micros":58852,"calls":["api-prd-main-j30t",{"micros":55946,"calls":["get_user",{"micros":4401},"add_authorized_ip",{"micros":2171},"get_guilds",{"micros":25748},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":983,"calls":[]}]}]}] (Session ID: e7906f0f66b528fd99b7ab35e16806bd).
+2020-10-06 18:49:50,435 [INFO] {main} - on_ready: Bot Ready!
+2020-10-06 18:53:13,013 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-10-06 18:53:13,016 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-10-06 18:53:13,017 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-10-06 18:53:13,292 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-10-06 18:53:13,292 [INFO] {client} - login: logging in using static token
+2020-10-06 18:53:25,027 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-10-06 18:53:25,028 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-10-06 18:53:25,311 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-q4x5",{"micros":101450,"calls":["discord-sessions-prd-1-2",{"micros":92945,"calls":["start_session",{"micros":67094,"calls":["api-prd-main-mb39",{"micros":61199,"calls":["get_user",{"micros":4408},"add_authorized_ip",{"micros":3997},"get_guilds",{"micros":7993},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":18284,"calls":[]}]}]}] (Session ID: 8f07027fc2ac76e01e56e031c817935f).
+2020-10-06 18:53:27,321 [INFO] {main} - on_ready: Bot Ready!
+2020-10-06 18:55:19,785 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-10-06 18:55:19,787 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-10-06 18:55:19,788 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-10-06 18:55:20,072 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-10-06 18:55:20,072 [INFO] {client} - login: logging in using static token
+2020-10-06 18:55:32,026 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-10-06 18:55:32,027 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-10-06 18:55:32,436 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-fbtr",{"micros":83098,"calls":["discord-sessions-prd-1-78",{"micros":81745,"calls":["start_session",{"micros":48742,"calls":["api-prd-main-xm0d",{"micros":46019,"calls":["get_user",{"micros":2518},"add_authorized_ip",{"micros":1492},"get_guilds",{"micros":8231},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":22165,"calls":[]}]}]}] (Session ID: e96e244764bdd54240ff6ce6f379a6b9).
+2020-10-06 18:55:34,433 [INFO] {main} - on_ready: Bot Ready!
+2020-10-06 19:05:09,888 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-10-06 19:05:09,891 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-10-06 19:05:09,892 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-10-06 19:05:10,208 [INFO] {main} - <module>: Extension: core.event.votes_event loaded!
+2020-10-06 19:05:10,208 [INFO] {client} - login: logging in using static token
+2020-10-06 19:05:10,934 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-10-06 19:05:10,936 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-10-06 19:05:11,175 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-fgqk",{"micros":64982,"calls":["discord-sessions-prd-2-55",{"micros":54670,"calls":["start_session",{"micros":43021,"calls":["api-prd-main-q6hb",{"micros":39807,"calls":["get_user",{"micros":2735},"add_authorized_ip",{"micros":1805},"get_guilds",{"micros":2165},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":6741,"calls":[]}]}]}] (Session ID: 89713c0c1b4d76d8c70df2ed6f25e97f).
+2020-10-06 19:05:13,185 [INFO] {main} - on_ready: Bot Ready!
+2020-10-10 09:54:03,154 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-10-10 09:54:03,156 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-10-10 09:54:03,158 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-10-10 09:54:03,159 [ERROR] {main} - <module>: Failed to load extension core.event.votes_event
+ExtensionFailed: Extension 'core.event.votes_event' raised an error: IndentationError: unexpected indent (votes_event.py, line 26)
+2020-10-10 09:54:03,159 [INFO] {client} - login: logging in using static token
+2020-10-10 09:54:06,767 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-10-10 09:54:06,768 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-10-10 09:54:07,936 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-1rvl",{"micros":119134,"calls":["discord-sessions-prd-2-52",{"micros":118242,"calls":["start_session",{"micros":63864,"calls":["api-prd-main-d26z",{"micros":61140,"calls":["get_user",{"micros":3905},"add_authorized_ip",{"micros":1243},"get_guilds",{"micros":5682},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":14730,"calls":[]}]}]}] (Session ID: eeaa606e83d895be2b65ae631ca761c4).
+2020-10-10 09:54:09,941 [INFO] {main} - on_ready: Bot Ready!
+2020-10-10 09:56:40,233 [INFO] {main} - <module>: Extension: core.command.stackvoice loaded!
+2020-10-10 09:56:40,236 [INFO] {main} - <module>: Extension: core.command.votes loaded!
+2020-10-10 09:56:40,237 [INFO] {main} - <module>: Extension: core.event.Voicechanel_stack_events loaded!
+2020-10-10 09:56:40,237 [ERROR] {main} - <module>: Failed to load extension core.event.votes_event
+ExtensionFailed: Extension 'core.event.votes_event' raised an error: IndentationError: unexpected indent (votes_event.py, line 26)
+2020-10-10 09:56:40,238 [INFO] {client} - login: logging in using static token
+2020-10-10 09:56:44,735 [INFO] {gateway} - from_client: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-10-10 09:56:44,736 [INFO] {gateway} - identify: Shard ID None has sent the IDENTIFY payload.
+2020-10-10 09:56:45,700 [INFO] {gateway} - received_message: Shard ID None has connected to Gateway: ["gateway-prd-main-kk2f",{"micros":117436,"calls":["discord-sessions-prd-1-17",{"micros":112118,"calls":["start_session",{"micros":57048,"calls":["api-prd-main-pwld",{"micros":54621,"calls":["get_user",{"micros":2428},"add_authorized_ip",{"micros":5108},"get_guilds",{"micros":3788},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":46686,"calls":[]}]}]}] (Session ID: d710d41a2f73f6470cee189655d95108).
+2020-10-10 09:56:47,692 [INFO] {main} - on_ready: Bot Ready!
