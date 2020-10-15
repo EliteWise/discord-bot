@@ -11,8 +11,6 @@ ports = {
             'Poseidon': '25572'
         }
 
-messages = []
-
 
 async def update_status(channel, hostname, sleep_time):
     """
@@ -24,6 +22,7 @@ async def update_status(channel, hostname, sleep_time):
 
     already_send = False
     iterate = 0
+    messages = []
     while True:
         # Using mcstatus module to get servers infos easily
         response = MinecraftServer.lookup(f'{hostname}')
