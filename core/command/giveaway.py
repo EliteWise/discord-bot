@@ -1,10 +1,11 @@
 import asyncio
 import json
-import os
 import random
 import logging
 from math import floor
 
+from core.util.channel_id import get_channel_id_by_command_name
+from core.util.permission import is_admin
 from discord.ext import commands
 from core.event import giveaway
 from main import bot
@@ -17,19 +18,24 @@ class Giveaway(commands.Cog):
         self.log = logging.getLogger("command/giveaway")
 
     @commands.command(name="giveaway")
+    @commands.check(is_admin)
     async def create_giveaway(self, ctx, name, duration, prizes_size):
         """
         :param str name: The name of the giveaway
         :param int duration: How long the giveaway will last in hours
         :param int prizes_size: The number of winners (1 prize per winner)
         """
-        channel = ctx.guild.get_channel(719257870822277174)
+        channel = ctx.guild.get_channel(await get_channel_id_by_command_name(ctx, ctx.command.name))
+
+        if channel is None:
+            return
+
         days = int(duration)/24
         hours_left = int(duration) % 24
         duration_day_converter = str(round(days)) + " jours" if int(hours_left) == 0 else str(floor(days)) + " jour(s) et " + str(hours_left) + " heure(s)"
         message = await channel.send(f"Un giveaway {name} vient d'être lancé !"
                                      f"\nIl se terminera dans " + str(duration_day_converter) +
-                                     f"\n{prizes_size} joueurs seront tirés au sort !")
+                                     f"\n{prizes_size} " + ("joueurs seront tirés au sort !" if int(prizes_size) > 0 else "joueur sera tiré au sort !"))
         emoji = '\N{BALLOT BOX WITH CHECK}'
         self.giveaway_message_id = message.id
         await message.add_reaction(emoji)
@@ -41,7 +47,7 @@ class Giveaway(commands.Cog):
 
     async def hided_timer_task(self, duration, channel, name, prizes_size):
         """Only suspends the current task, allowing other tasks to run"""
-        await asyncio.sleep(int(duration))
+        await asyncio.sleep(int(duration) * 3600)
         self.log.info("Timer done!")
 
         # Retrieve data stored in json file
@@ -56,5 +62,8 @@ class Giveaway(commands.Cog):
 
 
 def setup(bot):
-    """Setup cog to be able to listen events & commands inside this class"""
+    """
+    Setup cog to be able to listen events & commands inside this class
+    Without this class, the module giveaway.py cannot be load
+    """
     bot.add_cog(Giveaway(bot))

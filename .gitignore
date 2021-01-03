@@ -8,3 +8,6 @@
 .venv
 venv/
 ENV/
+
+# config
+settings.py

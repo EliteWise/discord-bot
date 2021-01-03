@@ -15,7 +15,7 @@
 l = lowercase \
 u = underscores \
 cw = CapWords \
-c = caps
+c = CAP
 
 <div align="center">
 
@@ -45,7 +45,9 @@ Create virtual environment and install dependencies:
 ### How to name my branch?
 
 > Your branch has to follow this naming convention: type/name \
-> Example: feature/stats
+> Example: feature/stats \
+> When the name contain multiple words which must be separated, you can use dashes \
+> Example: feature/player-stats
 
 ### How to merge my branch?
 
