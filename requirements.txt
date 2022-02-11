@@ -14,7 +14,7 @@ mcstatus==4.0.0
 multidict==4.7.6
 mysql-connector-python==8.0.21
 pdoc3==0.9.1
-protobuf==3.13.0
+protobuf==3.15.0
 pywin32-ctypes==0.2.0
 six==1.15.0
 websockets==8.1
